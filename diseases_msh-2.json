@@ -1,0 +1,22 @@
+[
+  {
+    "id":28,
+    "categoryId":38,
+    "name":"{\"ar\": \"سكر النوع التاني\", \"en\": \"Diabetes Mellitus, Type 2\"}",
+    "createdAt":"2022-12-31 17:29:06.010 +0200",
+    "updatedAt":"2022-12-31 17:29:06.010 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Diabetes Mellitus, Type 2"
+  },
+  {
+    "id":35,
+    "categoryId":31,
+    "name":"{\"ar\": \"مرض الشريان التاجي\", \"en\": \"Coronary Disease\"}",
+    "createdAt":"2022-12-31 18:15:20.055 +0200",
+    "updatedAt":"2022-12-31 18:15:20.055 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Coronary Disease"
+  }
+]

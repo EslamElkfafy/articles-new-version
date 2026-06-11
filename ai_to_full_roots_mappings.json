@@ -1,0 +1,1019 @@
+{
+  "adenovirus vector": {
+    "extractedName": "adenovirus vector",
+    "productId": 1,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.217,
+    "matchedField": null,
+    "bestFailSuggestion": "Devil'S‐Bit"
+  },
+  "phospholipids": {
+    "extractedName": "phospholipids",
+    "productId": 2,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.28,
+    "matchedField": null,
+    "bestFailSuggestion": "Chokeberry"
+  },
+  "food": {
+    "extractedName": "food",
+    "productId": 3,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Best MeSH match (\"Food Preservation\")",
+    "fullRootsRecord": {
+      "id": "287",
+      "root_ID": "287",
+      "category_id": "32",
+      "Root": "Cucumber Pickle Solution",
+      "name_en": "Cucumber Pickle Solution",
+      "scientificName": null,
+      "bestMeshMatch": "Food Preservation",
+      "isRoot": "TRUE"
+    }
+  },
+  "bilberry": {
+    "extractedName": "bilberry",
+    "productId": 4,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Bilberry\")",
+    "fullRootsRecord": {
+      "id": "4",
+      "root_ID": "4",
+      "category_id": "1",
+      "Root": "Bilberry",
+      "name_en": "Bilberry",
+      "scientificName": null,
+      "bestMeshMatch": "Vaccinium myrtillus",
+      "isRoot": "TRUE"
+    }
+  },
+  "whortleberry": {
+    "extractedName": "whortleberry",
+    "productId": 5,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Whortleberry\")",
+    "fullRootsRecord": {
+      "id": "13",
+      "root_ID": "13",
+      "category_id": "1",
+      "Root": "Whortleberry",
+      "name_en": "Whortleberry",
+      "scientificName": null,
+      "bestMeshMatch": "Vaccinium myrtillus",
+      "isRoot": "TRUE"
+    }
+  },
+  "raspberry": {
+    "extractedName": "raspberry",
+    "productId": 6,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Raspberry\")",
+    "fullRootsRecord": {
+      "id": "8",
+      "root_ID": "8",
+      "category_id": "1",
+      "Root": "Raspberry",
+      "name_en": "Raspberry",
+      "scientificName": null,
+      "bestMeshMatch": "Rubus",
+      "isRoot": "TRUE"
+    }
+  },
+  "blueberry": {
+    "extractedName": "blueberry",
+    "productId": 7,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Blueberry\")",
+    "fullRootsRecord": {
+      "id": "3",
+      "root_ID": "3",
+      "category_id": "1",
+      "Root": "Blueberry",
+      "name_en": "Blueberry",
+      "scientificName": null,
+      "bestMeshMatch": "Blueberry Plants",
+      "isRoot": "TRUE"
+    }
+  },
+  "cranberry": {
+    "extractedName": "cranberry",
+    "productId": 8,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Cranberry\")",
+    "fullRootsRecord": {
+      "id": "2",
+      "root_ID": "2",
+      "category_id": "1",
+      "Root": "Cranberry",
+      "name_en": "Cranberry",
+      "scientificName": null,
+      "bestMeshMatch": "Vaccinium macrocarpon",
+      "isRoot": "TRUE"
+    }
+  },
+  "lycium bark": {
+    "extractedName": "lycium bark",
+    "productId": 9,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Best MeSH match (\"Lycium\")",
+    "fullRootsRecord": {
+      "id": "9",
+      "root_ID": "9",
+      "category_id": "1",
+      "Root": "Goji Berry",
+      "name_en": "Goji Berry",
+      "scientificName": null,
+      "bestMeshMatch": "Lycium",
+      "isRoot": "TRUE"
+    }
+  },
+  "lactobacillus oligosaccharides": {
+    "extractedName": "lactobacillus oligosaccharides",
+    "productId": 10,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.243,
+    "matchedField": null,
+    "bestFailSuggestion": "Tortilla Chip"
+  },
+  "blackberry": {
+    "extractedName": "blackberry",
+    "productId": 11,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Blackberry\")",
+    "fullRootsRecord": {
+      "id": "1",
+      "root_ID": "1",
+      "category_id": "1",
+      "Root": "Blackberry",
+      "name_en": "Blackberry",
+      "scientificName": null,
+      "bestMeshMatch": "Rubus",
+      "isRoot": "TRUE"
+    }
+  },
+  "lycium barbarum": {
+    "extractedName": "lycium barbarum",
+    "productId": 12,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Best MeSH match (\"Lycium\")",
+    "fullRootsRecord": {
+      "id": "9",
+      "root_ID": "9",
+      "category_id": "1",
+      "Root": "Goji Berry",
+      "name_en": "Goji Berry",
+      "scientificName": null,
+      "bestMeshMatch": "Lycium",
+      "isRoot": "TRUE"
+    }
+  },
+  "buckwheat": {
+    "extractedName": "buckwheat",
+    "productId": 13,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Buckwheat\")",
+    "fullRootsRecord": {
+      "id": "535",
+      "root_ID": "535",
+      "category_id": "18",
+      "Root": "Buckwheat",
+      "name_en": "Buckwheat",
+      "scientificName": null,
+      "bestMeshMatch": "Fagopyrum",
+      "isRoot": "TRUE"
+    }
+  },
+  "strawberry": {
+    "extractedName": "strawberry",
+    "productId": 14,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Strawberry\")",
+    "fullRootsRecord": {
+      "id": "7",
+      "root_ID": "7",
+      "category_id": "1",
+      "Root": "Strawberry",
+      "name_en": "Strawberry",
+      "scientificName": null,
+      "bestMeshMatch": "Fragaria",
+      "isRoot": "TRUE"
+    }
+  },
+  "rose hip": {
+    "extractedName": "rose hip",
+    "productId": 15,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Root (\"Rose\")",
+    "fullRootsRecord": {
+      "id": "75",
+      "root_ID": "75",
+      "category_id": "2",
+      "Root": "Rose",
+      "name_en": "Rose",
+      "scientificName": null,
+      "bestMeshMatch": "Rosa",
+      "isRoot": "TRUE"
+    }
+  },
+  "c-xyloside": {
+    "extractedName": "c-xyloside",
+    "productId": 16,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.246,
+    "matchedField": null,
+    "bestFailSuggestion": "Salt"
+  },
+  "cloudberry": {
+    "extractedName": "cloudberry",
+    "productId": 17,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Cloudberry\")",
+    "fullRootsRecord": {
+      "id": "10",
+      "root_ID": "10",
+      "category_id": "1",
+      "Root": "Cloudberry",
+      "name_en": "Cloudberry",
+      "scientificName": null,
+      "bestMeshMatch": "Rubus",
+      "isRoot": "TRUE"
+    }
+  },
+  "cinnamon": {
+    "extractedName": "cinnamon",
+    "productId": 18,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Cinnamon\")",
+    "fullRootsRecord": {
+      "id": "77",
+      "root_ID": "77",
+      "category_id": "2",
+      "Root": "Cinnamon",
+      "name_en": "Cinnamon",
+      "scientificName": null,
+      "bestMeshMatch": "Cinnamomum zeylanicum",
+      "isRoot": "TRUE"
+    }
+  },
+  "rosa canina": {
+    "extractedName": "rosa canina",
+    "productId": 19,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Best MeSH match (\"Rosa Canina\")",
+    "fullRootsRecord": {
+      "id": "5",
+      "root_ID": "5",
+      "category_id": "1",
+      "Root": "Dog rose",
+      "name_en": "Dog rose",
+      "scientificName": null,
+      "bestMeshMatch": "Rosa Canina",
+      "isRoot": "TRUE"
+    }
+  },
+  "metformin": {
+    "extractedName": "metformin",
+    "productId": 20,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.315,
+    "matchedField": null,
+    "bestFailSuggestion": "Mackerel"
+  },
+  "sglt-2 inhibitors": {
+    "extractedName": "sglt-2 inhibitors",
+    "productId": 21,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.21,
+    "matchedField": null,
+    "bestFailSuggestion": "Saikokeishito"
+  },
+  "urolithin a glucuronide": {
+    "extractedName": "urolithin a glucuronide",
+    "productId": 22,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.255,
+    "matchedField": null,
+    "bestFailSuggestion": "Potassium Gluconate"
+  },
+  "urolithin a sulphate": {
+    "extractedName": "urolithin a sulphate",
+    "productId": 23,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.304,
+    "matchedField": null,
+    "bestFailSuggestion": "Chondroitin Sulfate"
+  },
+  "protocatechuic acid": {
+    "extractedName": "protocatechuic acid",
+    "productId": 24,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.477,
+    "matchedField": null,
+    "bestFailSuggestion": "Alpha Lipoic Acid"
+  },
+  "3,4-dihydroxyphenylacetic acid": {
+    "extractedName": "3,4-dihydroxyphenylacetic acid",
+    "productId": 25,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Best MeSH match (\"Acetic Acid\")",
+    "fullRootsRecord": {
+      "id": "782",
+      "root_ID": "782",
+      "category_id": "23",
+      "Root": "Vinegar",
+      "name_en": "Vinegar",
+      "scientificName": null,
+      "bestMeshMatch": "Acetic Acid",
+      "isRoot": "TRUE"
+    }
+  },
+  "herbal combination": {
+    "extractedName": "herbal combination",
+    "productId": 26,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.441,
+    "matchedField": null,
+    "bestFailSuggestion": "Holelen"
+  },
+  "glyburide": {
+    "extractedName": "glyburide",
+    "productId": 27,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.262,
+    "matchedField": null,
+    "bestFailSuggestion": "Burrito"
+  },
+  "cyanidin-3-glucoside": {
+    "extractedName": "cyanidin-3-glucoside",
+    "productId": 28,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.248,
+    "matchedField": null,
+    "bestFailSuggestion": "Potassium Gluconate"
+  },
+  "placebo gel": {
+    "extractedName": "placebo gel",
+    "productId": 29,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.348,
+    "matchedField": null,
+    "bestFailSuggestion": "Aloe Vera Gel"
+  },
+  "blackcurrant": {
+    "extractedName": "blackcurrant",
+    "productId": 30,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Root (\"Currant\")",
+    "fullRootsRecord": {
+      "id": "54",
+      "root_ID": "54",
+      "category_id": "1",
+      "Root": "Currant",
+      "name_en": "Currant",
+      "scientificName": null,
+      "bestMeshMatch": "Currant",
+      "isRoot": "TRUE"
+    }
+  },
+  "inulin": {
+    "extractedName": "inulin",
+    "productId": 31,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.407,
+    "matchedField": null,
+    "bestFailSuggestion": "Spirulina"
+  },
+  "beta-glucan": {
+    "extractedName": "beta-glucan",
+    "productId": 32,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.421,
+    "matchedField": null,
+    "bestFailSuggestion": "B‐carotene"
+  },
+  "green bean": {
+    "extractedName": "green bean",
+    "productId": 33,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Green bean\")",
+    "fullRootsRecord": {
+      "id": "762",
+      "root_ID": "762",
+      "category_id": "20",
+      "Root": "Green bean",
+      "name_en": "Green bean",
+      "scientificName": null,
+      "bestMeshMatch": "Phaseolus vulgaris",
+      "isRoot": "TRUE"
+    }
+  },
+  "sage": {
+    "extractedName": "sage",
+    "productId": 34,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Sage\")",
+    "fullRootsRecord": {
+      "id": "100",
+      "root_ID": "100",
+      "category_id": "2",
+      "Root": "Sage",
+      "name_en": "Sage",
+      "scientificName": null,
+      "bestMeshMatch": "Salvia",
+      "isRoot": "TRUE"
+    }
+  },
+  "anthocyanins": {
+    "extractedName": "anthocyanins",
+    "productId": 35,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Best MeSH match (\"Anthocyanins\")",
+    "fullRootsRecord": {
+      "id": "457",
+      "root_ID": "457",
+      "category_id": "33",
+      "Root": "Antocyanin Capsule",
+      "name_en": "Antocyanin Capsule",
+      "scientificName": null,
+      "bestMeshMatch": "Anthocyanins",
+      "isRoot": "TRUE"
+    }
+  },
+  "apple": {
+    "extractedName": "apple",
+    "productId": 36,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Apple\")",
+    "fullRootsRecord": {
+      "id": "24",
+      "root_ID": "24",
+      "category_id": "17",
+      "Root": "Apple",
+      "name_en": "Apple",
+      "scientificName": null,
+      "bestMeshMatch": "Malus",
+      "isRoot": "TRUE"
+    }
+  },
+  "pear": {
+    "extractedName": "pear",
+    "productId": 37,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Pear\")",
+    "fullRootsRecord": {
+      "id": "26",
+      "root_ID": "26",
+      "category_id": "17",
+      "Root": "Pear",
+      "name_en": "Pear",
+      "scientificName": null,
+      "bestMeshMatch": "Pyrus",
+      "isRoot": "TRUE"
+    }
+  },
+  "hippuric acid": {
+    "extractedName": "hippuric acid",
+    "productId": 38,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.526,
+    "matchedField": null,
+    "bestFailSuggestion": "Alpha Lipoic Acid"
+  },
+  "kaempferol": {
+    "extractedName": "kaempferol",
+    "productId": 39,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.292,
+    "matchedField": null,
+    "bestFailSuggestion": "Kampo"
+  },
+  "epicatechin": {
+    "extractedName": "epicatechin",
+    "productId": 40,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Best MeSH match (\"Catechin\")",
+    "fullRootsRecord": {
+      "id": "458",
+      "root_ID": "458",
+      "category_id": "33",
+      "Root": "Catechin 100",
+      "name_en": "Catechin 100",
+      "scientificName": null,
+      "bestMeshMatch": "Catechin",
+      "isRoot": "TRUE"
+    }
+  },
+  "ellagic acid": {
+    "extractedName": "ellagic acid",
+    "productId": 41,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.55,
+    "matchedField": null,
+    "bestFailSuggestion": "Folat Pill"
+  },
+  "crocetin": {
+    "extractedName": "crocetin",
+    "productId": 42,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.35,
+    "matchedField": null,
+    "bestFailSuggestion": "Saffron"
+  },
+  "stigmasterol": {
+    "extractedName": "stigmasterol",
+    "productId": 43,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.291,
+    "matchedField": null,
+    "bestFailSuggestion": "Gastromat"
+  },
+  "fisetin": {
+    "extractedName": "fisetin",
+    "productId": 44,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.329,
+    "matchedField": null,
+    "bestFailSuggestion": "Fish stick"
+  },
+  "isorhamnetin": {
+    "extractedName": "isorhamnetin",
+    "productId": 45,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.308,
+    "matchedField": null,
+    "bestFailSuggestion": "Cascara Sagrada"
+  },
+  "olive": {
+    "extractedName": "olive",
+    "productId": 46,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Olive\")",
+    "fullRootsRecord": {
+      "id": "37",
+      "root_ID": "37",
+      "category_id": "17",
+      "Root": "Olive",
+      "name_en": "Olive",
+      "scientificName": null,
+      "bestMeshMatch": "Olea",
+      "isRoot": "TRUE"
+    }
+  },
+  "white willow": {
+    "extractedName": "white willow",
+    "productId": 47,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.45,
+    "matchedField": null,
+    "bestFailSuggestion": "White Soda"
+  },
+  "red rooibos": {
+    "extractedName": "red rooibos",
+    "productId": 48,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.369,
+    "matchedField": null,
+    "bestFailSuggestion": "Red Clover"
+  },
+  "coltsfoot": {
+    "extractedName": "coltsfoot",
+    "productId": 49,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Coltsfoot\")",
+    "fullRootsRecord": {
+      "id": "97",
+      "root_ID": "97",
+      "category_id": "2",
+      "Root": "Coltsfoot",
+      "name_en": "Coltsfoot",
+      "scientificName": null,
+      "bestMeshMatch": "Tussilago",
+      "isRoot": "TRUE"
+    }
+  },
+  "green tea": {
+    "extractedName": "green tea",
+    "productId": 50,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.637,
+    "matchedField": null,
+    "bestFailSuggestion": "Green bean"
+  },
+  "bearberry": {
+    "extractedName": "bearberry",
+    "productId": 51,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Bearberry\")",
+    "fullRootsRecord": {
+      "id": "73",
+      "root_ID": "73",
+      "category_id": "2",
+      "Root": "Bearberry",
+      "name_en": "Bearberry",
+      "scientificName": null,
+      "bestMeshMatch": "Arctostaphylos",
+      "isRoot": "TRUE"
+    }
+  },
+  "cayenne pepper": {
+    "extractedName": "cayenne pepper",
+    "productId": 52,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Root (\"Pepper\")",
+    "fullRootsRecord": {
+      "id": "112",
+      "root_ID": "112",
+      "category_id": "2",
+      "Root": "Pepper",
+      "name_en": "Pepper",
+      "scientificName": null,
+      "bestMeshMatch": "Piper nigrum",
+      "isRoot": "TRUE"
+    }
+  },
+  "gliclazide": {
+    "extractedName": "gliclazide",
+    "productId": 53,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.306,
+    "matchedField": null,
+    "bestFailSuggestion": "Folat Pill"
+  },
+  "rye": {
+    "extractedName": "rye",
+    "productId": 54,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Rye\")",
+    "fullRootsRecord": {
+      "id": "523",
+      "root_ID": "523",
+      "category_id": "18",
+      "Root": "Rye",
+      "name_en": "Rye",
+      "scientificName": null,
+      "bestMeshMatch": "Secale",
+      "isRoot": "TRUE"
+    }
+  },
+  "wheat": {
+    "extractedName": "wheat",
+    "productId": 55,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Wheat\")",
+    "fullRootsRecord": {
+      "id": "516",
+      "root_ID": "516",
+      "category_id": "18",
+      "Root": "Wheat",
+      "name_en": "Wheat",
+      "scientificName": null,
+      "bestMeshMatch": "Triticum",
+      "isRoot": "TRUE"
+    }
+  },
+  "fish": {
+    "extractedName": "fish",
+    "productId": 56,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Best MeSH match (\"Fish Products\")",
+    "fullRootsRecord": {
+      "id": "542",
+      "root_ID": "542",
+      "category_id": "16",
+      "Root": "Orange roughy",
+      "name_en": "Orange roughy",
+      "scientificName": null,
+      "bestMeshMatch": "Fish Products",
+      "isRoot": "TRUE"
+    }
+  },
+  "oat": {
+    "extractedName": "oat",
+    "productId": 57,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Oat\")",
+    "fullRootsRecord": {
+      "id": "530",
+      "root_ID": "530",
+      "category_id": "18",
+      "Root": "Oat",
+      "name_en": "Oat",
+      "scientificName": null,
+      "bestMeshMatch": "Avena",
+      "isRoot": "TRUE"
+    }
+  },
+  "arbutus unedo": {
+    "extractedName": "arbutus unedo",
+    "productId": 58,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.245,
+    "matchedField": null,
+    "bestFailSuggestion": "Japanese Plum Pulp"
+  },
+  "ammoïdes pusilla": {
+    "extractedName": "ammoïdes pusilla",
+    "productId": 59,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.236,
+    "matchedField": null,
+    "bestFailSuggestion": "Folat Pill"
+  },
+  "thymelaea hirsuta": {
+    "extractedName": "thymelaea hirsuta",
+    "productId": 60,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Root (\"Thyme\")",
+    "fullRootsRecord": {
+      "id": "95",
+      "root_ID": "95",
+      "category_id": "2",
+      "Root": "Thyme",
+      "name_en": "Thyme",
+      "scientificName": null,
+      "bestMeshMatch": "Thymus Plant",
+      "isRoot": "TRUE"
+    }
+  },
+  "urtica dioïca": {
+    "extractedName": "urtica dioïca",
+    "productId": 61,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.726,
+    "matchedField": "Best MeSH match (\"Urtica dioica\")",
+    "fullRootsRecord": {
+      "id": "168",
+      "root_ID": "168",
+      "category_id": "2",
+      "Root": "Nettle",
+      "name_en": "Nettle",
+      "scientificName": null,
+      "bestMeshMatch": "Urtica dioica",
+      "isRoot": "TRUE"
+    }
+  },
+  "tolbutamide": {
+    "extractedName": "tolbutamide",
+    "productId": 62,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.266,
+    "matchedField": null,
+    "bestFailSuggestion": "Multivitamine"
+  },
+  "lingonberry": {
+    "extractedName": "lingonberry",
+    "productId": 63,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.385,
+    "matchedField": null,
+    "bestFailSuggestion": "Cranberry"
+  },
+  "cyanidin-3-arabinoside": {
+    "extractedName": "cyanidin-3-arabinoside",
+    "productId": 64,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.253,
+    "matchedField": null,
+    "bestFailSuggestion": "Raisin Bran"
+  },
+  "proanthocyanidin a": {
+    "extractedName": "proanthocyanidin a",
+    "productId": 65,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.467,
+    "matchedField": null,
+    "bestFailSuggestion": "Antocyanin Capsule"
+  },
+  "10-carboxyl-pyranopeonidin 3--(6\"--p-coumaroyl)-glucoside": {
+    "extractedName": "10-carboxyl-pyranopeonidin 3--(6\"--p-coumaroyl)-glucoside",
+    "productId": 66,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.173,
+    "matchedField": null,
+    "bestFailSuggestion": "Maral Root"
+  },
+  "oregano": {
+    "extractedName": "oregano",
+    "productId": 67,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Oregano\")",
+    "fullRootsRecord": {
+      "id": "85",
+      "root_ID": "85",
+      "category_id": "2",
+      "Root": "Oregano",
+      "name_en": "Oregano",
+      "scientificName": null,
+      "bestMeshMatch": "Origanum",
+      "isRoot": "TRUE"
+    }
+  },
+  "rosemary": {
+    "extractedName": "rosemary",
+    "productId": 68,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Rosemary\")",
+    "fullRootsRecord": {
+      "id": "94",
+      "root_ID": "94",
+      "category_id": "2",
+      "Root": "Rosemary",
+      "name_en": "Rosemary",
+      "scientificName": null,
+      "bestMeshMatch": "Rosmarinus",
+      "isRoot": "TRUE"
+    }
+  },
+  "rhodiola rosea": {
+    "extractedName": "rhodiola rosea",
+    "productId": 69,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Root (\"Rose\")",
+    "fullRootsRecord": {
+      "id": "75",
+      "root_ID": "75",
+      "category_id": "2",
+      "Root": "Rose",
+      "name_en": "Rose",
+      "scientificName": null,
+      "bestMeshMatch": "Rosa",
+      "isRoot": "TRUE"
+    }
+  },
+  "elderberry": {
+    "extractedName": "elderberry",
+    "productId": 70,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 1,
+    "matchedField": "Root (\"Elderberry\")",
+    "fullRootsRecord": {
+      "id": "19",
+      "root_ID": "19",
+      "category_id": "1",
+      "Root": "Elderberry",
+      "name_en": "Elderberry",
+      "scientificName": null,
+      "bestMeshMatch": "Sambucus",
+      "isRoot": "TRUE"
+    }
+  },
+  "sour cherry": {
+    "extractedName": "sour cherry",
+    "productId": 71,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Root (\"Cherry\")",
+    "fullRootsRecord": {
+      "id": "40",
+      "root_ID": "40",
+      "category_id": "1",
+      "Root": "Cherry",
+      "name_en": "Cherry",
+      "scientificName": null,
+      "bestMeshMatch": "Prunus",
+      "isRoot": "TRUE"
+    }
+  },
+  "s. lee leaf": {
+    "extractedName": "s. lee leaf",
+    "productId": 72,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.3,
+    "matchedField": null,
+    "bestFailSuggestion": "Olive"
+  },
+  "gallic acid": {
+    "extractedName": "gallic acid",
+    "productId": 73,
+    "source": "item_mappings.json",
+    "mapped": false,
+    "score": 0.619,
+    "matchedField": null,
+    "bestFailSuggestion": "Folat Pill"
+  },
+  "rubusoside": {
+    "extractedName": "rubusoside",
+    "productId": 74,
+    "source": "item_mappings.json",
+    "mapped": true,
+    "score": 0.9,
+    "matchedField": "Best MeSH match (\"Rubus\")",
+    "fullRootsRecord": {
+      "id": "1",
+      "root_ID": "1",
+      "category_id": "1",
+      "Root": "Blackberry",
+      "name_en": "Blackberry",
+      "scientificName": null,
+      "bestMeshMatch": "Rubus",
+      "isRoot": "TRUE"
+    }
+  }
+}
