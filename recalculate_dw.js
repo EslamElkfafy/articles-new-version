@@ -62,7 +62,7 @@ async function recalculate() {
             const category = articles_count <= 173 ? "ready" : "not_ready";
 
             // Recalculate DW
-            const rates = uniqueArticles.map(a => a.rate === 0 ? 1 : a.rate);
+            const rates = uniqueArticles.map(a => a.rate || 0);
             let calculated_dw = 0;
             if (rates.length > 0) {
                 const sum = rates.reduce((a, b) => a + b, 0);

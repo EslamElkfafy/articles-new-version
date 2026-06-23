@@ -403,14 +403,40 @@ async function getURL(resultsData) {
                         const cleanItemName = extractedItemName.toLowerCase().trim();
                         let targetId = 0;
 
-                        // 1. Look up in ai_to_full_roots_mappings first (which contains robust fuzzy matching data)
-                        const mapping = global.aiToFullMappings[cleanItemName];
-                        if (mapping && mapping.mapped && mapping.fullRootsRecord && mapping.fullRootsRecord.id) {
-                            targetId = parseInt(mapping.fullRootsRecord.id, 10) || 0;
+                        // Helper function to resolve target ID
+                        function findTargetId(name) {
+                            const mapping = global.aiToFullMappings[name];
+                            if (mapping && mapping.mapped && mapping.fullRootsRecord && mapping.fullRootsRecord.id) {
+                                return parseInt(mapping.fullRootsRecord.id, 10) || 0;
+                            }
+                            if (global.fullRootsIndex.has(name)) {
+                                return global.fullRootsIndex.get(name);
+                            }
+                            return 0;
                         }
-                        // 2. Exact match check in Full-Roots.json index as fallback
-                        else if (global.fullRootsIndex.has(cleanItemName)) {
-                            targetId = global.fullRootsIndex.get(cleanItemName);
+
+                        targetId = findTargetId(cleanItemName);
+
+                        // Fallback to singular forms for plurals (e.g. apples -> apple, berries -> berry)
+                        if (targetId === 0) {
+                            let singular = cleanItemName;
+                            if (cleanItemName.endsWith('ies')) {
+                                singular = cleanItemName.slice(0, -3) + 'y';
+                            } else if (cleanItemName.endsWith('es')) {
+                                const test1 = cleanItemName.slice(0, -2);
+                                const test2 = cleanItemName.slice(0, -1);
+                                if (findTargetId(test1) > 0) singular = test1;
+                                else if (findTargetId(test2) > 0) singular = test2;
+                            } else if (cleanItemName.endsWith('s') && !cleanItemName.endsWith('ss')) {
+                                singular = cleanItemName.slice(0, -1);
+                            }
+
+                            if (singular !== cleanItemName) {
+                                targetId = findTargetId(singular);
+                                if (targetId > 0) {
+                                    console.log(`    ℹ️ Plural fallback matched: "${cleanItemName}" matched as singular "${singular}" -> Product ID ${targetId}`);
+                                }
+                            }
                         }
 
                         finalProductId = targetId;
@@ -848,7 +874,7 @@ async function main() {
     try {
         const { Op } = require("sequelize");
         // const workbook = XLSX.readFile('Diabetes_Mellitus_Type_2_ready_articles.xls');
-        const workbook = XLSX.readFile('new Script data.xlsx');
+        const workbook = XLSX.readFile('TWO TWO COMBINED IN NEW SCRIPT.csv.xls');
         const sheetName = workbook.SheetNames[0];
         const sheet = workbook.Sheets[sheetName];
 
@@ -1015,7 +1041,7 @@ async function main() {
                         const articles_count = uniqueArticles.length;
                         const category = articles_count <= 173 ? "ready" : "not_ready";
 
-                        const rates = uniqueArticles.map(a => a.rate == 0 ? 1 : a.rate);
+                        const rates = uniqueArticles.map(a => a.rate || 0);
                         let calculated_dw = 0;
                         if (rates.length > 0) {
                             const sum = rates.reduce((a, b) => a + b, 0);

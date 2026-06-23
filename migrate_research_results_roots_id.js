@@ -98,14 +98,40 @@ async function run() {
       const cleanItemName = rootNameRaw.toLowerCase().trim();
       let targetId = 0;
 
-      // 1. Look up in ai_to_full_roots_mappings first
-      const mapping = aiToFullMappings[cleanItemName];
-      if (mapping && mapping.mapped && mapping.fullRootsRecord && mapping.fullRootsRecord.id) {
-        targetId = parseInt(mapping.fullRootsRecord.id, 10) || 0;
+      // Helper function to resolve target ID
+      function findTargetId(name) {
+        const mapping = aiToFullMappings[name];
+        if (mapping && mapping.mapped && mapping.fullRootsRecord && mapping.fullRootsRecord.id) {
+          return parseInt(mapping.fullRootsRecord.id, 10) || 0;
+        }
+        if (fullRootsIndex.has(name)) {
+          return fullRootsIndex.get(name);
+        }
+        return 0;
       }
-      // 2. Exact match check in Full-Roots.json index as fallback
-      else if (fullRootsIndex.has(cleanItemName)) {
-        targetId = fullRootsIndex.get(cleanItemName);
+
+      targetId = findTargetId(cleanItemName);
+
+      // Fallback to singular forms for plurals (e.g. apples -> apple, berries -> berry)
+      if (targetId === 0) {
+        let singular = cleanItemName;
+        if (cleanItemName.endsWith('ies')) {
+          singular = cleanItemName.slice(0, -3) + 'y';
+        } else if (cleanItemName.endsWith('es')) {
+          const test1 = cleanItemName.slice(0, -2);
+          const test2 = cleanItemName.slice(0, -1);
+          if (findTargetId(test1) > 0) singular = test1;
+          else if (findTargetId(test2) > 0) singular = test2;
+        } else if (cleanItemName.endsWith('s') && !cleanItemName.endsWith('ss')) {
+          singular = cleanItemName.slice(0, -1);
+        }
+
+        if (singular !== cleanItemName) {
+          targetId = findTargetId(singular);
+          if (targetId > 0) {
+            console.log(`   ℹ️ Plural fallback matched: "${cleanItemName}" matched as singular "${singular}" -> Product ID ${targetId}`);
+          }
+        }
       }
 
       if (targetId > 0) {
