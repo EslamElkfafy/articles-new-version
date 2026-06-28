@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Research - Manage Roots (Items)</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-link">
+                <i class="fa-solid fa-flask-vial brand-icon"></i>
+                <span class="brand-text">Medical Pipeline Admin</span>
+            </a>
+            <div class="nav-badge">
+                <i class="fa-solid fa-server badge-icon"></i> Local Server Active
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="main-content">
+        <!-- Header & KPI -->
+        <header class="page-header">
+            <div class="title-section">
+                <h1>Manage Items (Roots)</h1>
+                <p class="subtitle">Add, edit, or delete botanical product roots mapped in the pipeline databases and files.</p>
+            </div>
+            
+            <!-- Statistics Card -->
+            <div class="kpi-card glass">
+                <div class="kpi-icon-wrapper">
+                    <i class="fa-solid fa-leaf kpi-icon"></i>
+                </div>
+                <div class="kpi-details">
+                    <span class="kpi-label">Total Registered Roots</span>
+                    <h2 id="total-roots-count" class="kpi-value">-</h2>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search and Action Bar -->
+        <section class="controls-section glass">
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="search-input" placeholder="Search by name, ID, or Arabic translation..." autocomplete="off">
+            </div>
+            <button id="add-btn" class="btn btn-primary">
+                <i class="fa-solid fa-plus btn-icon"></i> Add New Root
+            </button>
+        </section>
+
+        <!-- Items Table Grid -->
+        <section class="table-section glass">
+            <div class="table-scroll-container">
+                <table class="items-table" id="items-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 80px;">ID</th>
+                            <th>English Name (Root)</th>
+                            <th>Arabic Name (الاسم بالعربية)</th>
+                            <th>Best MeSH Match</th>
+                            <th style="width: 150px; text-align: center;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="items-table-body">
+                        <!-- Items will be injected here by app.js -->
+                        <tr>
+                            <td colspan="5" class="table-loading">
+                                <div class="spinner"></div> Loading roots...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="no-results" class="no-results hidden">
+                <i class="fa-solid fa-circle-exclamation no-results-icon"></i>
+                <h3>No items match your query</h3>
+                <p>Try refining your search term or add a new root item above.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Medical Research Pipeline Dashboard. All rights reserved.</p>
+    </footer>
+
+    <!-- ADD MODAL -->
+    <div id="add-modal" class="modal-overlay hidden">
+        <div class="modal-card glass">
+            <div class="modal-header">
+                <h2><i class="fa-solid fa-plus-circle header-icon"></i> Add New Root</h2>
+                <button class="close-btn" data-modal="add-modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <form id="add-form" class="modal-form">
+                <div class="form-group">
+                    <label for="add-name">English Name (Root) <span class="required">*</span></label>
+                    <input type="text" id="add-name" required placeholder="e.g. Blackberry">
+                    <span class="help-text">Standard English name used inside scientific articles.</span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="add-arabic">Arabic Name (الاسم بالعربية) <span class="required">*</span></label>
+                    <input type="text" id="add-arabic" required placeholder="مثال: التوت الأسود">
+                    <span class="help-text">The Arabic translation stored in database queries.</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="add-mesh">Best MeSH Match</label>
+                    <input type="text" id="add-mesh" placeholder="e.g. Rubus">
+                    <span class="help-text">MeSH term mapping for NCBI search query (optional, defaults to English Name).</span>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary close-btn" data-modal="add-modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Product</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- EDIT MODAL -->
+    <div id="edit-modal" class="modal-overlay hidden">
+        <div class="modal-card glass">
+            <div class="modal-header">
+                <h2><i class="fa-solid fa-pen-to-square header-icon"></i> Edit Root Item</h2>
+                <button class="close-btn" data-modal="edit-modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <form id="edit-form" class="modal-form">
+                <input type="hidden" id="edit-id">
+                
+                <div class="form-group">
+                    <label for="edit-name">English Name (Root) <span class="required">*</span></label>
+                    <input type="text" id="edit-name" required placeholder="e.g. Blackberry">
+                </div>
+                
+                <div class="form-group">
+                    <label for="edit-arabic">Arabic Name (الاسم بالعربية) <span class="required">*</span></label>
+                    <input type="text" id="edit-arabic" required placeholder="مثال: التوت الأسود">
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-mesh">Best MeSH Match</label>
+                    <input type="text" id="edit-mesh" placeholder="e.g. Rubus">
+                    <span class="help-text">MeSH term mapping for NCBI search query.</span>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary close-btn" data-modal="edit-modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- DELETE CONFIRMATION MODAL -->
+    <div id="delete-modal" class="modal-overlay hidden">
+        <div class="modal-card glass modal-danger">
+            <div class="modal-header">
+                <h2><i class="fa-solid fa-triangle-exclamation header-icon"></i> Confirm Deletion</h2>
+                <button class="close-btn" data-modal="delete-modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete <strong id="delete-item-name">-</strong>?</p>
+                <p class="warning-text"><i class="fa-solid fa-circle-exclamation"></i> <strong>Warning:</strong> This item will be permanently deleted from the database table and both <code>Full-Roots.json</code> and <code>roots-data.json</code>. Any research results previously referencing this ID will have their <code>productId</code> set to <code>0</code>.</p>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="btn btn-secondary close-btn" data-modal="delete-modal">Cancel</button>
+                <button type="button" id="confirm-delete-btn" class="btn btn-danger">Yes, Delete Item</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- JS Application Script -->
+    <script src="js/app.js"></script>
+</body>
+</html>
