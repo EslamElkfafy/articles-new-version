@@ -1,0 +1,140 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 39,
+    "disease_name": "Inflammatory Bowel Diseases",
+    "odw": "",
+    "best_mesh_match": "apple",
+    "query_used": "Q3",
+    "articles_count": 10,
+    "calculated_dw": 24,
+    "category": "ready",
+    "q1": "(\"apple\"[Mesh] AND \"apple/therapeutic use\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Inflammatory Bowel Diseases/diet therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/drug therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/prevention and control\"[Mesh] OR \"Inflammatory Bowel Diseases/rehabilitation\"[Mesh] OR \"Inflammatory Bowel Diseases/therapy\"[Mesh])",
+    "q2": "(\"apple\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Inflammatory Bowel Diseases/diet therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/drug therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/prevention and control\"[Mesh] OR \"Inflammatory Bowel Diseases/rehabilitation\"[Mesh] OR \"Inflammatory Bowel Diseases/therapy\"[Mesh])",
+    "q3": "(\"apple\" NOT \"adverse effects\"[Subheading]) AND (\"Inflammatory Bowel Diseases/diet therapy\" OR \"Inflammatory Bowel Diseases/drug therapy\" OR \"Inflammatory Bowel Diseases/prevention and control\" OR \"Inflammatory Bowel Diseases/rehabilitation\" OR \"Inflammatory Bowel Diseases/therapy\")",
+    "articles": [
+      {
+        "title": "The role of dietary polyphenols in the management of inflammatory bowel disease.",
+        "authors": "Farzaei MH, Rahimi R, Abdollahi M",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25601607/",
+        "PMID": "25601607",
+        "doi": "https://doi.org/10.2174/1389201016666150118131704",
+        "DOI": "10.2174/1389201016666150118131704",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't, Review",
+        "rate": 2
+      },
+      {
+        "title": "Can Smartphones Help Deliver Smarter Care for Patients With Inflammatory Bowel Disease?",
+        "authors": "Kelso M, Feagins LA",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/29868764/",
+        "PMID": "29868764",
+        "doi": "https://doi.org/10.1093/ibd/izy162",
+        "DOI": "10.1093/ibd/izy162",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      },
+      {
+        "title": "Influence of triterpenoids present in apple peel on inflammatory gene expression associated with inflammatory bowel disease (IBD).",
+        "authors": "Mueller D, Triebel S, Rudakovski O, Richling E",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/23561115/",
+        "PMID": "23561115",
+        "doi": "https://doi.org/10.1016/j.foodchem.2013.01.101",
+        "DOI": "10.1016/j.foodchem.2013.01.101",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Apple peel polyphenols: a key player in the prevention and treatment of experimental inflammatory bowel disease.",
+        "authors": "Denis MC, Roy D, Yeganeh PR, Desjardins Y, Varin T, Haddad N, Amre D, Sané AT, Garofalo C, Furtos A, Patey N, Delvin E, Tremblay E, Marette A, Beaulieu JF, Levy E",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/27630205/",
+        "PMID": "27630205",
+        "doi": "https://doi.org/10.1042/CS20160524",
+        "DOI": "10.1042/CS20160524",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Role of Apple Phytochemicals, Phloretin and Phloridzin, in Modulating Processes Related to Intestinal Inflammation.",
+        "authors": "Zielinska D, Laparra-Llopis JM, Zielinski H, Szawara-Nowak D, Giménez-Bastida JA",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31130634/",
+        "PMID": "31130634",
+        "doi": "https://doi.org/10.3390/nu11051173",
+        "DOI": "10.3390/nu11051173",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6566941/",
+        "PMCID": "PMC6566941",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Digital Health Apps in the Clinical Care of Inflammatory Bowel Disease: Scoping Review.",
+        "authors": "Yin AL, Hachuel D, Pollak JP, Scherl EJ, Estrin D",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31429410/",
+        "PMID": "31429410",
+        "doi": "https://doi.org/10.2196/14630",
+        "DOI": "10.2196/14630",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6718080/",
+        "PMCID": "PMC6718080",
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't, Scoping Review",
+        "rate": 0
+      },
+      {
+        "title": "Utility of routinely collected electronic health records data to support effectiveness evaluations in inflammatory bowel disease: a pilot study of tofacitinib.",
+        "authors": "Rudrapatna VA, Glicksberg BS, Butte AJ",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34011632/",
+        "PMID": "34011632",
+        "doi": "https://doi.org/10.1136/bmjhci-2021-100337",
+        "DOI": "10.1136/bmjhci-2021-100337",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8141436/",
+        "PMCID": "PMC8141436",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Review and Analysis of German Mobile Apps for Inflammatory Bowel Disease Management Using the Mobile Application Rating Scale: Systematic Search in App Stores and Content Analysis.",
+        "authors": "Gerner M, Vuillerme N, Aubourg T, Messner EM, Terhorst Y, Hörmann V, Ganzleben I, Schenker H, Schett G, Atreya R, Neurath MF, Knitza J, Orlemann T",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35503246/",
+        "PMID": "35503246",
+        "doi": "https://doi.org/10.2196/31102",
+        "DOI": "10.2196/31102",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9115651/",
+        "PMCID": "PMC9115651",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Use of Behavior Change Techniques and Quality of Commercially Available Inflammatory Bowel Disease Apps.",
+        "authors": "Noser AE, Lancaster BD, Hommel KA, Roberts CM, King JA, Alt E, Fredericks EM, Ramsey RR",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36933116/",
+        "PMID": "36933116",
+        "doi": "https://doi.org/10.1007/s10620-023-07884-7",
+        "DOI": "10.1007/s10620-023-07884-7",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11605699/",
+        "PMCID": "PMC11605699",
+        "pubtypes": "Journal Article, Research Support, N.I.H., Extramural",
+        "rate": 0
+      },
+      {
+        "title": "Review and content analysis of mobile apps for inflammatory bowel disease management using the mobile application rating scale (MARS): Systematic search in app stores.",
+        "authors": "Jannati N, Salehinejad S, Kuenzig ME, Peña-Sánchez JN",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37857167/",
+        "PMID": "37857167",
+        "doi": "https://doi.org/10.1016/j.ijmedinf.2023.105249",
+        "DOI": "10.1016/j.ijmedinf.2023.105249",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

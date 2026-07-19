@@ -1,0 +1,580 @@
+{
+  "type 2 diabetes mellitus": {
+    "diseaseName": "type 2 diabetes mellitus",
+    "mapped": true,
+    "score": 1,
+    "code": "5A11",
+    "title": "Type 2 diabetes mellitus",
+    "originalTitle": "- - - Type 2 diabetes mellitus",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/119724091",
+    "foundationUri": "http://id.who.int/icd/entity/119724091",
+    "chapterNo": "05",
+    "alternatives": [
+      {
+        "code": "BlockL2-5A1",
+        "title": "Diabetes mellitus",
+        "score": 0.9
+      },
+      {
+        "code": "JA63.1",
+        "title": "Pre-existing type 2 diabetes mellitus in pregnancy",
+        "score": 0.9
+      },
+      {
+        "code": "5A10",
+        "title": "Type 1 diabetes mellitus",
+        "score": 0.735
+      },
+      {
+        "code": "5A14",
+        "title": "Diabetes mellitus, type unspecified",
+        "score": 0.735
+      }
+    ]
+  },
+  "atherosclerosis": {
+    "diseaseName": "atherosclerosis",
+    "mapped": true,
+    "score": 0.9,
+    "code": "8B11.0",
+    "title": "Cerebral ischaemic stroke due to extracranial large artery atherosclerosis",
+    "originalTitle": "- - - - Cerebral ischaemic stroke due to extracranial large artery atherosclerosis",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/1070137396",
+    "foundationUri": "http://id.who.int/icd/entity/1070137396",
+    "chapterNo": "08",
+    "alternatives": [
+      {
+        "code": "8B11.1",
+        "title": "Cerebral ischaemic stroke due to intracranial large artery atherosclerosis",
+        "score": 0.9
+      },
+      {
+        "code": "BA52",
+        "title": "Coronary atherosclerosis",
+        "score": 0.9
+      },
+      {
+        "code": "BA52.0",
+        "title": "Coronary atherosclerosis of native coronary artery",
+        "score": 0.9
+      },
+      {
+        "code": "BA52.1",
+        "title": "Coronary atherosclerosis of autologous bypass graft",
+        "score": 0.9
+      }
+    ]
+  },
+  "hypertension": {
+    "diseaseName": "hypertension",
+    "mapped": true,
+    "score": 1,
+    "code": "BA00",
+    "title": "Essential hypertension",
+    "originalTitle": "- - Essential hypertension",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/761947693",
+    "foundationUri": "http://id.who.int/icd/entity/761947693",
+    "chapterNo": "11",
+    "alternatives": [
+      {
+        "code": "BA00.Z",
+        "title": "Essential hypertension, unspecified",
+        "score": 0.99
+      },
+      {
+        "code": "BA00.Y",
+        "title": "Other specified essential hypertension",
+        "score": 0.909
+      },
+      {
+        "code": "9C61.01",
+        "title": "Ocular hypertension",
+        "score": 0.9
+      },
+      {
+        "code": "BA00.0",
+        "title": "Combined diastolic and systolic hypertension",
+        "score": 0.9
+      }
+    ]
+  },
+  "obesity": {
+    "diseaseName": "obesity",
+    "mapped": true,
+    "score": 1,
+    "code": "5B80.0",
+    "title": "Overweight",
+    "originalTitle": "- - - - - Overweight",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/1664144906",
+    "foundationUri": "http://id.who.int/icd/entity/1664144906",
+    "chapterNo": "05",
+    "alternatives": [
+      {
+        "code": "5B81",
+        "title": "Obesity",
+        "score": 1
+      },
+      {
+        "code": "5B80.0Z",
+        "title": "Overweight, unspecified",
+        "score": 0.99
+      },
+      {
+        "code": "5B81.Z",
+        "title": "Obesity, unspecified",
+        "score": 0.975
+      },
+      {
+        "code": "BlockL2-5B8",
+        "title": "Overweight, obesity or specific nutrient excesses",
+        "score": 0.9
+      }
+    ]
+  },
+  "cardiovascular disease": {
+    "diseaseName": "cardiovascular disease",
+    "mapped": true,
+    "score": 1,
+    "code": "",
+    "title": "Circulatory system",
+    "originalTitle": "- - - Circulatory system",
+    "classKind": "block",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/2079332103",
+    "foundationUri": "http://id.who.int/icd/entity/2079332103",
+    "chapterNo": "X",
+    "alternatives": [
+      {
+        "code": "BE2Z",
+        "title": "Diseases of the circulatory system, unspecified",
+        "score": 0.99
+      },
+      {
+        "code": "BE2Y",
+        "title": "Other specified diseases of the circulatory system",
+        "score": 0.969
+      },
+      {
+        "code": "MG24.7",
+        "title": "Fear of cardiovascular disease",
+        "score": 0.954
+      },
+      {
+        "code": "MG24.5",
+        "title": "Fear of heart disease",
+        "score": 0.925
+      }
+    ]
+  },
+  "depression": {
+    "diseaseName": "depression",
+    "mapped": true,
+    "score": 0.9,
+    "code": "KD30",
+    "title": "Birth depression",
+    "originalTitle": "- - Birth depression",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/2077227161",
+    "foundationUri": "http://id.who.int/icd/entity/2077227161",
+    "chapterNo": "19",
+    "alternatives": [
+      {
+        "code": "KD30.0",
+        "title": "Birth depression with 5 minute Apgar score 0-3",
+        "score": 0.9
+      },
+      {
+        "code": "KD30.1",
+        "title": "Birth depression with 5 minute Apgar score 4-6",
+        "score": 0.9
+      },
+      {
+        "code": "KD30.2",
+        "title": "Birth depression with associated metabolic acidaemia of cord blood",
+        "score": 0.9
+      },
+      {
+        "code": "KD30.Z",
+        "title": "Birth depression, unspecified",
+        "score": 0.9
+      }
+    ]
+  },
+  "dyslipidemia": {
+    "diseaseName": "dyslipidemia",
+    "mapped": true,
+    "score": 0.9,
+    "code": "BlockL2-5C8",
+    "title": "Disorders of lipoprotein metabolism or certain specified lipidaemias",
+    "originalTitle": "- - Disorders of lipoprotein metabolism or certain specified lipidaemias",
+    "classKind": "block",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/1191191920",
+    "foundationUri": "http://id.who.int/icd/entity/1191191920",
+    "chapterNo": "05",
+    "alternatives": [
+      {
+        "code": "5C80.2",
+        "title": "Mixed hyperlipidaemia",
+        "score": 0.9
+      },
+      {
+        "code": "5C8Y",
+        "title": "Other specified disorders of lipoprotein metabolism or lipidaemias",
+        "score": 0.9
+      },
+      {
+        "code": "5C8Z",
+        "title": "Unspecified disorders of lipoprotein metabolism or lipidaemias",
+        "score": 0.9
+      },
+      {
+        "code": "MF82",
+        "title": "Lipoprotein glomerulopathy",
+        "score": 0.441
+      }
+    ]
+  },
+  "arthritis": {
+    "diseaseName": "arthritis",
+    "mapped": true,
+    "score": 0.9,
+    "code": "1B40.0",
+    "title": "Rheumatic arthritis, acute or subacute",
+    "originalTitle": "- - - - Rheumatic arthritis, acute or subacute",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/1097470385",
+    "foundationUri": "http://id.who.int/icd/entity/1097470385",
+    "chapterNo": "01",
+    "alternatives": [
+      {
+        "code": "1C1G.13",
+        "title": "Lyme arthritis",
+        "score": 0.9
+      },
+      {
+        "code": "1F02.1",
+        "title": "Rubella arthritis",
+        "score": 0.9
+      },
+      {
+        "code": "FA20",
+        "title": "Rheumatoid arthritis",
+        "score": 0.9
+      },
+      {
+        "code": "FA20.0",
+        "title": "Seropositive rheumatoid arthritis",
+        "score": 0.9
+      }
+    ]
+  },
+  "chronic liver disease": {
+    "diseaseName": "chronic liver disease",
+    "mapped": true,
+    "score": 1,
+    "code": "DB99.0",
+    "title": "Chronic liver disease",
+    "originalTitle": "- - - Chronic liver disease",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/738694757",
+    "foundationUri": "http://id.who.int/icd/entity/738694757",
+    "chapterNo": "13",
+    "alternatives": [
+      {
+        "code": "XT8W",
+        "title": "Chronic",
+        "score": 0.9
+      },
+      {
+        "code": "XA5DY0",
+        "title": "Liver",
+        "score": 0.9
+      },
+      {
+        "code": "DB94",
+        "title": "Alcoholic liver disease",
+        "score": 0.598
+      },
+      {
+        "code": "DB99.10",
+        "title": "Polycystic liver disease",
+        "score": 0.592
+      }
+    ]
+  },
+  "parkinson s disease": {
+    "diseaseName": "parkinson s disease",
+    "mapped": true,
+    "score": 0.772,
+    "code": "8A00.0",
+    "title": "Parkinson disease",
+    "originalTitle": "- - - Parkinson disease",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/296066191",
+    "foundationUri": "http://id.who.int/icd/entity/296066191",
+    "chapterNo": "08",
+    "alternatives": [
+      {
+        "code": "8A00.0Z",
+        "title": "Parkinson disease, unspecified",
+        "score": 0.678
+      },
+      {
+        "code": "8A00.00",
+        "title": "Sporadic Parkinson disease",
+        "score": 0.628
+      },
+      {
+        "code": "8A00.01",
+        "title": "Familial Parkinson disease",
+        "score": 0.628
+      },
+      {
+        "code": "6D85.0",
+        "title": "Dementia due to Parkinson disease",
+        "score": 0.597
+      }
+    ]
+  },
+  "gout": {
+    "diseaseName": "gout",
+    "mapped": true,
+    "score": 1,
+    "code": "FA25",
+    "title": "Gout",
+    "originalTitle": "- - - Gout",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/395622227",
+    "foundationUri": "http://id.who.int/icd/entity/395622227",
+    "chapterNo": "15",
+    "alternatives": [
+      {
+        "code": "FA25.2Z",
+        "title": "Gout, unspecified",
+        "score": 0.917
+      },
+      {
+        "code": "FA25.0",
+        "title": "Primary gout",
+        "score": 0.9
+      },
+      {
+        "code": "FA25.1",
+        "title": "Secondary gout",
+        "score": 0.9
+      },
+      {
+        "code": "FA25.10",
+        "title": "Lead-induced gout",
+        "score": 0.9
+      }
+    ]
+  },
+  "liver fibrosis": {
+    "diseaseName": "liver fibrosis",
+    "mapped": true,
+    "score": 0.905,
+    "code": "DB94.2",
+    "title": "Alcoholic liver fibrosis",
+    "originalTitle": "- - - Alcoholic liver fibrosis",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/2030367981",
+    "foundationUri": "http://id.who.int/icd/entity/2030367981",
+    "chapterNo": "13",
+    "alternatives": [
+      {
+        "code": "XA5DY0",
+        "title": "Liver",
+        "score": 0.9
+      },
+      {
+        "code": "DB93.2",
+        "title": "Certain specified fibrosis or cirrhosis of liver",
+        "score": 0.525
+      },
+      {
+        "code": "CA25",
+        "title": "Cystic fibrosis",
+        "score": 0.446
+      },
+      {
+        "code": "DB93.0",
+        "title": "Hepatic fibrosis",
+        "score": 0.438
+      }
+    ]
+  },
+  "non alcoholic fatty liver disease": {
+    "diseaseName": "non alcoholic fatty liver disease",
+    "mapped": true,
+    "score": 1,
+    "code": "DB92",
+    "title": "Non-alcoholic fatty liver disease",
+    "originalTitle": "- - Non-alcoholic fatty liver disease",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/1912806631",
+    "foundationUri": "http://id.who.int/icd/entity/1912806631",
+    "chapterNo": "13",
+    "alternatives": [
+      {
+        "code": "DB92.Y",
+        "title": "Other specified non-alcoholic fatty liver disease",
+        "score": 0.99
+      },
+      {
+        "code": "DB92.Z",
+        "title": "Non-alcoholic fatty liver disease, unspecified",
+        "score": 0.99
+      },
+      {
+        "code": "DB92.0",
+        "title": "Non-alcoholic fatty liver disease without non-alcoholic steatohepatitis",
+        "score": 0.9
+      },
+      {
+        "code": "DB92.1",
+        "title": "Non-alcoholic steatohepatitis",
+        "score": 0.9
+      }
+    ]
+  },
+  "liver cirrhosis": {
+    "diseaseName": "liver cirrhosis",
+    "mapped": true,
+    "score": 0.9,
+    "code": "XA5DY0",
+    "title": "Liver",
+    "originalTitle": "- - - - - Liver",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/328366540",
+    "foundationUri": "http://id.who.int/icd/entity/328366540",
+    "chapterNo": "X",
+    "alternatives": [
+      {
+        "code": "DB94.3",
+        "title": "Alcoholic cirrhosis of liver without hepatitis",
+        "score": 0.583
+      },
+      {
+        "code": "DB93.2",
+        "title": "Certain specified fibrosis or cirrhosis of liver",
+        "score": 0.549
+      },
+      {
+        "code": "DB93.1",
+        "title": "Hepatic cirrhosis",
+        "score": 0.45
+      },
+      {
+        "code": "DB95.5",
+        "title": "Drug-induced or toxic liver disease with fibrosis or cirrhosis of liver",
+        "score": 0.437
+      }
+    ]
+  },
+  "liver cancer": {
+    "diseaseName": "liver cancer",
+    "mapped": true,
+    "score": 0.9,
+    "code": "XA5DY0",
+    "title": "Liver",
+    "originalTitle": "- - - - - Liver",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/328366540",
+    "foundationUri": "http://id.who.int/icd/entity/328366540",
+    "chapterNo": "X",
+    "alternatives": [
+      {
+        "code": "MG24.0",
+        "title": "Fear of cancer",
+        "score": 0.45
+      },
+      {
+        "code": "QB24",
+        "title": "Liver donor",
+        "score": 0.434
+      },
+      {
+        "code": "DB90.0",
+        "title": "Abscess of liver",
+        "score": 0.433
+      },
+      {
+        "code": "2B56.3",
+        "title": "Angiosarcoma of liver",
+        "score": 0.425
+      }
+    ]
+  },
+  "kidney stones": {
+    "diseaseName": "kidney stones",
+    "mapped": true,
+    "score": 0.9,
+    "code": "XA6KU8",
+    "title": "Kidney",
+    "originalTitle": "- - - - - Kidney",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/720032908",
+    "foundationUri": "http://id.who.int/icd/entity/720032908",
+    "chapterNo": "X",
+    "alternatives": [
+      {
+        "code": "QB22",
+        "title": "Kidney donor",
+        "score": 0.483
+      },
+      {
+        "code": "MF54.2",
+        "title": "Small kidney",
+        "score": 0.45
+      },
+      {
+        "code": "LB30.5",
+        "title": "Accessory kidney",
+        "score": 0.446
+      },
+      {
+        "code": "LB30.62",
+        "title": "Horseshoe kidney",
+        "score": 0.446
+      }
+    ]
+  },
+  "diabetes mellitus type 1": {
+    "diseaseName": "diabetes mellitus type 1",
+    "mapped": true,
+    "score": 0.982,
+    "code": "5A10",
+    "title": "Type 1 diabetes mellitus",
+    "originalTitle": "- - - Type 1 diabetes mellitus",
+    "classKind": "category",
+    "linearizationUri": "http://id.who.int/icd/release/11/mms/1651053999",
+    "foundationUri": "http://id.who.int/icd/entity/1651053999",
+    "chapterNo": "05",
+    "alternatives": [
+      {
+        "code": "BlockL2-5A1",
+        "title": "Diabetes mellitus",
+        "score": 0.9
+      },
+      {
+        "code": "5A11",
+        "title": "Type 2 diabetes mellitus",
+        "score": 0.735
+      },
+      {
+        "code": "5A14",
+        "title": "Diabetes mellitus, type unspecified",
+        "score": 0.735
+      },
+      {
+        "code": "JA63.0",
+        "title": "Pre-existing type 1 diabetes mellitus in pregnancy",
+        "score": 0.679
+      }
+    ]
+  }
+}

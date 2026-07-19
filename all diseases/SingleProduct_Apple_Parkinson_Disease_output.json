@@ -1,0 +1,128 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 70,
+    "disease_name": "Parkinson Disease",
+    "odw": "",
+    "best_mesh_match": "apple",
+    "query_used": "Q3",
+    "articles_count": 9,
+    "calculated_dw": 60,
+    "category": "ready",
+    "q1": "(\"apple\"[Mesh] AND \"apple/therapeutic use\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Parkinson Disease/diet therapy\"[Mesh] OR \"Parkinson Disease/drug therapy\"[Mesh] OR \"Parkinson Disease/prevention and control\"[Mesh] OR \"Parkinson Disease/rehabilitation\"[Mesh] OR \"Parkinson Disease/therapy\"[Mesh])",
+    "q2": "(\"apple\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Parkinson Disease/diet therapy\"[Mesh] OR \"Parkinson Disease/drug therapy\"[Mesh] OR \"Parkinson Disease/prevention and control\"[Mesh] OR \"Parkinson Disease/rehabilitation\"[Mesh] OR \"Parkinson Disease/therapy\"[Mesh])",
+    "q3": "(\"apple\" NOT \"adverse effects\"[Subheading]) AND (\"Parkinson Disease/diet therapy\" OR \"Parkinson Disease/drug therapy\" OR \"Parkinson Disease/prevention and control\" OR \"Parkinson Disease/rehabilitation\" OR \"Parkinson Disease/therapy\")",
+    "articles": [
+      {
+        "title": "A randomised controlled trial evaluating the effect of an individual auditory cueing device on freezing and gait speed in people with Parkinson's disease.",
+        "authors": "Ledger S, Galvin R, Lynch D, Stokes EK",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/19077238/",
+        "PMID": "19077238",
+        "doi": "https://doi.org/10.1186/1471-2377-8-46",
+        "DOI": "10.1186/1471-2377-8-46",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2630976/",
+        "PMCID": "PMC2630976",
+        "pubtypes": "Journal Article, Multicenter Study, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Steps against the burden of Parkinson's disease (StepuP): Protocol of a randomized controlled trial elucidating the biomechanical and neurophysiological mechanisms of a speed dependent treadmill training intervention.",
+        "authors": "van Leeuwen AM, Welzel J, D'Ascanio I, Lang C, Vinod V, Görrisen P, Geritz J, Hansen C, Gazit E, Tov SS, Prusak R, Casadei I, Contri A, Tampellini F, Pellicciari L, Lopane G, Buonaura GC, Palmerini L, Zahid N, Mehwish M, Ratanapongleka M, Razee H, von Wegner F, van Wijk BCM, Bruijn SM, Ravi DK, Okubo Y, Singh NB, Brodie M, La Porta F, Hausdorff JM, Maetzler W, van Dieën JH",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42348515/",
+        "PMID": "42348515",
+        "doi": "https://doi.org/10.1371/journal.pone.0348957",
+        "DOI": "10.1371/journal.pone.0348957",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13298929/",
+        "PMCID": "PMC13298929",
+        "pubtypes": "Journal Article, Clinical Trial Protocol",
+        "rate": 3
+      },
+      {
+        "title": "[ECT: The apple of discord in modern psychiatry (author's transl)].",
+        "authors": "Baumann P",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/215993/",
+        "PMID": "215993",
+        "doi": "No DOI available",
+        "DOI": null,
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "English Abstract, Journal Article, Review",
+        "rate": 2
+      },
+      {
+        "title": "An apple a day to prevent Parkinson disease: reduction of risk by flavonoids.",
+        "authors": "Kukull WA",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/22491859/",
+        "PMID": "22491859",
+        "doi": "https://doi.org/10.1212/WNL.0b013e31824f80e4",
+        "DOI": "10.1212/WNL.0b013e31824f80e4",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Editorial, Research Support, N.I.H., Extramural, Comment",
+        "rate": 1
+      },
+      {
+        "title": "The effectiveness of Lee Silverman Voice Treatment therapy issued interactively through an iPad device: A non-inferiority study.",
+        "authors": "Griffin M, Bentley J, Shanks J, Wood C",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/28147896/",
+        "PMID": "28147896",
+        "doi": "https://doi.org/10.1177/1357633X17691865",
+        "DOI": "10.1177/1357633X17691865",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Equivalence Trial",
+        "rate": 0
+      },
+      {
+        "title": "A comparison of an implanted accelerometer with a wearable accelerometer for closed-loop DBS.",
+        "authors": "Rojas E, Schmidt SL, Chowdhury A, Pajic M, Turner DA, Won DS",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36085858/",
+        "PMID": "36085858",
+        "doi": "https://doi.org/10.1109/EMBC48229.2022.9871232",
+        "DOI": "10.1109/EMBC48229.2022.9871232",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11618508/",
+        "PMCID": "PMC11618508",
+        "pubtypes": "Journal Article, Research Support, N.I.H., Extramural, Research Support, U.S. Gov't, Non-P.H.S.",
+        "rate": 0
+      },
+      {
+        "title": "Identification and Characterization of Neuroprotective Properties of Thaumatin-like Protein 1a from Annurca Apple Flesh Polyphenol Extract.",
+        "authors": "D'Errico A, Nasso R, Di Maro A, Landi N, Chambery A, Russo R, D'Angelo S, Masullo M, Arcone R",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38276545/",
+        "PMID": "38276545",
+        "doi": "https://doi.org/10.3390/nu16020307",
+        "DOI": "10.3390/nu16020307",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10821328/",
+        "PMCID": "PMC10821328",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Self-Management Systems for Patients and Clinicians in Parkinson Care: Protocol for an Integrated Scoping Review, Product Search, and Evaluation.",
+        "authors": "Boege S, Milne-Ives M, Meinert E, Carroll C",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39316796/",
+        "PMID": "39316796",
+        "doi": "https://doi.org/10.2196/58845",
+        "DOI": "10.2196/58845",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11462133/",
+        "PMCID": "PMC11462133",
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Development of a remote therapeutic monitoring platform: applications for movement disorders.",
+        "authors": "Thankathuraipandian S, Greenleaf W, Kyani A, Tomlinson T, Balasingh B, Ross E, Pathak Y",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39617767/",
+        "PMID": "39617767",
+        "doi": "https://doi.org/10.1038/s41598-024-80567-z",
+        "DOI": "10.1038/s41598-024-80567-z",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11609271/",
+        "PMCID": "PMC11609271",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

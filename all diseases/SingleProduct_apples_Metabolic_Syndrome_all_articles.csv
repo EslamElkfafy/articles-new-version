@@ -1,0 +1,2 @@
+"item_id","root_name","disease_id","disease_name","articles_count","category","calculated_dw","article_number","title","authors","pubmed","PMID","doi","DOI","pmc","PMCID","pubtypes","rate"
+"855","apples",49,"Metabolic Syndrome",1,"ready",4,1,"The Effects of Resveratrol in the Treatment of Metabolic Syndrome.","Hou CY, Tain YL, Yu HR, Huang LT","https://pubmed.ncbi.nlm.nih.gov/30695995/","30695995","https://doi.org/10.3390/ijms20030535","10.3390/ijms20030535","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387422/","PMC6387422","Journal Article, Review",2

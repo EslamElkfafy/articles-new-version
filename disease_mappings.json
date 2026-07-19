@@ -1,0 +1,22 @@
+{
+  "mapData": {
+    "type 2 diabetes mellitus": 1,
+    "atherosclerosis": 2,
+    "hypertension": 3,
+    "obesity": 4,
+    "cardiovascular disease": 5,
+    "depression": 6,
+    "dyslipidemia": 7,
+    "arthritis": 8,
+    "chronic liver disease": 9,
+    "parkinson s disease": 10,
+    "gout": 11,
+    "liver fibrosis": 12,
+    "non alcoholic fatty liver disease": 13,
+    "liver cirrhosis": 14,
+    "liver cancer": 15,
+    "kidney stones": 16,
+    "diabetes mellitus type 1": 17
+  },
+  "nextIndex": 18
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 89,
+    "disease_name": "Irritable Bowel Syndrome",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Irritable Bowel Syndrome/diet therapy\"[Mesh] OR \"Irritable Bowel Syndrome/drug therapy\"[Mesh] OR \"Irritable Bowel Syndrome/prevention and control\"[Mesh] OR \"Irritable Bowel Syndrome/rehabilitation\"[Mesh] OR \"Irritable Bowel Syndrome/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Irritable Bowel Syndrome/diet therapy\"[Mesh] OR \"Irritable Bowel Syndrome/drug therapy\"[Mesh] OR \"Irritable Bowel Syndrome/prevention and control\"[Mesh] OR \"Irritable Bowel Syndrome/rehabilitation\"[Mesh] OR \"Irritable Bowel Syndrome/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Irritable Bowel Syndrome/diet therapy\" OR \"Irritable Bowel Syndrome/drug therapy\" OR \"Irritable Bowel Syndrome/prevention and control\" OR \"Irritable Bowel Syndrome/rehabilitation\" OR \"Irritable Bowel Syndrome/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

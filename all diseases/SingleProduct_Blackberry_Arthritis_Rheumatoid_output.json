@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 72,
+    "disease_name": "Arthritis, Rheumatoid",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Arthritis, Rheumatoid/diet therapy\"[Mesh] OR \"Arthritis, Rheumatoid/drug therapy\"[Mesh] OR \"Arthritis, Rheumatoid/prevention and control\"[Mesh] OR \"Arthritis, Rheumatoid/rehabilitation\"[Mesh] OR \"Arthritis, Rheumatoid/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Arthritis, Rheumatoid/diet therapy\"[Mesh] OR \"Arthritis, Rheumatoid/drug therapy\"[Mesh] OR \"Arthritis, Rheumatoid/prevention and control\"[Mesh] OR \"Arthritis, Rheumatoid/rehabilitation\"[Mesh] OR \"Arthritis, Rheumatoid/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Arthritis, Rheumatoid/diet therapy\" OR \"Arthritis, Rheumatoid/drug therapy\" OR \"Arthritis, Rheumatoid/prevention and control\" OR \"Arthritis, Rheumatoid/rehabilitation\" OR \"Arthritis, Rheumatoid/therapy\")",
+    "articles": [],
+    "all_product_names": "Blackberry"
+  }
+]

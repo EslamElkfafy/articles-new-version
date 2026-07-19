@@ -1,0 +1,2 @@
+"item_id","root_name","disease_id","disease_name","articles_count","category","calculated_dw","article_number","title","authors","pubmed","PMID","doi","DOI","pmc","PMCID","pubtypes","rate"
+"1","Blackberry",64,"Cholera",1,"ready",1,1,"Neutralization of cholera toxin by Rosaceae family plant extracts.","Komiazyk M, Palczewska M, Sitkiewicz I, Pikula S, Groves P","https://pubmed.ncbi.nlm.nih.gov/31221152/","31221152","https://doi.org/10.1186/s12906-019-2540-6","10.1186/s12906-019-2540-6","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6587261/","PMC6587261","Journal Article",0

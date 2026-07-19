@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 52,
+    "disease_name": "Osteoporosis",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 4,
+    "calculated_dw": 4,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Osteoporosis/diet therapy\"[Mesh] OR \"Osteoporosis/drug therapy\"[Mesh] OR \"Osteoporosis/prevention and control\"[Mesh] OR \"Osteoporosis/rehabilitation\"[Mesh] OR \"Osteoporosis/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Osteoporosis/diet therapy\"[Mesh] OR \"Osteoporosis/drug therapy\"[Mesh] OR \"Osteoporosis/prevention and control\"[Mesh] OR \"Osteoporosis/rehabilitation\"[Mesh] OR \"Osteoporosis/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Osteoporosis/diet therapy\" OR \"Osteoporosis/drug therapy\" OR \"Osteoporosis/prevention and control\" OR \"Osteoporosis/rehabilitation\" OR \"Osteoporosis/therapy\")",
+    "articles": [
+      {
+        "title": "Stimulation of cannabinoid receptors by using Rubus coreanus extracts to control osteoporosis in aged male rats.",
+        "authors": "Lim HK, Lee HR, Do SH",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25136745/",
+        "PMID": "25136745",
+        "doi": "https://doi.org/10.3109/13685538.2014.949661",
+        "DOI": "10.3109/13685538.2014.949661",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Cyanidin 3-O-β-D-Glucoside Improves Bone Indices.",
+        "authors": "Kaume L, Gilbert W, Smith BJ, Devareddy L",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25386839/",
+        "PMID": "25386839",
+        "doi": "https://doi.org/10.1089/jmf.2014.0029",
+        "DOI": "10.1089/jmf.2014.0029",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Metabolite Profiling Reveals the Effect of Dietary Rubus coreanus Vinegar on Ovariectomy-Induced Osteoporosis in a Rat Model.",
+        "authors": "Lee MY, Kim HY, Singh D, Yeo SH, Baek SY, Park YK, Lee CH",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/26821009/",
+        "PMID": "26821009",
+        "doi": "https://doi.org/10.3390/molecules21020149",
+        "DOI": "10.3390/molecules21020149",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6273122/",
+        "PMCID": "PMC6273122",
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Suppressive Effects of Geoje Raspberry (Rubus tozawae Nakai ex J.Y. Yang) on Post-Menopausal Osteoporosis via Its Osteogenic Activity on Osteoblast Differentiation.",
+        "authors": "Hong S, Kwon J, Song S, Park I, Jung DS, Saruul E, Nho CW, Kwon HC, Yoo G",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39599642/",
+        "PMID": "39599642",
+        "doi": "https://doi.org/10.3390/nu16223856",
+        "DOI": "10.3390/nu16223856",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11597101/",
+        "PMCID": "PMC11597101",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

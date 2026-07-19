@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 28,
+    "disease_name": "Diabetes Mellitus, Type 2",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "Q3",
+    "articles_count": 3,
+    "calculated_dw": 24,
+    "category": "ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Diabetes Mellitus, Type 2/diet therapy\"[Mesh] OR \"Diabetes Mellitus, Type 2/drug therapy\"[Mesh] OR \"Diabetes Mellitus, Type 2/prevention and control\"[Mesh] OR \"Diabetes Mellitus, Type 2/rehabilitation\"[Mesh] OR \"Diabetes Mellitus, Type 2/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Diabetes Mellitus, Type 2/diet therapy\"[Mesh] OR \"Diabetes Mellitus, Type 2/drug therapy\"[Mesh] OR \"Diabetes Mellitus, Type 2/prevention and control\"[Mesh] OR \"Diabetes Mellitus, Type 2/rehabilitation\"[Mesh] OR \"Diabetes Mellitus, Type 2/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Diabetes Mellitus, Type 2/diet therapy\" OR \"Diabetes Mellitus, Type 2/drug therapy\" OR \"Diabetes Mellitus, Type 2/prevention and control\" OR \"Diabetes Mellitus, Type 2/rehabilitation\" OR \"Diabetes Mellitus, Type 2/therapy\")",
+    "articles": [
+      {
+        "title": "Efficacy and Safety of a Traditional Herbal Combination in Patients with Type II Diabetes Mellitus: A Randomized Controlled Trial.",
+        "authors": "Mehrzadi S, Mirzaei R, Heydari M, Sasani M, Yaqoobvand B, Huseini HF",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/32081056/",
+        "PMID": "32081056",
+        "doi": "https://doi.org/10.1080/19390211.2020.1727076",
+        "DOI": "10.1080/19390211.2020.1727076",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Anti-prediabetic effect of rose hip (Rosa canina) extract in spontaneously diabetic Torii rats.",
+        "authors": "Chen SJ, Aikawa C, Yoshida R, Kawaguchi T, Matsui T",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/28182280/",
+        "PMID": "28182280",
+        "doi": "https://doi.org/10.1002/jsfa.8254",
+        "DOI": "10.1002/jsfa.8254",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Preclinical and clinical results regarding the effects of a plant-based antidiabetic formulation versus well established antidiabetic molecules.",
+        "authors": "Ungurianu A, Şeremet O, Gagniuc E, Olaru OT, Guţu C, Grǎdinaru D, Ionescu-Tȋrgovişte C, Marginǎ D, Dǎnciulescu-Miulescu R",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31698065/",
+        "PMID": "31698065",
+        "doi": "https://doi.org/10.1016/j.phrs.2019.104522",
+        "DOI": "10.1016/j.phrs.2019.104522",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Dog rose"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 44,
+    "disease_name": "Carcinoma, Hepatocellular",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "Q2",
+    "articles_count": 1,
+    "calculated_dw": 1,
+    "category": "ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Carcinoma, Hepatocellular/diet therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/drug therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/prevention and control\"[Mesh] OR \"Carcinoma, Hepatocellular/rehabilitation\"[Mesh] OR \"Carcinoma, Hepatocellular/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Carcinoma, Hepatocellular/diet therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/drug therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/prevention and control\"[Mesh] OR \"Carcinoma, Hepatocellular/rehabilitation\"[Mesh] OR \"Carcinoma, Hepatocellular/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Carcinoma, Hepatocellular/diet therapy\" OR \"Carcinoma, Hepatocellular/drug therapy\" OR \"Carcinoma, Hepatocellular/prevention and control\" OR \"Carcinoma, Hepatocellular/rehabilitation\" OR \"Carcinoma, Hepatocellular/therapy\")",
+    "articles": [
+      {
+        "title": "Cytotoxicity of oleanolic and ursolic acid derivatives toward hepatocellular carcinoma and evaluation of NF-κB involvement.",
+        "authors": "Fontana G, Bruno M, Notarbartolo M, Labbozzetta M, Poma P, Spinella A, Rosselli S",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31212180/",
+        "PMID": "31212180",
+        "doi": "https://doi.org/10.1016/j.bioorg.2019.103054",
+        "DOI": "10.1016/j.bioorg.2019.103054",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

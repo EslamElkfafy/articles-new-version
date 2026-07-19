@@ -1,0 +1,56 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 52,
+    "disease_name": "Osteoporosis",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "Q2",
+    "articles_count": 3,
+    "calculated_dw": 24,
+    "category": "ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Osteoporosis/diet therapy\"[Mesh] OR \"Osteoporosis/drug therapy\"[Mesh] OR \"Osteoporosis/prevention and control\"[Mesh] OR \"Osteoporosis/rehabilitation\"[Mesh] OR \"Osteoporosis/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Osteoporosis/diet therapy\"[Mesh] OR \"Osteoporosis/drug therapy\"[Mesh] OR \"Osteoporosis/prevention and control\"[Mesh] OR \"Osteoporosis/rehabilitation\"[Mesh] OR \"Osteoporosis/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Osteoporosis/diet therapy\" OR \"Osteoporosis/drug therapy\" OR \"Osteoporosis/prevention and control\" OR \"Osteoporosis/rehabilitation\" OR \"Osteoporosis/therapy\")",
+    "articles": [
+      {
+        "title": "Comparative effects of dried plum and dried apple on bone in postmenopausal women.",
+        "authors": "Hooshmand S, Chai SC, Saadat RL, Payton ME, Brummel-Smith K, Arjmandi BH",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/21736808/",
+        "PMID": "21736808",
+        "doi": "https://doi.org/10.1017/S000711451100119X",
+        "DOI": "10.1017/S000711451100119X",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Comparative Study, Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't",
+        "rate": 4
+      },
+      {
+        "title": "[Dried plums improve bone density].",
+        "authors": "Kurth A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/23862187/",
+        "PMID": "23862187",
+        "doi": "No DOI available",
+        "DOI": null,
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Comment",
+        "rate": 1
+      },
+      {
+        "title": "The Effect of Apple-Derived Nanovesicles on the Osteoblastogenesis of Osteoblastic MC3T3-E1 Cells.",
+        "authors": "Sim Y, Seo HJ, Kim DH, Lee SH, Kwon J, Kwun IS, Jung C, Kim JI, Lim JH, Kim DK, Baek MC, Cho YE",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36594993/",
+        "PMID": "36594993",
+        "doi": "https://doi.org/10.1089/jmf.2022.K.0094",
+        "DOI": "10.1089/jmf.2022.K.0094",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

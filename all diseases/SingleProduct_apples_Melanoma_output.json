@@ -1,0 +1,44 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 50,
+    "disease_name": "Melanoma",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "Q3",
+    "articles_count": 2,
+    "calculated_dw": 8,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Melanoma/diet therapy\"[Mesh] OR \"Melanoma/drug therapy\"[Mesh] OR \"Melanoma/prevention and control\"[Mesh] OR \"Melanoma/rehabilitation\"[Mesh] OR \"Melanoma/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Melanoma/diet therapy\"[Mesh] OR \"Melanoma/drug therapy\"[Mesh] OR \"Melanoma/prevention and control\"[Mesh] OR \"Melanoma/rehabilitation\"[Mesh] OR \"Melanoma/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Melanoma/diet therapy\" OR \"Melanoma/drug therapy\" OR \"Melanoma/prevention and control\" OR \"Melanoma/rehabilitation\" OR \"Melanoma/therapy\")",
+    "articles": [
+      {
+        "title": "Oncolytic Virotherapy: A Contest between Apples and Oranges.",
+        "authors": "Russell SJ, Peng KW",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/28392162/",
+        "PMID": "28392162",
+        "doi": "https://doi.org/10.1016/j.ymthe.2017.03.026",
+        "DOI": "10.1016/j.ymthe.2017.03.026",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5417845/",
+        "PMCID": "PMC5417845",
+        "pubtypes": "Journal Article, Review, Research Support, Non-U.S. Gov't, Research Support, N.I.H., Extramural",
+        "rate": 2
+      },
+      {
+        "title": "Quercetin as a Potential Therapeutic Agent for Malignant Melanoma-A Review of Current Evidence and Future Directions.",
+        "authors": "Hoinoiu T, Dumitrascu V, Pit D, Schipor DA, Jabri-Tabrizi M, Hoinoiu B, Petreuș DE, Seiman C",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40282947/",
+        "PMID": "40282947",
+        "doi": "https://doi.org/10.3390/medicina61040656",
+        "DOI": "10.3390/medicina61040656",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12028657/",
+        "PMCID": "PMC12028657",
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      }
+    ],
+    "all_product_names": "apples"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 90,
+    "disease_name": "Tuberculosis, Pulmonary",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Tuberculosis, Pulmonary/diet therapy\"[Mesh] OR \"Tuberculosis, Pulmonary/drug therapy\"[Mesh] OR \"Tuberculosis, Pulmonary/prevention and control\"[Mesh] OR \"Tuberculosis, Pulmonary/rehabilitation\"[Mesh] OR \"Tuberculosis, Pulmonary/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Tuberculosis, Pulmonary/diet therapy\"[Mesh] OR \"Tuberculosis, Pulmonary/drug therapy\"[Mesh] OR \"Tuberculosis, Pulmonary/prevention and control\"[Mesh] OR \"Tuberculosis, Pulmonary/rehabilitation\"[Mesh] OR \"Tuberculosis, Pulmonary/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Tuberculosis, Pulmonary/diet therapy\" OR \"Tuberculosis, Pulmonary/drug therapy\" OR \"Tuberculosis, Pulmonary/prevention and control\" OR \"Tuberculosis, Pulmonary/rehabilitation\" OR \"Tuberculosis, Pulmonary/therapy\")",
+    "articles": [],
+    "all_product_names": "Apple"
+  }
+]

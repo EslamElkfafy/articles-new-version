@@ -1,0 +1,44 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 55,
+    "disease_name": "Prostatic Neoplasms",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "Q2",
+    "articles_count": 2,
+    "calculated_dw": 20,
+    "category": "ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Prostatic Neoplasms/diet therapy\"[Mesh] OR \"Prostatic Neoplasms/drug therapy\"[Mesh] OR \"Prostatic Neoplasms/prevention and control\"[Mesh] OR \"Prostatic Neoplasms/rehabilitation\"[Mesh] OR \"Prostatic Neoplasms/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Prostatic Neoplasms/diet therapy\"[Mesh] OR \"Prostatic Neoplasms/drug therapy\"[Mesh] OR \"Prostatic Neoplasms/prevention and control\"[Mesh] OR \"Prostatic Neoplasms/rehabilitation\"[Mesh] OR \"Prostatic Neoplasms/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Prostatic Neoplasms/diet therapy\" OR \"Prostatic Neoplasms/drug therapy\" OR \"Prostatic Neoplasms/prevention and control\" OR \"Prostatic Neoplasms/rehabilitation\" OR \"Prostatic Neoplasms/therapy\")",
+    "articles": [
+      {
+        "title": "A randomised trial of cranberry versus apple juice in the management of urinary symptoms during external beam radiation therapy for prostate cancer.",
+        "authors": "Campbell G, Pickles T, D'yachkova Y",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/14524485/",
+        "PMID": "14524485",
+        "doi": "https://doi.org/10.1016/s0936-6555(03)00161-4",
+        "DOI": "10.1016/s0936-6555(03)00161-4",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Clinical Trial, Comparative Study, Journal Article, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Antiproliferative effects of apple peel extract against cancer cells.",
+        "authors": "Reagan-Shaw S, Eggert D, Mukhtar H, Ahmad N",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/20432173/",
+        "PMID": "20432173",
+        "doi": "https://doi.org/10.1080/01635580903441253",
+        "DOI": "10.1080/01635580903441253",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

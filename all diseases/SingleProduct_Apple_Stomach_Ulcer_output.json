@@ -1,0 +1,56 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 74,
+    "disease_name": "Stomach Ulcer",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "Q2",
+    "articles_count": 3,
+    "calculated_dw": 3,
+    "category": "ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Stomach Ulcer/diet therapy\"[Mesh] OR \"Stomach Ulcer/drug therapy\"[Mesh] OR \"Stomach Ulcer/prevention and control\"[Mesh] OR \"Stomach Ulcer/rehabilitation\"[Mesh] OR \"Stomach Ulcer/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Stomach Ulcer/diet therapy\"[Mesh] OR \"Stomach Ulcer/drug therapy\"[Mesh] OR \"Stomach Ulcer/prevention and control\"[Mesh] OR \"Stomach Ulcer/rehabilitation\"[Mesh] OR \"Stomach Ulcer/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Stomach Ulcer/diet therapy\" OR \"Stomach Ulcer/drug therapy\" OR \"Stomach Ulcer/prevention and control\" OR \"Stomach Ulcer/rehabilitation\" OR \"Stomach Ulcer/therapy\")",
+    "articles": [
+      {
+        "title": "Antioxidant and antiulcerative properties of phenolics from Chinese quince, quince, and apple fruits.",
+        "authors": "Hamauzu Y, Inno T, Kume C, Irie M, Hiramatsu K",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/16448180/",
+        "PMID": "16448180",
+        "doi": "https://doi.org/10.1021/jf052236y",
+        "DOI": "10.1021/jf052236y",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Apple polyphenol extracts protect against aspirin-induced gastric mucosal damage in rats.",
+        "authors": "Paturi G, Butts CA, Bentley-Hewitt KL, McGhie TK, Saleh ZS, McLeod A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25069887/",
+        "PMID": "25069887",
+        "doi": "https://doi.org/10.1002/ptr.5210",
+        "DOI": "10.1002/ptr.5210",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Apple (Malus domestica Borkh) leaves attenuate indomethacin-induced gastric ulcer in rats.",
+        "authors": "Mahmoud MF, Abdo W, Nabil M, Drissi B, El-Shazly AM, Abdelfattah MAO, Sobeh M",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36736281/",
+        "PMID": "36736281",
+        "doi": "https://doi.org/10.1016/j.biopha.2023.114331",
+        "DOI": "10.1016/j.biopha.2023.114331",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

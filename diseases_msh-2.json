@@ -1,0 +1,422 @@
+[
+  {
+    "id":28,
+    "categoryId":38,
+    "name":"{\"ar\": \"سكر النوع التاني\", \"en\": \"Diabetes Mellitus, Type 2\"}",
+    "createdAt":"2022-12-31 17:29:06.010 +0200",
+    "updatedAt":"2022-12-31 17:29:06.010 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Diabetes Mellitus, Type 2"
+  },
+  {
+    "id":35,
+    "categoryId":31,
+    "name":"{\"ar\": \"مرض الشريان التاجي\", \"en\": \"Coronary Disease\"}",
+    "createdAt":"2022-12-31 18:15:20.055 +0200",
+    "updatedAt":"2022-12-31 18:15:20.055 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Coronary Disease"
+  },
+  {
+    "id":36,
+    "categoryId":31,
+    "name":"{\"ar\": \"أمراض القلب الناتجة عن السمنة\", \"en\": \"Cardiometabolic risk factors (CVD by obesity)\"}",
+    "createdAt":"2022-12-31 18:15:55.450 +0200",
+    "updatedAt":"2022-12-31 18:15:55.450 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Cardiometabolic Risk Factors"
+  },
+  {
+    "id":37,
+    "categoryId":31,
+    "name":"{\"ar\": \"أمراض القلب والأوعية الدموية\", \"en\": \"Cardiovascular disease\"}",
+    "createdAt":"2022-12-31 18:16:13.490 +0200",
+    "updatedAt":"2022-12-31 18:16:13.490 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Cardiovascular Diseases"
+  },
+  {
+    "id":38,
+    "categoryId":38,
+    "name":"{\"ar\": \"دهون عالية في الدم\", \"en\": \"Hyperlipidemias\"}",
+    "createdAt":"2022-12-31 18:16:37.371 +0200",
+    "updatedAt":"2022-12-31 18:16:37.371 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Hyperlipidemias"
+  },
+  {
+    "id":39,
+    "categoryId":33,
+    "name":"{\"ar\": \"التهابات الامعاء (القولون العصبي)\", \"en\": \"Inflammatory Bowel Diseases\"}",
+    "createdAt":"2022-12-31 18:17:08.173 +0200",
+    "updatedAt":"2022-12-31 18:17:08.173 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Inflammatory Bowel Diseases"
+  },
+  {
+    "id":44,
+    "categoryId":42,
+    "name":"{\"ar\": \"سرطان الكبد\", \"en\": \"Hepatocellular carcinoma\"}",
+    "createdAt":"2022-12-31 18:21:08.745 +0200",
+    "updatedAt":"2022-12-31 18:21:08.745 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Carcinoma, Hepatocellular"
+  },
+  {
+    "id":45,
+    "categoryId":49,
+    "name":"{\"ar\": \"تكبيس المبيض\", \"en\": \"Polycystic Ovary Syndrome (PCOS)\"}",
+    "createdAt":"2022-12-31 18:22:06.643 +0200",
+    "updatedAt":"2022-12-31 18:22:06.643 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Polycystic Ovary Syndrome"
+  },
+  {
+    "id":46,
+    "categoryId":38,
+    "name":"{\"ar\": \"مرحلة ما قبل السكري\", \"en\": \"Pre-Diabetic State\"}",
+    "createdAt":"2022-12-31 18:22:46.118 +0200",
+    "updatedAt":"2022-12-31 18:22:46.118 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Prediabetic State"
+  },
+  {
+    "id":47,
+    "categoryId":42,
+    "name":"{\"ar\": \"أورام القولون والمستقيم\", \"en\": \"Colorectal Neoplasms\"}",
+    "createdAt":"2022-12-31 18:23:19.653 +0200",
+    "updatedAt":"2022-12-31 18:23:19.653 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Colorectal Neoplasms"
+  },
+  {
+    "id":48,
+    "categoryId":33,
+    "name":"{\"ar\": \"التهاب\", \"en\": \"Inflammation\"}",
+    "createdAt":"2022-12-31 18:23:39.590 +0200",
+    "updatedAt":"2022-12-31 18:23:39.590 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Inflammation"
+  },
+  {
+    "id":49,
+    "categoryId":38,
+    "name":"{\"ar\": \"مقاومة الانسولين\", \"en\": \"Metabolic syndrome\"}",
+    "createdAt":"2022-12-31 18:24:38.509 +0200",
+    "updatedAt":"2022-12-31 18:24:38.509 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Metabolic Syndrome"
+  },
+  {
+    "id":50,
+    "categoryId":42,
+    "name":"{\"ar\": \"سرطان الجلد الميلاني (ميلانوما)\", \"en\": \"Melanoma\"}",
+    "createdAt":"2022-12-31 18:25:04.061 +0200",
+    "updatedAt":"2022-12-31 18:25:04.061 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Melanoma"
+  },
+  {
+    "id":51,
+    "categoryId":42,
+    "name":"{\"ar\": \"أورام الثدي\", \"en\": \"Breast Neoplasms\"}",
+    "createdAt":"2022-12-31 18:25:23.197 +0200",
+    "updatedAt":"2022-12-31 18:25:23.197 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Breast Neoplasms"
+  },
+  {
+    "id":52,
+    "categoryId":38,
+    "name":"{\"ar\": \"هشاشة العظام\", \"en\": \"Osteoporosis\"}",
+    "createdAt":"2022-12-31 18:25:52.763 +0200",
+    "updatedAt":"2022-12-31 18:25:52.763 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Osteoporosis"
+  },
+  {
+    "id":53,
+    "categoryId":42,
+    "name":"{\"ar\": \"الأورام\", \"en\": \"Neoplasms\"}",
+    "createdAt":"2022-12-31 18:26:18.583 +0200",
+    "updatedAt":"2022-12-31 18:26:18.583 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Neoplasms"
+  },
+  {
+    "id":54,
+    "categoryId":42,
+    "name":"{\"ar\": \"أورام عنق الرحم\", \"en\": \"Uterine Cervical Neoplasms\"}",
+    "createdAt":"2022-12-31 18:26:42.439 +0200",
+    "updatedAt":"2022-12-31 18:26:42.439 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Uterine Cervical Neoplasms"
+  },
+  {
+    "id":55,
+    "categoryId":42,
+    "name":"{\"ar\": \"أورام البروستاتا\", \"en\": \"Prostatic neoplasms\"}",
+    "createdAt":"2022-12-31 18:26:59.475 +0200",
+    "updatedAt":"2022-12-31 18:26:59.475 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Prostatic Neoplasms"
+  },
+  {
+    "id":63,
+    "categoryId":32,
+    "name":"{\"ar\": \"نزلة برد\", \"en\": \"Common Cold\"}",
+    "createdAt":"2022-12-31 18:33:47.002 +0200",
+    "updatedAt":"2022-12-31 18:33:47.002 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Common Cold"
+  },
+  {
+    "id":64,
+    "categoryId":32,
+    "name":"{\"ar\": \"الكوليرا\", \"en\": \"Cholera\"}",
+    "createdAt":"2022-12-31 18:34:15.309 +0200",
+    "updatedAt":"2022-12-31 18:34:15.309 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Cholera"
+  },
+  {
+    "id":66,
+    "categoryId":41,
+    "name":"{\"ar\": \"الإمساك\", \"en\": \"Constipation\"}",
+    "createdAt":"2022-12-31 21:33:54.508 +0200",
+    "updatedAt":"2022-12-31 21:33:54.508 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Constipation"
+  },
+  {
+    "id":67,
+    "categoryId":33,
+    "name":"{\"ar\": \"داء كرون\", \"en\": \"Crohn's disease\"}",
+    "createdAt":"2022-12-31 21:36:40.772 +0200",
+    "updatedAt":"2022-12-31 21:36:40.772 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Crohn Disease"
+  },
+  {
+    "id":70,
+    "categoryId":41,
+    "name":"{\"ar\": \"مرض باركنسون\", \"en\": \"Parkinson's\"}",
+    "createdAt":"2022-12-31 21:41:44.790 +0200",
+    "updatedAt":"2022-12-31 21:41:44.790 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Parkinson Disease"
+  },
+  {
+    "id":71,
+    "categoryId":33,
+    "name":"{\"ar\": \"التهاب القولون\", \"en\": \"Colitis\"}",
+    "createdAt":"2022-12-31 21:42:12.544 +0200",
+    "updatedAt":"2022-12-31 21:42:12.544 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Colitis"
+  },
+  {
+    "id":72,
+    "categoryId":36,
+    "name":"{\"ar\": \"التهاب المفاصل الروماتويدي\", \"en\": \"Rheumatoid Arthritis\"}",
+    "createdAt":"2022-12-31 21:43:45.589 +0200",
+    "updatedAt":"2022-12-31 21:43:45.589 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Arthritis, Rheumatoid"
+  },
+  {
+    "id":73,
+    "categoryId":33,
+    "name":"{\"ar\": \"تليف الكبد\", \"en\": \"Liver cirrhosis\"}",
+    "createdAt":"2022-12-31 21:44:47.500 +0200",
+    "updatedAt":"2022-12-31 21:44:47.500 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Liver Cirrhosis"
+  },
+  {
+    "id":74,
+    "categoryId":40,
+    "name":"{\"ar\": \"قرحة المعدة\", \"en\": \"Stomach Ulcer\"}",
+    "createdAt":"2022-12-31 21:48:16.983 +0200",
+    "updatedAt":"2022-12-31 21:48:16.983 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Stomach Ulcer"
+  },
+  {
+    "id":75,
+    "categoryId":33,
+    "name":"{\"ar\": \"التهاب المعدة\", \"en\": \"Gastritis\"}",
+    "createdAt":"2022-12-31 21:49:16.818 +0200",
+    "updatedAt":"2022-12-31 21:49:16.818 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Gastritis"
+  },
+  {
+    "id":76,
+    "categoryId":47,
+    "name":"{\"ar\": \"شيخوخة الجلد\", \"en\": \"Skin aging\"}",
+    "createdAt":"2022-12-31 21:51:45.766 +0200",
+    "updatedAt":"2022-12-31 21:51:45.766 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Skin Aging"
+  },
+  {
+    "id":77,
+    "categoryId":39,
+    "name":"{\"ar\": \"قرحة من كثرة النوم او الجلوس\", \"en\": \"Pressure ulcer\"}",
+    "createdAt":"2022-12-31 21:55:36.020 +0200",
+    "updatedAt":"2022-12-31 21:55:36.020 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Pressure Ulcer"
+  },
+  {
+    "id":79,
+    "categoryId":33,
+    "name":"{\"ar\": \"حصوات في البول\", \"en\": \"Urolithiasis\"}",
+    "createdAt":"2022-12-31 22:00:07.962 +0200",
+    "updatedAt":"2022-12-31 22:00:07.962 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Urolithiasis"
+  },
+  {
+    "id":80,
+    "categoryId":37,
+    "name":"{\"ar\": \"حساسية الأنف\", \"en\": \"Allergic Rhinitis\"}",
+    "createdAt":"2022-12-31 22:01:43.542 +0200",
+    "updatedAt":"2022-12-31 22:01:43.542 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Rhinitis, Allergic"
+  },
+  {
+    "id":82,
+    "categoryId":38,
+    "name":"{\"ar\": \"السمنة\", \"en\": \"Obesity\"}",
+    "createdAt":"2022-12-31 22:02:38.168 +0200",
+    "updatedAt":"2022-12-31 22:02:38.168 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Obesity"
+  },
+  {
+    "id":83,
+    "categoryId":47,
+    "name":"{\"ar\": \"مرض الزهايمر\", \"en\": \"Alzheimer Disease\"}",
+    "createdAt":"2022-12-31 22:03:04.747 +0200",
+    "updatedAt":"2022-12-31 22:03:04.747 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Alzheimer Disease"
+  },
+  {
+    "id":84,
+    "categoryId":31,
+    "name":"{\"ar\": \"ارتفاع ضغط الدم\", \"en\": \"Hypertension\"}",
+    "createdAt":"2023-01-30 21:26:33.809 +0200",
+    "updatedAt":"2023-01-30 21:26:33.809 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Hypertension"
+  },
+  {
+    "id":85,
+    "categoryId":31,
+    "name":"{\"ar\": \"انسداد الشرايين\", \"en\": \"Atherosclerosis\"}",
+    "createdAt":"2023-01-30 21:36:33.259 +0200",
+    "updatedAt":"2023-01-30 21:36:33.259 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Atherosclerosis"
+  },
+  {
+    "id":86,
+    "categoryId":38,
+    "name":"{\"ar\": \"مرض الكبد الدهني غير الكحولي\", \"en\": \"Non-alcoholic Fatty Liver Disease\"}",
+    "createdAt":"2023-02-02 17:57:56.401 +0200",
+    "updatedAt":"2023-02-02 17:57:56.401 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Non-alcoholic Fatty Liver Disease"
+  },
+  {
+    "id":87,
+    "categoryId":33,
+    "name":"{\"ar\": \"التهاب المثانة\", \"en\": \"Cystitis\"}",
+    "createdAt":"2023-02-02 18:02:48.623 +0200",
+    "updatedAt":"2023-02-02 18:02:48.623 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Cystitis"
+  },
+  {
+    "id":88,
+    "categoryId":33,
+    "name":"{\"ar\": \"التهاب الجلد الدهني\", \"en\": \"Seborrheic Dermatitis\"}",
+    "createdAt":"2023-02-05 20:39:30.391 +0200",
+    "updatedAt":"2023-02-05 20:39:30.391 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Dermatitis, Seborrheic"
+  },
+  {
+    "id":89,
+    "categoryId":41,
+    "name":"{\"ar\": \"متلازمة القولون العصبي\", \"en\": \"Irritable Bowel Syndrome (IBS)\"}",
+    "createdAt":"2023-02-07 16:31:04.637 +0200",
+    "updatedAt":"2023-02-07 16:31:04.637 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Irritable Bowel Syndrome"
+  },
+  {
+    "id":90,
+    "categoryId":32,
+    "name":"{\"ar\": \"درن في الرئة\", \"en\": \"Pulmonary Tuberculosis\"},",
+    "createdAt":"2023-02-07 16:40:34.960 +0200",
+    "updatedAt":"2023-02-07 16:40:34.960 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Tuberculosis, Pulmonary"
+  },
+  {
+    "id":91,
+    "categoryId":50,
+    "name":"{\"ar\": \"الفشل الكلوي المزمن\", \"en\": \"Chronic Kidney Failure \/ Renal Failure\"}",
+    "createdAt":"2023-02-07 17:45:10.325 +0200",
+    "updatedAt":"2023-02-07 17:45:10.325 +0200",
+    "root_diseaseId":null,
+    "Unnamed: 6":null,
+    "Best MeSH":"Kidney Failure, Chronic"
+  }
+]

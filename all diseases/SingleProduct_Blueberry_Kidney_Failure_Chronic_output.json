@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blueberry",
+    "disease_id": 91,
+    "disease_name": "Kidney Failure, Chronic",
+    "odw": "",
+    "best_mesh_match": "Blueberry Plants",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Blueberry Plants\"[Mesh] AND \"Blueberry Plants/therapeutic use\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Kidney Failure, Chronic/diet therapy\"[Mesh] OR \"Kidney Failure, Chronic/drug therapy\"[Mesh] OR \"Kidney Failure, Chronic/prevention and control\"[Mesh] OR \"Kidney Failure, Chronic/rehabilitation\"[Mesh] OR \"Kidney Failure, Chronic/therapy\"[Mesh])",
+    "q2": "(\"Blueberry Plants\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Kidney Failure, Chronic/diet therapy\"[Mesh] OR \"Kidney Failure, Chronic/drug therapy\"[Mesh] OR \"Kidney Failure, Chronic/prevention and control\"[Mesh] OR \"Kidney Failure, Chronic/rehabilitation\"[Mesh] OR \"Kidney Failure, Chronic/therapy\"[Mesh])",
+    "q3": "(\"Blueberry Plants\" NOT \"adverse effects\"[Subheading]) AND (\"Kidney Failure, Chronic/diet therapy\" OR \"Kidney Failure, Chronic/drug therapy\" OR \"Kidney Failure, Chronic/prevention and control\" OR \"Kidney Failure, Chronic/rehabilitation\" OR \"Kidney Failure, Chronic/therapy\")",
+    "articles": [],
+    "all_product_names": "Blueberry"
+  }
+]

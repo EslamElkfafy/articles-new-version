@@ -1,0 +1,19 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 91,
+    "disease_name": "Kidney Failure, Chronic",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Kidney Failure, Chronic/diet therapy\"[Mesh] OR \"Kidney Failure, Chronic/drug therapy\"[Mesh] OR \"Kidney Failure, Chronic/prevention and control\"[Mesh] OR \"Kidney Failure, Chronic/rehabilitation\"[Mesh] OR \"Kidney Failure, Chronic/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Kidney Failure, Chronic/diet therapy\"[Mesh] OR \"Kidney Failure, Chronic/drug therapy\"[Mesh] OR \"Kidney Failure, Chronic/prevention and control\"[Mesh] OR \"Kidney Failure, Chronic/rehabilitation\"[Mesh] OR \"Kidney Failure, Chronic/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Kidney Failure, Chronic/diet therapy\" OR \"Kidney Failure, Chronic/drug therapy\" OR \"Kidney Failure, Chronic/prevention and control\" OR \"Kidney Failure, Chronic/rehabilitation\" OR \"Kidney Failure, Chronic/therapy\")",
+    "articles": [],
+    "all_product_names": "Apple"
+  }
+]

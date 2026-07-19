@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 51,
+    "disease_name": "Breast Neoplasms",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 5,
+    "calculated_dw": 21,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Breast Neoplasms/diet therapy\"[Mesh] OR \"Breast Neoplasms/drug therapy\"[Mesh] OR \"Breast Neoplasms/prevention and control\"[Mesh] OR \"Breast Neoplasms/rehabilitation\"[Mesh] OR \"Breast Neoplasms/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Breast Neoplasms/diet therapy\"[Mesh] OR \"Breast Neoplasms/drug therapy\"[Mesh] OR \"Breast Neoplasms/prevention and control\"[Mesh] OR \"Breast Neoplasms/rehabilitation\"[Mesh] OR \"Breast Neoplasms/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Breast Neoplasms/diet therapy\" OR \"Breast Neoplasms/drug therapy\" OR \"Breast Neoplasms/prevention and control\" OR \"Breast Neoplasms/rehabilitation\" OR \"Breast Neoplasms/therapy\")",
+    "articles": [
+      {
+        "title": "Synthesis of biogenic Ag@Pd Core-shell nanoparticles having anti-cancer/anti-microbial functions.",
+        "authors": "Abdel-Fattah WI, Eid MM, Abd El-Moez SI, Mohamed E, Ali GW",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/28642073/",
+        "PMID": "28642073",
+        "doi": "https://doi.org/10.1016/j.lfs.2017.06.017",
+        "DOI": "10.1016/j.lfs.2017.06.017",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Comparative Study, Journal Article",
+        "rate": 3
+      },
+      {
+        "title": "Synergistic interaction of sumac and raspberry mixtures in their antioxidant capacities and selective cytotoxicity against cancerous cells.",
+        "authors": "Wang S, Zhu F, Marcone MF",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25313437/",
+        "PMID": "25313437",
+        "doi": "https://doi.org/10.1089/jmf.2013.0171",
+        "DOI": "10.1089/jmf.2013.0171",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Phenolics from Rubus fairholmianus induces cytotoxicity and apoptosis in human breast adenocarcinoma cells.",
+        "authors": "George BP, Abrahamse H, Hemmaragala NM",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/28803117/",
+        "PMID": "28803117",
+        "doi": "https://doi.org/10.1016/j.cbi.2017.08.005",
+        "DOI": "10.1016/j.cbi.2017.08.005",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Increased Oxidative Stress Induced by Rubus Bioactive Compounds Induce Apoptotic Cell Death in Human Breast Cancer Cells.",
+        "authors": "George BP, Abrahamse H",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31281587/",
+        "PMID": "31281587",
+        "doi": "https://doi.org/10.1155/2019/6797921",
+        "DOI": "10.1155/2019/6797921",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6589211/",
+        "PMCID": "PMC6589211",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Rubus Capped Zinc Oxide Nanoparticles Induce Apoptosis in MCF-7 Breast Cancer Cells.",
+        "authors": "George BP, Rajendran NK, Houreld NN, Abrahamse H",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36296460/",
+        "PMID": "36296460",
+        "doi": "https://doi.org/10.3390/molecules27206862",
+        "DOI": "10.3390/molecules27206862",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9611499/",
+        "PMCID": "PMC9611499",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

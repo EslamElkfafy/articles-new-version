@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 73,
+    "disease_name": "Liver Cirrhosis",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 2,
+    "calculated_dw": 2,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Liver Cirrhosis/diet therapy\"[Mesh] OR \"Liver Cirrhosis/drug therapy\"[Mesh] OR \"Liver Cirrhosis/prevention and control\"[Mesh] OR \"Liver Cirrhosis/rehabilitation\"[Mesh] OR \"Liver Cirrhosis/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Liver Cirrhosis/diet therapy\"[Mesh] OR \"Liver Cirrhosis/drug therapy\"[Mesh] OR \"Liver Cirrhosis/prevention and control\"[Mesh] OR \"Liver Cirrhosis/rehabilitation\"[Mesh] OR \"Liver Cirrhosis/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Liver Cirrhosis/diet therapy\" OR \"Liver Cirrhosis/drug therapy\" OR \"Liver Cirrhosis/prevention and control\" OR \"Liver Cirrhosis/rehabilitation\" OR \"Liver Cirrhosis/therapy\")",
+    "articles": [
+      {
+        "title": "Antioxidant properties of red raspberry extract alleviate hepatic fibrosis via inducing apoptosis and transdifferentiation of activated hepatic stellate cells.",
+        "authors": "Wu TH, Wang PW, Lin TY, Yang PM, Li WT, Yeh CT, Pan TL",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34626932/",
+        "PMID": "34626932",
+        "doi": "https://doi.org/10.1016/j.biopha.2021.112284",
+        "DOI": "10.1016/j.biopha.2021.112284",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Raspberry Ketone Attenuates Hepatic Fibrogenesis and Inflammation via Regulating the Crosstalk of FXR and PGC-1α Signaling.",
+        "authors": "Jiang YC, Dou JY, Xuan MY, Gao C, Li ZX, Lian LH, Cui ZY, Nan JX, Wu YL",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38970822/",
+        "PMID": "38970822",
+        "doi": "https://doi.org/10.1021/acs.jafc.4c03286",
+        "DOI": "10.1021/acs.jafc.4c03286",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

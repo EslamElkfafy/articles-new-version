@@ -1,0 +1,19 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 64,
+    "disease_name": "Cholera",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Cholera/diet therapy\"[Mesh] OR \"Cholera/drug therapy\"[Mesh] OR \"Cholera/prevention and control\"[Mesh] OR \"Cholera/rehabilitation\"[Mesh] OR \"Cholera/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Cholera/diet therapy\"[Mesh] OR \"Cholera/drug therapy\"[Mesh] OR \"Cholera/prevention and control\"[Mesh] OR \"Cholera/rehabilitation\"[Mesh] OR \"Cholera/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Cholera/diet therapy\" OR \"Cholera/drug therapy\" OR \"Cholera/prevention and control\" OR \"Cholera/rehabilitation\" OR \"Cholera/therapy\")",
+    "articles": [],
+    "all_product_names": "Apple"
+  }
+]

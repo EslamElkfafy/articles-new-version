@@ -1,0 +1,116 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 80,
+    "disease_name": "Rhinitis, Allergic",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "Q2",
+    "articles_count": 8,
+    "calculated_dw": 88,
+    "category": "ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Rhinitis, Allergic/diet therapy\"[Mesh] OR \"Rhinitis, Allergic/drug therapy\"[Mesh] OR \"Rhinitis, Allergic/prevention and control\"[Mesh] OR \"Rhinitis, Allergic/rehabilitation\"[Mesh] OR \"Rhinitis, Allergic/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Rhinitis, Allergic/diet therapy\"[Mesh] OR \"Rhinitis, Allergic/drug therapy\"[Mesh] OR \"Rhinitis, Allergic/prevention and control\"[Mesh] OR \"Rhinitis, Allergic/rehabilitation\"[Mesh] OR \"Rhinitis, Allergic/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Rhinitis, Allergic/diet therapy\" OR \"Rhinitis, Allergic/drug therapy\" OR \"Rhinitis, Allergic/prevention and control\" OR \"Rhinitis, Allergic/rehabilitation\" OR \"Rhinitis, Allergic/therapy\")",
+    "articles": [
+      {
+        "title": "Clinical efficacy of apple polyphenol for treating cedar pollinosis.",
+        "authors": "Kishi K, Saito M, Saito T, Kumemura M, Okamatsu H, Okita M, Takazawa K",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/15849424/",
+        "PMID": "15849424",
+        "doi": "https://doi.org/10.1271/bbb.69.829",
+        "DOI": "10.1271/bbb.69.829",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Clinical Trial, Journal Article, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Clinical effects of apple polyphenols on persistent allergic rhinitis: A randomized double-blind placebo-controlled parallel arm study.",
+        "authors": "Enomoto T, Nagasako-Akazome Y, Kanda T, Ikeda M, Dake Y",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/17039666/",
+        "PMID": "17039666",
+        "doi": "No DOI available",
+        "DOI": null,
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Effect of Lactobacillus rhamnosus GG on rBet v1 and rMal d1 specific IgA in the saliva of patients with birch pollen allergy.",
+        "authors": "Piirainen L, Haahtela S, Helin T, Korpela R, Haahtela T, Vaarala O",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/18450119/",
+        "PMID": "18450119",
+        "doi": "https://doi.org/10.1016/S1081-1206(10)60596-0",
+        "DOI": "10.1016/S1081-1206(10)60596-0",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't",
+        "rate": 4
+      },
+      {
+        "title": "Immunological mechanisms in sublingual immunotherapy.",
+        "authors": "Bohle B",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/19221631/",
+        "PMID": "19221631",
+        "doi": "No DOI available",
+        "DOI": null,
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Clinical Trial, Journal Article",
+        "rate": 4
+      },
+      {
+        "title": "[Oral pollen syndrome].",
+        "authors": "Angier E, Sheikh A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/20533232/",
+        "PMID": "20533232",
+        "doi": "https://doi.org/10.1024/1661-8157/a000183",
+        "DOI": "10.1024/1661-8157/a000183",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Case Reports, Journal Article",
+        "rate": 2
+      },
+      {
+        "title": "Allergen immunotherapy for birch-apple syndrome: what do we know?",
+        "authors": "Incorvaia C, Ridolo E, Mauro M, Russello M, Pastorello E",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/29130794/",
+        "PMID": "29130794",
+        "doi": "https://doi.org/10.2217/imt-2017-0040",
+        "DOI": "10.2217/imt-2017-0040",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      },
+      {
+        "title": "Allergen-specific immunotherapy with apples: selected cultivars could be a promising tool for birch pollen allergy.",
+        "authors": "Nothegger B, Reider N, Covaciu CE, Cova V, Ahammer L, Eidelpes R, Unterhauser J, Platzgummer S, Tollinger M, Letschka T, Eisendle K",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31953891/",
+        "PMID": "31953891",
+        "doi": "https://doi.org/10.1111/jdv.16201",
+        "DOI": "10.1111/jdv.16201",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7318684/",
+        "PMCID": "PMC7318684",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Structured Fresh Apple Consumption for Birch Pollen Food Allergy Syndrome in an Uncontrolled Phase II/III Trial.",
+        "authors": "Mueller B, Reider N, Demir H, Bohle B, Marquer L, Yildirim A, Deluca J, Cova V, Ahammer L, Eidelpes R, Unterhauser J, Tollinger M, Letschka T, Eisendle K",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40633686/",
+        "PMID": "40633686",
+        "doi": "https://doi.org/10.1016/j.jaip.2025.06.030",
+        "DOI": "10.1016/j.jaip.2025.06.030",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Clinical Trial, Phase II, Clinical Trial, Phase III",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

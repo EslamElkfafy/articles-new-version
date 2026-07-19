@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomegranate & Diabetes Row Extractor</title>
+    <!-- Outfit Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Local SheetJS -->
+    <script src="node_modules/xlsx/dist/xlsx.full.min.js"></script>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: rgba(22, 28, 45, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --primary-glow: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+            --accent-color: #a855f7;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --success-color: #10b981;
+            --error-color: #ef4444;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(236, 72, 153, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #f472b6, #c084fc, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 15px 35px rgba(168, 85, 247, 0.1);
+        }
+
+        .search-inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        input[type="text"] {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px 16px;
+            color: white;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: border-color 0.3s, background-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .file-section {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .file-inputs-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .file-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: left;
+            position: relative;
+        }
+
+        .file-box h3 {
+            font-size: 0.95rem;
+            margin: 0 0 10px 0;
+            color: #d1d5db;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .file-box input[type="file"] {
+            width: 100%;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .btn {
+            background: var(--primary-glow);
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(236, 72, 153, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.08);
+            color: #f3f4f6;
+            border: 1px solid var(--border-color);
+            box-shadow: none;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: none;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .log-section {
+            background: #070a13;
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            padding: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9rem;
+            height: 250px;
+            overflow-y: auto;
+            color: #34d399;
+            margin-bottom: 30px;
+            box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .log-entry {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .log-error {
+            color: var(--error-color);
+        }
+
+        .log-success {
+            color: var(--success-color);
+        }
+
+        .log-info {
+            color: #60a5fa;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .result-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .result-card h3 {
+            margin: 0;
+            font-size: 1.1rem;
+            color: white;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .stat-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin: 10px 0;
+        }
+
+        .stat-label {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+
+        .download-btn {
+            margin-top: auto;
+            width: 100%;
+            justify-content: center;
+        }
+
+        #textarea-output {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Data Extractor</h1>
+            <p class="subtitle">Extract Pomegranate & Diabetes rows from CSV and Excel Files</p>
+        </header>
+
+        <div class="card">
+            <div class="search-inputs">
+                <div class="input-group">
+                    <label for="item-search">Item Search Keyword</label>
+                    <input type="text" id="item-search" value="pomegranate">
+                </div>
+                <div class="input-group">
+                    <label for="disease-search">Disease Search Keyword</label>
+                    <input type="text" id="disease-search" value="diabetes">
+                </div>
+            </div>
+
+            <div class="file-section">
+                <p style="margin: 0 0 10px 0; font-weight: 500;">Select target files from workspace or let us try to fetch them automatically:</p>
+                <div class="action-buttons">
+                    <button class="btn btn-secondary" id="btn-auto-load">⚡ Try Auto-Load from Workspace</button>
+                </div>
+                
+                <div class="file-inputs-grid">
+                    <div class="file-box">
+                        <h3>1. Diabetes_Mellitus_Type_2_all_articles.csv</h3>
+                        <input type="file" id="file-csv" accept=".csv">
+                    </div>
+                    <div class="file-box">
+                        <h3>2. Diabetes_Mellitus_Type_2_recalculated.xlsx</h3>
+                        <input type="file" id="file-recal" accept=".xlsx">
+                    </div>
+                    <div class="file-box">
+                        <h3>3. new_script_mapping11.xlsx</h3>
+                        <input type="file" id="file-mapping" accept=".xlsx">
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="btn" id="btn-process" disabled>🚀 Run Extraction</button>
+            </div>
+        </div>
+
+        <div class="card" style="padding: 20px;">
+            <label style="display: block; margin-bottom: 10px;">Execution Log</label>
+            <div class="log-section" id="log-container">
+                <div class="log-entry log-info">System initialized. Awaiting file loading...</div>
+            </div>
+        </div>
+
+        <div class="results-grid">
+            <!-- CSV Results -->
+            <div class="result-card">
+                <h3>All Articles (CSV)</h3>
+                <div>
+                    <div class="stat-value" id="count-csv">-</div>
+                    <div class="stat-label">Matching Rows Found</div>
+                </div>
+                <button class="btn download-btn" id="dl-csv" disabled>⬇️ Download CSV Results</button>
+            </div>
+
+            <!-- Recalculated Results -->
+            <div class="result-card">
+                <h3>Recalculated (XLSX)</h3>
+                <div>
+                    <div class="stat-value" id="count-recal">-</div>
+                    <div class="stat-label">Matching Rows Found</div>
+                </div>
+                <button class="btn download-btn" id="dl-recal" disabled>⬇️ Download Recalculated Excel</button>
+            </div>
+
+            <!-- Mapping Results -->
+            <div class="result-card">
+                <h3>Mapping (XLSX)</h3>
+                <div>
+                    <div class="stat-value" id="count-mapping">-</div>
+                    <div class="stat-label">Matching Rows Found</div>
+                </div>
+                <button class="btn download-btn" id="dl-mapping" disabled>⬇️ Download Mapping Excel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Textarea for final report reading -->
+    <textarea id="textarea-output"></textarea>
+
+    <script>
+        const logContainer = document.getElementById('log-container');
+        const itemSearchInput = document.getElementById('item-search');
+        const diseaseSearchInput = document.getElementById('disease-search');
+        const btnProcess = document.getElementById('btn-process');
+        const btnAutoLoad = document.getElementById('btn-auto-load');
+        const textareaOutput = document.getElementById('textarea-output');
+
+        const fileCsv = document.getElementById('file-csv');
+        const fileRecal = document.getElementById('file-recal');
+        const fileMapping = document.getElementById('file-mapping');
+
+        const countCsv = document.getElementById('count-csv');
+        const countRecal = document.getElementById('count-recal');
+        const countMapping = document.getElementById('count-mapping');
+
+        const dlCsv = document.getElementById('dl-csv');
+        const dlRecal = document.getElementById('dl-recal');
+        const dlMapping = document.getElementById('dl-mapping');
+
+        let filesData = {
+            csv: null,
+            recal: null,
+            mapping: null
+        };
+
+        let extractedResults = {
+            csv: null,
+            recal: null,
+            mapping: null
+        };
+
+        function log(msg, type = 'info') {
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+            logContainer.appendChild(entry);
+            logContainer.scrollTop = logContainer.scrollHeight;
+        }
+
+        // Enable process button if all files are loaded
+        function checkFilesLoaded() {
+            if (filesData.csv && filesData.recal && filesData.mapping) {
+                btnProcess.disabled = false;
+                log("All 3 files loaded successfully! Ready to run extraction.", "success");
+            } else {
+                btnProcess.disabled = true;
+            }
+        }
+
+        // Handle manual file selections
+        fileCsv.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                log(`CSV selected: ${file.name} (${(file.size/1024/1024).toFixed(2)} MB)`);
+                const reader = new FileReader();
+                reader.onload = (evt) => {
+                    filesData.csv = { name: file.name, content: evt.target.result };
+                    checkFilesLoaded();
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        fileRecal.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                log(`Recalculated XLSX selected: ${file.name} (${(file.size/1024/1024).toFixed(2)} MB)`);
+                const reader = new FileReader();
+                reader.onload = (evt) => {
+                    filesData.recal = { name: file.name, content: evt.target.result };
+                    checkFilesLoaded();
+                };
+                reader.readAsArrayBuffer(file);
+            }
+        });
+
+        fileMapping.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                log(`Mapping XLSX selected: ${file.name} (${(file.size/1024/1024).toFixed(2)} MB)`);
+                const reader = new FileReader();
+                reader.onload = (evt) => {
+                    filesData.mapping = { name: file.name, content: evt.target.result };
+                    checkFilesLoaded();
+                };
+                reader.readAsArrayBuffer(file);
+            }
+        });
+
+        // Try to fetch files directly
+        btnAutoLoad.addEventListener('click', async () => {
+            log("Attempting to auto-load files from relative paths...");
+            
+            // 1. Load CSV
+            try {
+                const res = await fetch('Diabetes_Mellitus_Type_2_all_articles.csv');
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const text = await res.text();
+                filesData.csv = { name: 'Diabetes_Mellitus_Type_2_all_articles.csv', content: text };
+                log("✅ Auto-loaded Diabetes_Mellitus_Type_2_all_articles.csv", "success");
+            } catch (err) {
+                log(`❌ Failed to auto-load CSV: ${err.message}. Please select it manually.`, "error");
+            }
+
+            // 2. Load Recalculated XLSX
+            try {
+                const res = await fetch('Diabetes_Mellitus_Type_2_recalculated.xlsx');
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const buffer = await res.arrayBuffer();
+                filesData.recal = { name: 'Diabetes_Mellitus_Type_2_recalculated.xlsx', content: buffer };
+                log("✅ Auto-loaded Diabetes_Mellitus_Type_2_recalculated.xlsx", "success");
+            } catch (err) {
+                log(`❌ Failed to auto-load Recalculated XLSX: ${err.message}. Please select it manually.`, "error");
+            }
+
+            // 3. Load Mapping XLSX
+            try {
+                const res = await fetch('new_script_mapping11.xlsx');
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const buffer = await res.arrayBuffer();
+                filesData.mapping = { name: 'new_script_mapping11.xlsx', content: buffer };
+                log("✅ Auto-loaded new_script_mapping11.xlsx", "success");
+            } catch (err) {
+                log(`❌ Failed to auto-load Mapping XLSX: ${err.message}. Please select it manually.`, "error");
+            }
+
+            checkFilesLoaded();
+        });
+
+        // Run the extraction process
+        btnProcess.addEventListener('click', () => {
+            log("Starting extraction process...", "info");
+            btnProcess.disabled = true;
+
+            const itemKeyword = itemSearchInput.value.toLowerCase().trim();
+            const diseaseKeyword = diseaseSearchInput.value.toLowerCase().trim();
+
+            log(`Keywords for matching: Item contains "${itemKeyword}", Disease contains "${diseaseKeyword}"`);
+
+            // Helper to check if string contains term
+            const matchesVal = (val, term) => {
+                if (val === undefined || val === null) return false;
+                return String(val).toLowerCase().includes(term);
+            };
+
+            setTimeout(() => {
+                // 1. Process CSV
+                try {
+                    log("Processing CSV articles...");
+                    // CSV Parsing (simple split by newline and comma parsing)
+                    const lines = filesData.csv.content.split('\n');
+                    if (lines.length === 0) throw new Error("Empty CSV");
+
+                    // Read headers
+                    const headersLine = lines[0];
+                    const headers = parseCSVLine(headersLine);
+                    log(`CSV Headers: ${headers.join(', ')}`);
+
+                    // Find columns for item and disease
+                    // We know from viewing: "root_name" is item, "disease" is disease
+                    const itemColIdx = headers.findIndex(h => h.toLowerCase() === 'root_name' || h.toLowerCase() === 'product_name' || h.toLowerCase() === 'productid');
+                    const diseaseColIdx = headers.findIndex(h => h.toLowerCase() === 'disease' || h.toLowerCase() === 'diseaseid');
+
+                    log(`CSV matched column indices: root_name=${itemColIdx}, disease=${diseaseColIdx}`);
+
+                    const matchingRows = [];
+                    // Add header
+                    matchingRows.push(headers);
+
+                    let scanCount = 0;
+                    for (let i = 1; i < lines.length; i++) {
+                        if (!lines[i].trim()) continue;
+                        const row = parseCSVLine(lines[i]);
+                        scanCount++;
+                        
+                        // Check if row matches search criteria
+                        const rootNameVal = itemColIdx !== -1 ? row[itemColIdx] : '';
+                        const diseaseVal = diseaseColIdx !== -1 ? row[diseaseColIdx] : '';
+
+                        // Check full row text too, just in case
+                        const fullRowText = row.join(' ').toLowerCase();
+
+                        // Match logic:
+                        // Item matches pomegranate AND disease matches diabetes
+                        // OR if one is missing, check the other. Let's do intersection:
+                        // both item matches pomegranate and disease matches diabetes
+                        const itemMatches = matchesVal(rootNameVal, itemKeyword) || fullRowText.includes(itemKeyword);
+                        const diseaseMatches = matchesVal(diseaseVal, diseaseKeyword) || fullRowText.includes(diseaseKeyword);
+
+                        if (itemMatches && diseaseMatches) {
+                            matchingRows.push(row);
+                        }
+                    }
+
+                    log(`Scanned ${scanCount} CSV rows. Found ${matchingRows.length - 1} matching rows.`, "success");
+                    countCsv.textContent = matchingRows.length - 1;
+                    extractedResults.csv = matchingRows;
+                    dlCsv.disabled = (matchingRows.length <= 1);
+                } catch (e) {
+                    log(`Error processing CSV: ${e.message}`, "error");
+                    console.error(e);
+                }
+
+                // 2. Process Recalculated XLSX
+                try {
+                    log("Reading Recalculated Excel workbook...");
+                    const workbook = XLSX.read(filesData.recal.content, { type: 'array' });
+                    const sheetName = workbook.SheetNames[0];
+                    log(`Recalculated Excel Sheet: "${sheetName}"`);
+                    const worksheet = workbook.Sheets[sheetName];
+                    const data = XLSX.utils.sheet_to_json(worksheet);
+                    
+                    if (data.length > 0) {
+                        const keys = Object.keys(data[0]);
+                        log(`Recalculated Columns: ${keys.join(', ')}`);
+
+                        // Find matching keys
+                        const itemKey = keys.find(k => k.toLowerCase().includes('item') || k.toLowerCase().includes('product') || k.toLowerCase().includes('name') || k.toLowerCase().includes('root'));
+                        const diseaseKey = keys.find(k => k.toLowerCase().includes('disease') || k.toLowerCase().includes('type'));
+
+                        log(`Matched keys in Recalculated: itemKey="${itemKey}", diseaseKey="${diseaseKey}"`);
+
+                        const matchingRows = [];
+                        data.forEach(row => {
+                            const itemVal = itemKey ? row[itemKey] : '';
+                            const diseaseVal = diseaseKey ? row[diseaseKey] : '';
+                            const fullRowText = Object.values(row).join(' ').toLowerCase();
+
+                            const itemMatches = matchesVal(itemVal, itemKeyword) || fullRowText.includes(itemKeyword);
+                            const diseaseMatches = matchesVal(diseaseVal, diseaseKeyword) || fullRowText.includes(diseaseKeyword);
+
+                            if (itemMatches && diseaseMatches) {
+                                matchingRows.push(row);
+                            }
+                        });
+
+                        log(`Scanned ${data.length} Recalculated rows. Found ${matchingRows.length} matching rows.`, "success");
+                        countRecal.textContent = matchingRows.length;
+                        extractedResults.recal = matchingRows;
+                        dlRecal.disabled = (matchingRows.length === 0);
+                    } else {
+                        log("Recalculated sheet is empty!", "error");
+                    }
+                } catch (e) {
+                    log(`Error processing Recalculated Excel: ${e.message}`, "error");
+                    console.error(e);
+                }
+
+                // 3. Process Mapping XLSX
+                try {
+                    log("Reading Mapping Excel workbook...");
+                    const workbook = XLSX.read(filesData.mapping.content, { type: 'array' });
+                    const sheetName = workbook.SheetNames[0];
+                    log(`Mapping Excel Sheet: "${sheetName}"`);
+                    const worksheet = workbook.Sheets[sheetName];
+                    const data = XLSX.utils.sheet_to_json(worksheet);
+                    
+                    if (data.length > 0) {
+                        const keys = Object.keys(data[0]);
+                        log(`Mapping Columns: ${keys.join(', ')}`);
+
+                        const itemKey = keys.find(k => k.toLowerCase().includes('item') || k.toLowerCase().includes('product') || k.toLowerCase().includes('name') || k.toLowerCase().includes('root'));
+                        const diseaseKey = keys.find(k => k.toLowerCase().includes('disease') || k.toLowerCase().includes('type'));
+
+                        log(`Matched keys in Mapping: itemKey="${itemKey}", diseaseKey="${diseaseKey}"`);
+
+                        const matchingRows = [];
+                        data.forEach(row => {
+                            const itemVal = itemKey ? row[itemKey] : '';
+                            const diseaseVal = diseaseKey ? row[diseaseKey] : '';
+                            const fullRowText = Object.values(row).join(' ').toLowerCase();
+
+                            const itemMatches = matchesVal(itemVal, itemKeyword) || fullRowText.includes(itemKeyword);
+                            const diseaseMatches = matchesVal(diseaseVal, diseaseKeyword) || fullRowText.includes(diseaseKeyword);
+
+                            if (itemMatches && diseaseMatches) {
+                                matchingRows.push(row);
+                            }
+                        });
+
+                        log(`Scanned ${data.length} Mapping rows. Found ${matchingRows.length} matching rows.`, "success");
+                        countMapping.textContent = matchingRows.length;
+                        extractedResults.mapping = matchingRows;
+                        dlMapping.disabled = (matchingRows.length === 0);
+                    } else {
+                        log("Mapping sheet is empty!", "error");
+                    }
+                } catch (e) {
+                    log(`Error processing Mapping Excel: ${e.message}`, "error");
+                    console.error(e);
+                }
+
+                // Update report in textarea
+                updateTextareaReport();
+
+                btnProcess.disabled = false;
+                log("All extractions completed!", "success");
+            }, 100);
+        });
+
+        // Helper to parse standard CSV line taking into account double quotes
+        function parseCSVLine(text) {
+            const result = [];
+            let insideQuote = false;
+            let entry = '';
+            for (let i = 0; i < text.length; i++) {
+                const char = text[i];
+                if (char === '"') {
+                    insideQuote = !insideQuote;
+                } else if (char === ',' && !insideQuote) {
+                    result.push(entry.trim());
+                    entry = '';
+                } else {
+                    entry += char;
+                }
+            }
+            result.push(entry.trim());
+            return result.map(val => {
+                // remove surrounding quotes if still present
+                if (val.startsWith('"') && val.endsWith('"')) {
+                    return val.slice(1, -1);
+                }
+                return val;
+            });
+        }
+
+        function updateTextareaReport() {
+            const report = {
+                summary: {
+                    csvMatchCount: extractedResults.csv ? extractedResults.csv.length - 1 : 0,
+                    recalMatchCount: extractedResults.recal ? extractedResults.recal.length : 0,
+                    mappingMatchCount: extractedResults.mapping ? extractedResults.mapping.length : 0,
+                },
+                csvSamples: extractedResults.csv ? extractedResults.csv.slice(0, 10) : [],
+                recalSamples: extractedResults.recal ? extractedResults.recal.slice(0, 10) : [],
+                mappingSamples: extractedResults.mapping ? extractedResults.mapping.slice(0, 10) : []
+            };
+            textareaOutput.value = JSON.stringify(report, null, 2);
+            log("Report textarea updated with results summary.", "info");
+        }
+
+        // Enable downloads
+        dlCsv.addEventListener('click', () => {
+            if (!extractedResults.csv) return;
+            const csvContent = extractedResults.csv.map(row => 
+                row.map(val => `"${String(val).replace(/"/g, '""')}"`).join(',')
+            ).join('\n');
+            triggerDownload(csvContent, 'extracted_pomegranate_diabetes_all_articles.csv', 'text/csv');
+        });
+
+        dlRecal.addEventListener('click', () => {
+            if (!extractedResults.recal) return;
+            const worksheet = XLSX.utils.json_to_sheet(extractedResults.recal);
+            const newWorkbook = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(newWorkbook, worksheet, "Extracted");
+            const buffer = XLSX.write(newWorkbook, { bookType: 'xlsx', type: 'array' });
+            triggerDownload(buffer, 'extracted_pomegranate_diabetes_recalculated.xlsx', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        });
+
+        dlMapping.addEventListener('click', () => {
+            if (!extractedResults.mapping) return;
+            const worksheet = XLSX.utils.json_to_sheet(extractedResults.mapping);
+            const newWorkbook = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(newWorkbook, worksheet, "Extracted");
+            const buffer = XLSX.write(newWorkbook, { bookType: 'xlsx', type: 'array' });
+            triggerDownload(buffer, 'extracted_pomegranate_diabetes_mapping11.xlsx', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        });
+
+        function triggerDownload(content, filename, contentType) {
+            let blob;
+            if (content instanceof ArrayBuffer || ArrayBuffer.isView(content)) {
+                blob = new Blob([content], { type: contentType });
+            } else {
+                blob = new Blob([content], { type: contentType + ';charset=utf-8;' });
+            }
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            log(`Downloaded: ${filename}`, "success");
+        }
+    </script>
+</body>
+</html>

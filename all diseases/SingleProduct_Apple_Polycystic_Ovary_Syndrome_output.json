@@ -1,0 +1,56 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 45,
+    "disease_name": "Polycystic Ovary Syndrome",
+    "odw": "",
+    "best_mesh_match": "apple",
+    "query_used": "Q3",
+    "articles_count": 3,
+    "calculated_dw": 28,
+    "category": "ready",
+    "q1": "(\"apple\"[Mesh] AND \"apple/therapeutic use\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Polycystic Ovary Syndrome/diet therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/drug therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/prevention and control\"[Mesh] OR \"Polycystic Ovary Syndrome/rehabilitation\"[Mesh] OR \"Polycystic Ovary Syndrome/therapy\"[Mesh])",
+    "q2": "(\"apple\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Polycystic Ovary Syndrome/diet therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/drug therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/prevention and control\"[Mesh] OR \"Polycystic Ovary Syndrome/rehabilitation\"[Mesh] OR \"Polycystic Ovary Syndrome/therapy\"[Mesh])",
+    "q3": "(\"apple\" NOT \"adverse effects\"[Subheading]) AND (\"Polycystic Ovary Syndrome/diet therapy\" OR \"Polycystic Ovary Syndrome/drug therapy\" OR \"Polycystic Ovary Syndrome/prevention and control\" OR \"Polycystic Ovary Syndrome/rehabilitation\" OR \"Polycystic Ovary Syndrome/therapy\")",
+    "articles": [
+      {
+        "title": "Intake of vinegar beverage is associated with restoration of ovulatory function in women with polycystic ovary syndrome.",
+        "authors": "Wu D, Kimura F, Takashima A, Shimizu Y, Takebayashi A, Kita N, Zhang G, Murakami T",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/23666047/",
+        "PMID": "23666047",
+        "doi": "https://doi.org/10.1620/tjem.230.17",
+        "DOI": "10.1620/tjem.230.17",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Clinical Trial, Journal Article",
+        "rate": 4
+      },
+      {
+        "title": "Cardiometabolic effects of SGLT2 inhibitors on polycystic ovary syndrome.",
+        "authors": "Lempesis IG, Apple SJ, Duarte G, Palaiodimos L, Kalaitzopoulos DR, Dalamaga M, Kokkinidis DG",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37392147/",
+        "PMID": "37392147",
+        "doi": "https://doi.org/10.1002/dmrr.3682",
+        "DOI": "10.1002/dmrr.3682",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      },
+      {
+        "title": "Synergistic Amelioration of Letrozole-induced Polycystic Ovary Syndrome in Rats: A Therapeutic Approach with Apple Cider Vinegar and Metformin Combination.",
+        "authors": "Danduga RCSR, Kurapati AS, Shaik RA, Kola PK, Konidala SK, Varada HB",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38777948/",
+        "PMID": "38777948",
+        "doi": "https://doi.org/10.1007/s43032-024-01545-4",
+        "DOI": "10.1007/s43032-024-01545-4",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

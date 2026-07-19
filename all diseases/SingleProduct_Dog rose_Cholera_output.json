@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 64,
+    "disease_name": "Cholera",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Cholera/diet therapy\"[Mesh] OR \"Cholera/drug therapy\"[Mesh] OR \"Cholera/prevention and control\"[Mesh] OR \"Cholera/rehabilitation\"[Mesh] OR \"Cholera/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Cholera/diet therapy\"[Mesh] OR \"Cholera/drug therapy\"[Mesh] OR \"Cholera/prevention and control\"[Mesh] OR \"Cholera/rehabilitation\"[Mesh] OR \"Cholera/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Cholera/diet therapy\" OR \"Cholera/drug therapy\" OR \"Cholera/prevention and control\" OR \"Cholera/rehabilitation\" OR \"Cholera/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

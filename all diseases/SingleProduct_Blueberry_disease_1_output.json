@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blueberry",
+    "disease_id": 1,
+    "disease_name": "disease_1",
+    "odw": "",
+    "best_mesh_match": "Blueberry Plants",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "",
+    "q2": "",
+    "q3": "",
+    "articles": [],
+    "all_product_names": "Blueberry"
+  }
+]

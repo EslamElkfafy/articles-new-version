@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 64,
+    "disease_name": "Cholera",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 1,
+    "calculated_dw": 1,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Cholera/diet therapy\"[Mesh] OR \"Cholera/drug therapy\"[Mesh] OR \"Cholera/prevention and control\"[Mesh] OR \"Cholera/rehabilitation\"[Mesh] OR \"Cholera/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Cholera/diet therapy\"[Mesh] OR \"Cholera/drug therapy\"[Mesh] OR \"Cholera/prevention and control\"[Mesh] OR \"Cholera/rehabilitation\"[Mesh] OR \"Cholera/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Cholera/diet therapy\" OR \"Cholera/drug therapy\" OR \"Cholera/prevention and control\" OR \"Cholera/rehabilitation\" OR \"Cholera/therapy\")",
+    "articles": [
+      {
+        "title": "Neutralization of cholera toxin by Rosaceae family plant extracts.",
+        "authors": "Komiazyk M, Palczewska M, Sitkiewicz I, Pikula S, Groves P",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31221152/",
+        "PMID": "31221152",
+        "doi": "https://doi.org/10.1186/s12906-019-2540-6",
+        "DOI": "10.1186/s12906-019-2540-6",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6587261/",
+        "PMCID": "PMC6587261",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

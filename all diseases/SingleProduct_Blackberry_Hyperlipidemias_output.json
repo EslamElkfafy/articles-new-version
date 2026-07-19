@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 38,
+    "disease_name": "Hyperlipidemias",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 7,
+    "calculated_dw": 40,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Hyperlipidemias/diet therapy\"[Mesh] OR \"Hyperlipidemias/drug therapy\"[Mesh] OR \"Hyperlipidemias/prevention and control\"[Mesh] OR \"Hyperlipidemias/rehabilitation\"[Mesh] OR \"Hyperlipidemias/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Hyperlipidemias/diet therapy\"[Mesh] OR \"Hyperlipidemias/drug therapy\"[Mesh] OR \"Hyperlipidemias/prevention and control\"[Mesh] OR \"Hyperlipidemias/rehabilitation\"[Mesh] OR \"Hyperlipidemias/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Hyperlipidemias/diet therapy\" OR \"Hyperlipidemias/drug therapy\" OR \"Hyperlipidemias/prevention and control\" OR \"Hyperlipidemias/rehabilitation\" OR \"Hyperlipidemias/therapy\")",
+    "articles": [
+      {
+        "title": "The cholesterol-lowering effect of unripe Rubus coreanus is associated with decreased oxidized LDL and apolipoprotein B levels in subjects with borderline-high cholesterol levels: a randomized controlled trial.",
+        "authors": "Cho JM, Chae J, Jeong SR, Moon MJ, Ha KC, Kim S, Lee JH",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/32646501/",
+        "PMID": "32646501",
+        "doi": "https://doi.org/10.1186/s12944-020-01338-z",
+        "DOI": "10.1186/s12944-020-01338-z",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7350759/",
+        "PMCID": "PMC7350759",
+        "pubtypes": "Journal Article, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Raspberry anthocyanin consumption prevents diet-induced obesity by alleviating oxidative stress and modulating hepatic lipid metabolism.",
+        "authors": "Wu T , Yang L , Guo X , Zhang M , Liu R , Sui W ",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/29632909/",
+        "PMID": "29632909",
+        "doi": "https://doi.org/10.1039/c7fo02061a",
+        "DOI": "10.1039/c7fo02061a",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Multifaceted Effect of Rubus Occidentalis on Hyperglycemia and Hypercholesterolemia in Mice with Diet-Induced Metabolic Diseases.",
+        "authors": "Kim J, An J, Lee H, Kim K, Lee SJ, Choi HR, Kwon JW, Lee TB, Song Y, Kong H",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30513715/",
+        "PMID": "30513715",
+        "doi": "https://doi.org/10.3390/nu10121846",
+        "DOI": "10.3390/nu10121846",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6315456/",
+        "PMCID": "PMC6315456",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Red raspberry extract (Rubus idaeus L shrub) intake ameliorates hyperlipidemia in HFD-induced mice through PPAR signaling pathway.",
+        "authors": "Tu L, Sun H, Tang M, Zhao J, Zhang Z, Sun X, He S",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31472226/",
+        "PMID": "31472226",
+        "doi": "https://doi.org/10.1016/j.fct.2019.110796",
+        "DOI": "10.1016/j.fct.2019.110796",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Unripe Rubus coreanus Miquel Extract Containing Ellagic Acid Regulates AMPK, SREBP-2, HMGCR, and INSIG-1 Signaling and Cholesterol Metabolism In Vitro and In Vivo.",
+        "authors": "Lee KH, Jeong ES, Jang G, Na JR, Park S, Kang WS, Kim E, Choi H, Kim JS, Kim S",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/32110925/",
+        "PMID": "32110925",
+        "doi": "https://doi.org/10.3390/nu12030610",
+        "DOI": "10.3390/nu12030610",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7146129/",
+        "PMCID": "PMC7146129",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "(1)H-NMR Metabolomics Analysis of the Effect of Rubusoside on Serum Metabolites of Golden Hamsters on a High-Fat Diet.",
+        "authors": "Li L, Jiang M, Li Y, Su J, Li L, Qu X, Fan L",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/32168894/",
+        "PMID": "32168894",
+        "doi": "https://doi.org/10.3390/molecules25061274",
+        "DOI": "10.3390/molecules25061274",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7143983/",
+        "PMCID": "PMC7143983",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Protective Effects of Black Raspberry (Rubus occidentalis) Extract against Hypercholesterolemia and Hepatic Inflammation in Rats Fed High-Fat and High-Choline Diets.",
+        "authors": "Lim T, Ryu J, Lee K, Park SY, Hwang KT",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/32824008/",
+        "PMID": "32824008",
+        "doi": "https://doi.org/10.3390/nu12082448",
+        "DOI": "10.3390/nu12082448",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7468928/",
+        "PMCID": "PMC7468928",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

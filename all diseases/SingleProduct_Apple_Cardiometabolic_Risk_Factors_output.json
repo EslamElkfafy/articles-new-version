@@ -1,0 +1,19 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 36,
+    "disease_name": "Cardiometabolic Risk Factors",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Cardiometabolic Risk Factors/diet therapy\"[Mesh] OR \"Cardiometabolic Risk Factors/drug therapy\"[Mesh] OR \"Cardiometabolic Risk Factors/prevention and control\"[Mesh] OR \"Cardiometabolic Risk Factors/rehabilitation\"[Mesh] OR \"Cardiometabolic Risk Factors/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Cardiometabolic Risk Factors/diet therapy\"[Mesh] OR \"Cardiometabolic Risk Factors/drug therapy\"[Mesh] OR \"Cardiometabolic Risk Factors/prevention and control\"[Mesh] OR \"Cardiometabolic Risk Factors/rehabilitation\"[Mesh] OR \"Cardiometabolic Risk Factors/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Cardiometabolic Risk Factors/diet therapy\" OR \"Cardiometabolic Risk Factors/drug therapy\" OR \"Cardiometabolic Risk Factors/prevention and control\" OR \"Cardiometabolic Risk Factors/rehabilitation\" OR \"Cardiometabolic Risk Factors/therapy\")",
+    "articles": [],
+    "all_product_names": "Apple"
+  }
+]

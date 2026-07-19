@@ -1,0 +1,32 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 39,
+    "disease_name": "Inflammatory Bowel Diseases",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "Q3",
+    "articles_count": 1,
+    "calculated_dw": 1,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Inflammatory Bowel Diseases/diet therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/drug therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/prevention and control\"[Mesh] OR \"Inflammatory Bowel Diseases/rehabilitation\"[Mesh] OR \"Inflammatory Bowel Diseases/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Inflammatory Bowel Diseases/diet therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/drug therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/prevention and control\"[Mesh] OR \"Inflammatory Bowel Diseases/rehabilitation\"[Mesh] OR \"Inflammatory Bowel Diseases/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Inflammatory Bowel Diseases/diet therapy\" OR \"Inflammatory Bowel Diseases/drug therapy\" OR \"Inflammatory Bowel Diseases/prevention and control\" OR \"Inflammatory Bowel Diseases/rehabilitation\" OR \"Inflammatory Bowel Diseases/therapy\")",
+    "articles": [
+      {
+        "title": "Role of Apple Phytochemicals, Phloretin and Phloridzin, in Modulating Processes Related to Intestinal Inflammation.",
+        "authors": "Zielinska D, Laparra-Llopis JM, Zielinski H, Szawara-Nowak D, Giménez-Bastida JA",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31130634/",
+        "PMID": "31130634",
+        "doi": "https://doi.org/10.3390/nu11051173",
+        "DOI": "10.3390/nu11051173",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6566941/",
+        "PMCID": "PMC6566941",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "apples"
+  }
+]

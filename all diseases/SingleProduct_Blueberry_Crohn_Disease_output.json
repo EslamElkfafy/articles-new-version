@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blueberry",
+    "disease_id": 67,
+    "disease_name": "Crohn Disease",
+    "odw": "",
+    "best_mesh_match": "Blueberry Plants",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Blueberry Plants\"[Mesh] AND \"Blueberry Plants/therapeutic use\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Crohn Disease/diet therapy\"[Mesh] OR \"Crohn Disease/drug therapy\"[Mesh] OR \"Crohn Disease/prevention and control\"[Mesh] OR \"Crohn Disease/rehabilitation\"[Mesh] OR \"Crohn Disease/therapy\"[Mesh])",
+    "q2": "(\"Blueberry Plants\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Crohn Disease/diet therapy\"[Mesh] OR \"Crohn Disease/drug therapy\"[Mesh] OR \"Crohn Disease/prevention and control\"[Mesh] OR \"Crohn Disease/rehabilitation\"[Mesh] OR \"Crohn Disease/therapy\"[Mesh])",
+    "q3": "(\"Blueberry Plants\" NOT \"adverse effects\"[Subheading]) AND (\"Crohn Disease/diet therapy\" OR \"Crohn Disease/drug therapy\" OR \"Crohn Disease/prevention and control\" OR \"Crohn Disease/rehabilitation\" OR \"Crohn Disease/therapy\")",
+    "articles": [],
+    "all_product_names": "Blueberry"
+  }
+]

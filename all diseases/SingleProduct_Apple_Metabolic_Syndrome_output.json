@@ -1,0 +1,68 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 49,
+    "disease_name": "Metabolic Syndrome",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "Q2",
+    "articles_count": 4,
+    "calculated_dw": 4,
+    "category": "ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Metabolic Syndrome/diet therapy\"[Mesh] OR \"Metabolic Syndrome/drug therapy\"[Mesh] OR \"Metabolic Syndrome/prevention and control\"[Mesh] OR \"Metabolic Syndrome/rehabilitation\"[Mesh] OR \"Metabolic Syndrome/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Metabolic Syndrome/diet therapy\"[Mesh] OR \"Metabolic Syndrome/drug therapy\"[Mesh] OR \"Metabolic Syndrome/prevention and control\"[Mesh] OR \"Metabolic Syndrome/rehabilitation\"[Mesh] OR \"Metabolic Syndrome/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Metabolic Syndrome/diet therapy\" OR \"Metabolic Syndrome/drug therapy\" OR \"Metabolic Syndrome/prevention and control\" OR \"Metabolic Syndrome/rehabilitation\" OR \"Metabolic Syndrome/therapy\")",
+    "articles": [
+      {
+        "title": "Highly methoxylated pectin improves insulin resistance and other cardiometabolic risk factors in Zucker fatty rats.",
+        "authors": "Sánchez D, Muguerza B, Moulay L, Hernández R, Miguel M, Aleixandre A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/18433105/",
+        "PMID": "18433105",
+        "doi": "https://doi.org/10.1021/jf703598j",
+        "DOI": "10.1021/jf703598j",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Gut microbiome-mediated glucose and lipid metabolism mechanism of star apple leaf polyphenol-enriched fraction on metabolic syndrome in diabetic mice.",
+        "authors": "Wang Y, Jia Y, Li S, Li N, Zhou J, Liu J, Yang S, Zhang M, Panichayupakaranant P, Chen H",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37094426/",
+        "PMID": "37094426",
+        "doi": "https://doi.org/10.1016/j.phymed.2023.154820",
+        "DOI": "10.1016/j.phymed.2023.154820",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Personalized and precise functional assessment of innovative flatbreads toward the colon microbiota of people with metabolic syndrome: Results from an in vitro simulation.",
+        "authors": "Gianotti A, Marin V, Cardone G, Bordoni A, Mancini E, Magni M, Pichler A, Ciani S, Polenghi O, Cerne VL, Nissen L",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40253173/",
+        "PMID": "40253173",
+        "doi": "https://doi.org/10.1016/j.foodres.2025.116197",
+        "DOI": "10.1016/j.foodres.2025.116197",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Effects of Three Homogalacturonan-Type Pectins on Mice with Metabolic Syndrome.",
+        "authors": "Li S, Tan H, Yang J, Yao H, Nie X, Peng X, Liu Q, Yang W, Liu G, Nie Q, Bian S, Huang X, Yin JY, Cui SW, Nie SP",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40376805/",
+        "PMID": "40376805",
+        "doi": "https://doi.org/10.1021/acs.jafc.4c11988",
+        "DOI": "10.1021/acs.jafc.4c11988",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

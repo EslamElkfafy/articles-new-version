@@ -1,0 +1,56 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 79,
+    "disease_name": "Urolithiasis",
+    "odw": "",
+    "best_mesh_match": "apple",
+    "query_used": "Q3",
+    "articles_count": 3,
+    "calculated_dw": 55,
+    "category": "ready",
+    "q1": "(\"apple\"[Mesh] AND \"apple/therapeutic use\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Urolithiasis/diet therapy\"[Mesh] OR \"Urolithiasis/drug therapy\"[Mesh] OR \"Urolithiasis/prevention and control\"[Mesh] OR \"Urolithiasis/rehabilitation\"[Mesh] OR \"Urolithiasis/therapy\"[Mesh])",
+    "q2": "(\"apple\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Urolithiasis/diet therapy\"[Mesh] OR \"Urolithiasis/drug therapy\"[Mesh] OR \"Urolithiasis/prevention and control\"[Mesh] OR \"Urolithiasis/rehabilitation\"[Mesh] OR \"Urolithiasis/therapy\"[Mesh])",
+    "q3": "(\"apple\" NOT \"adverse effects\"[Subheading]) AND (\"Urolithiasis/diet therapy\" OR \"Urolithiasis/drug therapy\" OR \"Urolithiasis/prevention and control\" OR \"Urolithiasis/rehabilitation\" OR \"Urolithiasis/therapy\")",
+    "articles": [
+      {
+        "title": "Dietary interventions on nutritional management of population with urolithiasis: a systematic review of clinical evidence.",
+        "authors": "Pacheco-Hernández B, Sansores-España D, Medina-Vera I, Rubio-Zapata H, Reyes-García JG, Rocha-González HI, Guevara-Cruz M, Gutiérrez-Solis AL, Lugo R, Márquez-Mota CC, Avila-Nava A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40936162/",
+        "PMID": "40936162",
+        "doi": "https://doi.org/10.1017/S0954422425100188",
+        "DOI": "10.1017/S0954422425100188",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Systematic Review, Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 5
+      },
+      {
+        "title": "Apple cider vinegar for prevention of urinary lithiasis (APUL): a randomized crossover trial.",
+        "authors": "Baker B, Herforth C, Low J, Craig R, Christman M",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41351751/",
+        "PMID": "41351751",
+        "doi": "https://doi.org/10.1007/s11255-025-04944-x",
+        "DOI": "10.1007/s11255-025-04944-x",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13194252/",
+        "PMCID": "PMC13194252",
+        "pubtypes": "Journal Article, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Smartphone apps for urolithiasis.",
+        "authors": "Stevens DJ, McKenzie K, Cui HW, Noble JG, Turney BW",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25410731/",
+        "PMID": "25410731",
+        "doi": "https://doi.org/10.1007/s00240-014-0738-0",
+        "DOI": "10.1007/s00240-014-0738-0",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

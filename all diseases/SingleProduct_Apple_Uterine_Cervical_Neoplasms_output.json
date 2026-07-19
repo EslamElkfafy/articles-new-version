@@ -1,0 +1,68 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 54,
+    "disease_name": "Uterine Cervical Neoplasms",
+    "odw": "",
+    "best_mesh_match": "apple",
+    "query_used": "Q3",
+    "articles_count": 4,
+    "calculated_dw": 55,
+    "category": "ready",
+    "q1": "(\"apple\"[Mesh] AND \"apple/therapeutic use\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Uterine Cervical Neoplasms/diet therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/drug therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/prevention and control\"[Mesh] OR \"Uterine Cervical Neoplasms/rehabilitation\"[Mesh] OR \"Uterine Cervical Neoplasms/therapy\"[Mesh])",
+    "q2": "(\"apple\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Uterine Cervical Neoplasms/diet therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/drug therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/prevention and control\"[Mesh] OR \"Uterine Cervical Neoplasms/rehabilitation\"[Mesh] OR \"Uterine Cervical Neoplasms/therapy\"[Mesh])",
+    "q3": "(\"apple\" NOT \"adverse effects\"[Subheading]) AND (\"Uterine Cervical Neoplasms/diet therapy\" OR \"Uterine Cervical Neoplasms/drug therapy\" OR \"Uterine Cervical Neoplasms/prevention and control\" OR \"Uterine Cervical Neoplasms/rehabilitation\" OR \"Uterine Cervical Neoplasms/therapy\")",
+    "articles": [
+      {
+        "title": "A Systematic Review of Cervical Cancer Mobile Applications and a Future Directions for Developers.",
+        "authors": "Purohit R, Singh S, Vaishampayan D, Sane Y, Pande J, Devi S",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39471008/",
+        "PMID": "39471008",
+        "doi": "https://doi.org/10.31557/APJCP.2024.25.10.3429",
+        "DOI": "10.31557/APJCP.2024.25.10.3429",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11711358/",
+        "PMCID": "PMC11711358",
+        "pubtypes": "Journal Article, Systematic Review",
+        "rate": 5
+      },
+      {
+        "title": "Interlaboratory variation in the performance of liquid-based cytology: insights from the ATHENA trial.",
+        "authors": "Wright TC Jr, Stoler MH, Behrens CM, Sharma A, Sharma K, Apple R",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24122508/",
+        "PMID": "24122508",
+        "doi": "https://doi.org/10.1002/ijc.28514",
+        "DOI": "10.1002/ijc.28514",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Clinical Trial, Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 4
+      },
+      {
+        "title": "Quercetin-3-Glucoside Extracted from Apple Pomace Induces Cell Cycle Arrest and Apoptosis by Increasing Intracellular ROS Levels.",
+        "authors": "Nile A, Nile SH, Shin J, Park G, Oh JW",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34639090/",
+        "PMID": "34639090",
+        "doi": "https://doi.org/10.3390/ijms221910749",
+        "DOI": "10.3390/ijms221910749",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8509831/",
+        "PMCID": "PMC8509831",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Knowledge and Awareness of Human Papillomavirus Vaccination and Cervical Cancer among Men and Women in Japan: A Questionnaire Survey.",
+        "authors": "Horio F, Ikeda T, Zaitsu M, Takebe D, Tabata A, Matsukura M, Fujii I, Uchida Y",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36974562/",
+        "PMID": "36974562",
+        "doi": "https://doi.org/10.31557/APJCP.2023.24.3.1063",
+        "DOI": "10.31557/APJCP.2023.24.3.1063",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10334079/",
+        "PMCID": "PMC10334079",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

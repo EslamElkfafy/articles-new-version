@@ -1,0 +1,19 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 83,
+    "disease_name": "Alzheimer Disease",
+    "odw": "",
+    "best_mesh_match": "apple",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"apple\"[Mesh] AND \"apple/therapeutic use\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Alzheimer Disease/diet therapy\"[Mesh] OR \"Alzheimer Disease/drug therapy\"[Mesh] OR \"Alzheimer Disease/prevention and control\"[Mesh] OR \"Alzheimer Disease/rehabilitation\"[Mesh] OR \"Alzheimer Disease/therapy\"[Mesh])",
+    "q2": "(\"apple\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Alzheimer Disease/diet therapy\"[Mesh] OR \"Alzheimer Disease/drug therapy\"[Mesh] OR \"Alzheimer Disease/prevention and control\"[Mesh] OR \"Alzheimer Disease/rehabilitation\"[Mesh] OR \"Alzheimer Disease/therapy\"[Mesh])",
+    "q3": "(\"apple\" NOT \"adverse effects\"[Subheading]) AND (\"Alzheimer Disease/diet therapy\" OR \"Alzheimer Disease/drug therapy\" OR \"Alzheimer Disease/prevention and control\" OR \"Alzheimer Disease/rehabilitation\" OR \"Alzheimer Disease/therapy\")",
+    "articles": [],
+    "all_product_names": "Apple"
+  }
+]

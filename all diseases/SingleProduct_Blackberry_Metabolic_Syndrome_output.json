@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 49,
+    "disease_name": "Metabolic Syndrome",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 7,
+    "calculated_dw": 64,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Metabolic Syndrome/diet therapy\"[Mesh] OR \"Metabolic Syndrome/drug therapy\"[Mesh] OR \"Metabolic Syndrome/prevention and control\"[Mesh] OR \"Metabolic Syndrome/rehabilitation\"[Mesh] OR \"Metabolic Syndrome/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Metabolic Syndrome/diet therapy\"[Mesh] OR \"Metabolic Syndrome/drug therapy\"[Mesh] OR \"Metabolic Syndrome/prevention and control\"[Mesh] OR \"Metabolic Syndrome/rehabilitation\"[Mesh] OR \"Metabolic Syndrome/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Metabolic Syndrome/diet therapy\" OR \"Metabolic Syndrome/drug therapy\" OR \"Metabolic Syndrome/prevention and control\" OR \"Metabolic Syndrome/rehabilitation\" OR \"Metabolic Syndrome/therapy\")",
+    "articles": [
+      {
+        "title": "Effects of black raspberry on lipid profiles and vascular endothelial function in patients with metabolic syndrome.",
+        "authors": "Jeong HS, Hong SJ, Lee TB, Kwon JW, Jeong JT, Joo HJ, Park JH, Ahn CM, Yu CW, Lim DS",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24706588/",
+        "PMID": "24706588",
+        "doi": "https://doi.org/10.1002/ptr.5154",
+        "DOI": "10.1002/ptr.5154",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't",
+        "rate": 4
+      },
+      {
+        "title": "Black Raspberry Extract Increased Circulating Endothelial Progenitor Cells and Improved Arterial Stiffness in Patients with Metabolic Syndrome: A Randomized Controlled Trial.",
+        "authors": "Jeong HS, Kim S, Hong SJ, Choi SC, Choi JH, Kim JH, Park CY, Cho JY, Lee TB, Kwon JW, Joo HJ, Park JH, Yu CW, Lim DS",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/26891216/",
+        "PMID": "26891216",
+        "doi": "https://doi.org/10.1089/jmf.2015.3563",
+        "DOI": "10.1089/jmf.2015.3563",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't",
+        "rate": 4
+      },
+      {
+        "title": "Effects of Daily Raspberry Consumption on Immune-Metabolic Health in Subjects at Risk of Metabolic Syndrome: A Randomized Controlled Trial.",
+        "authors": "Franck M, de Toro-Martín J, Garneau V, Guay V, Kearney M, Pilon G, Roy D, Couture P, Couillard C, Marette A, Vohl MC",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/33348685/",
+        "PMID": "33348685",
+        "doi": "https://doi.org/10.3390/nu12123858",
+        "DOI": "10.3390/nu12123858",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7767072/",
+        "PMCID": "PMC7767072",
+        "pubtypes": "Journal Article, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Consumption of a single serving of red raspberries per day reduces metabolic syndrome parameters in high-fat fed mice.",
+        "authors": "Luo T, Miranda-Garcia O, Sasaki G, Shay NF",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/28984888/",
+        "PMID": "28984888",
+        "doi": "https://doi.org/10.1039/c7fo00702g",
+        "DOI": "10.1039/c7fo00702g",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Biotic elicitation as a tool to improve strawberry and raspberry extract potential on metabolic syndrome-related enzymes in vitro.",
+        "authors": "Gutierrez-Albanchez E, Kirakosyan A, Bolling SF, García-Villaraco A, Gutierrez-Mañero J, Ramos-Solano B",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30471120/",
+        "PMID": "30471120",
+        "doi": "https://doi.org/10.1002/jsfa.9507",
+        "DOI": "10.1002/jsfa.9507",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Multifaceted Effect of Rubus Occidentalis on Hyperglycemia and Hypercholesterolemia in Mice with Diet-Induced Metabolic Diseases.",
+        "authors": "Kim J, An J, Lee H, Kim K, Lee SJ, Choi HR, Kwon JW, Lee TB, Song Y, Kong H",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30513715/",
+        "PMID": "30513715",
+        "doi": "https://doi.org/10.3390/nu10121846",
+        "DOI": "10.3390/nu10121846",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6315456/",
+        "PMCID": "PMC6315456",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Blueberry and Blackberry Anthocyanins Ameliorate Metabolic Syndrome by Modulating Gut Microbiota and Short-Chain Fatty Acids Metabolism in High-Fat Diet-Fed C57BL/6J Mice.",
+        "authors": "Du L, Lü H, Chen Y, Yu X, Jian T, Zhao H, Wu W, Ding X, Chen J, Li W",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37755883/",
+        "PMID": "37755883",
+        "doi": "https://doi.org/10.1021/acs.jafc.3c04606",
+        "DOI": "10.1021/acs.jafc.3c04606",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

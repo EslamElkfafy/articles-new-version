@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 85,
+    "disease_name": "Atherosclerosis",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Atherosclerosis/diet therapy\"[Mesh] OR \"Atherosclerosis/drug therapy\"[Mesh] OR \"Atherosclerosis/prevention and control\"[Mesh] OR \"Atherosclerosis/rehabilitation\"[Mesh] OR \"Atherosclerosis/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Atherosclerosis/diet therapy\"[Mesh] OR \"Atherosclerosis/drug therapy\"[Mesh] OR \"Atherosclerosis/prevention and control\"[Mesh] OR \"Atherosclerosis/rehabilitation\"[Mesh] OR \"Atherosclerosis/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Atherosclerosis/diet therapy\" OR \"Atherosclerosis/drug therapy\" OR \"Atherosclerosis/prevention and control\" OR \"Atherosclerosis/rehabilitation\" OR \"Atherosclerosis/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

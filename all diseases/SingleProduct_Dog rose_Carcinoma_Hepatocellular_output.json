@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 44,
+    "disease_name": "Carcinoma, Hepatocellular",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Carcinoma, Hepatocellular/diet therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/drug therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/prevention and control\"[Mesh] OR \"Carcinoma, Hepatocellular/rehabilitation\"[Mesh] OR \"Carcinoma, Hepatocellular/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Carcinoma, Hepatocellular/diet therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/drug therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/prevention and control\"[Mesh] OR \"Carcinoma, Hepatocellular/rehabilitation\"[Mesh] OR \"Carcinoma, Hepatocellular/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Carcinoma, Hepatocellular/diet therapy\" OR \"Carcinoma, Hepatocellular/drug therapy\" OR \"Carcinoma, Hepatocellular/prevention and control\" OR \"Carcinoma, Hepatocellular/rehabilitation\" OR \"Carcinoma, Hepatocellular/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

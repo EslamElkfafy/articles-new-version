@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 70,
+    "disease_name": "Parkinson Disease",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q3",
+    "articles_count": 1,
+    "calculated_dw": 1,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Parkinson Disease/diet therapy\"[Mesh] OR \"Parkinson Disease/drug therapy\"[Mesh] OR \"Parkinson Disease/prevention and control\"[Mesh] OR \"Parkinson Disease/rehabilitation\"[Mesh] OR \"Parkinson Disease/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Parkinson Disease/diet therapy\"[Mesh] OR \"Parkinson Disease/drug therapy\"[Mesh] OR \"Parkinson Disease/prevention and control\"[Mesh] OR \"Parkinson Disease/rehabilitation\"[Mesh] OR \"Parkinson Disease/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Parkinson Disease/diet therapy\" OR \"Parkinson Disease/drug therapy\" OR \"Parkinson Disease/prevention and control\" OR \"Parkinson Disease/rehabilitation\" OR \"Parkinson Disease/therapy\")",
+    "articles": [
+      {
+        "title": "[Isolation and identification of Suavissimoside R1 from roots of Rubus parvifollus used for protecting dopaminergic neurons against MPP+ toxicity].",
+        "authors": "Yu ZY, Ruan HL, Zhu XN, Wang XL, Chen RZ, Lin YC",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/18661829/",
+        "PMID": "18661829",
+        "doi": "No DOI available",
+        "DOI": null,
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "English Abstract, Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

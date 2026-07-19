@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 54,
+    "disease_name": "Uterine Cervical Neoplasms",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 3,
+    "calculated_dw": 3,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Uterine Cervical Neoplasms/diet therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/drug therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/prevention and control\"[Mesh] OR \"Uterine Cervical Neoplasms/rehabilitation\"[Mesh] OR \"Uterine Cervical Neoplasms/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Uterine Cervical Neoplasms/diet therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/drug therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/prevention and control\"[Mesh] OR \"Uterine Cervical Neoplasms/rehabilitation\"[Mesh] OR \"Uterine Cervical Neoplasms/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Uterine Cervical Neoplasms/diet therapy\" OR \"Uterine Cervical Neoplasms/drug therapy\" OR \"Uterine Cervical Neoplasms/prevention and control\" OR \"Uterine Cervical Neoplasms/rehabilitation\" OR \"Uterine Cervical Neoplasms/therapy\")",
+    "articles": [
+      {
+        "title": "Raspberry-like poly(γ-glutamic acid) hydrogel particles for pH-dependent cell membrane passage and controlled cytosolic delivery of antitumor drugs.",
+        "authors": "Cho SH, Hong JH, Noh YW, Lee E, Lee CS, Lim YT",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/27822040/",
+        "PMID": "27822040",
+        "doi": "https://doi.org/10.2147/IJN.S117862",
+        "DOI": "10.2147/IJN.S117862",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5089826/",
+        "PMCID": "PMC5089826",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Raspberry Extract With Potential Antitumor Activity Against Cervical Cancer.",
+        "authors": "Sham N, Qin C, Zhu Z, Redington CG, Xiao H, Bai Q, Wakefield MR, Kou L, Fang Y",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34230130/",
+        "PMID": "34230130",
+        "doi": "https://doi.org/10.21873/anticanres.15122",
+        "DOI": "10.21873/anticanres.15122",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "The In-Vitro Effect of Homeopathically Prepared Rubus idaeus and 680 nm Laser Irradiation on Cervical Cancer Cells.",
+        "authors": "Joubert KS, George BP, Razlog R, Abrahamse H",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35835442/",
+        "PMID": "35835442",
+        "doi": "https://doi.org/10.1055/s-0042-1747683",
+        "DOI": "10.1055/s-0042-1747683",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

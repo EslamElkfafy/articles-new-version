@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 46,
+    "disease_name": "Prediabetic State",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 4,
+    "calculated_dw": 44,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Prediabetic State/diet therapy\"[Mesh] OR \"Prediabetic State/drug therapy\"[Mesh] OR \"Prediabetic State/prevention and control\"[Mesh] OR \"Prediabetic State/rehabilitation\"[Mesh] OR \"Prediabetic State/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Prediabetic State/diet therapy\"[Mesh] OR \"Prediabetic State/drug therapy\"[Mesh] OR \"Prediabetic State/prevention and control\"[Mesh] OR \"Prediabetic State/rehabilitation\"[Mesh] OR \"Prediabetic State/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Prediabetic State/diet therapy\" OR \"Prediabetic State/drug therapy\" OR \"Prediabetic State/prevention and control\" OR \"Prediabetic State/rehabilitation\" OR \"Prediabetic State/therapy\")",
+    "articles": [
+      {
+        "title": "Attenuation of Postmeal Metabolic Indices with Red Raspberries in Individuals at Risk for Diabetes: A Randomized Controlled Trial.",
+        "authors": "Xiao D, Zhu L, Edirisinghe I, Fareed J, Brailovsky Y, Burton-Freeman B",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30767409/",
+        "PMID": "30767409",
+        "doi": "https://doi.org/10.1002/oby.22406",
+        "DOI": "10.1002/oby.22406",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't",
+        "rate": 4
+      },
+      {
+        "title": "Plasma and Urinary (Poly)phenolic Profiles after 4-Week Red Raspberry (Rubus idaeus L.) Intake with or without Fructo-Oligosaccharide Supplementation.",
+        "authors": "Zhang X, Sandhu A, Edirisinghe I, Burton-Freeman BM",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/33080934/",
+        "PMID": "33080934",
+        "doi": "https://doi.org/10.3390/molecules25204777",
+        "DOI": "10.3390/molecules25204777",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7594073/",
+        "PMCID": "PMC7594073",
+        "pubtypes": "Journal Article, Randomized Controlled Trial",
+        "rate": 4
+      },
+      {
+        "title": "Effects of Dietary Red Raspberry Consumption on Pre-Diabetes and Type 2 Diabetes Mellitus Parameters.",
+        "authors": "Derrick SA, Kristo AS, Reaves SK, Sikalidis AK",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34501954/",
+        "PMID": "34501954",
+        "doi": "https://doi.org/10.3390/ijerph18179364",
+        "DOI": "10.3390/ijerph18179364",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8431376/",
+        "PMCID": "PMC8431376",
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't, Review",
+        "rate": 2
+      },
+      {
+        "title": "Pharmacokinetic Evaluation of Red Raspberry (Poly)phenols from Two Doses and Association with Metabolic Indices in Adults with Prediabetes and Insulin Resistance.",
+        "authors": "Zhang X, Fan J, Xiao D, Edirisinghe I, Burton-Freeman BM, Sandhu AK",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34357772/",
+        "PMID": "34357772",
+        "doi": "https://doi.org/10.1021/acs.jafc.1c02404",
+        "DOI": "10.1021/acs.jafc.1c02404",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

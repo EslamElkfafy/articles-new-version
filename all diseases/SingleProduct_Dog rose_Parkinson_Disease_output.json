@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 70,
+    "disease_name": "Parkinson Disease",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Parkinson Disease/diet therapy\"[Mesh] OR \"Parkinson Disease/drug therapy\"[Mesh] OR \"Parkinson Disease/prevention and control\"[Mesh] OR \"Parkinson Disease/rehabilitation\"[Mesh] OR \"Parkinson Disease/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Parkinson Disease/diet therapy\"[Mesh] OR \"Parkinson Disease/drug therapy\"[Mesh] OR \"Parkinson Disease/prevention and control\"[Mesh] OR \"Parkinson Disease/rehabilitation\"[Mesh] OR \"Parkinson Disease/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Parkinson Disease/diet therapy\" OR \"Parkinson Disease/drug therapy\" OR \"Parkinson Disease/prevention and control\" OR \"Parkinson Disease/rehabilitation\" OR \"Parkinson Disease/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

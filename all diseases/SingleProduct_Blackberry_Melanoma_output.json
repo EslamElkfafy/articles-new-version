@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 50,
+    "disease_name": "Melanoma",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 2,
+    "calculated_dw": 2,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Melanoma/diet therapy\"[Mesh] OR \"Melanoma/drug therapy\"[Mesh] OR \"Melanoma/prevention and control\"[Mesh] OR \"Melanoma/rehabilitation\"[Mesh] OR \"Melanoma/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Melanoma/diet therapy\"[Mesh] OR \"Melanoma/drug therapy\"[Mesh] OR \"Melanoma/prevention and control\"[Mesh] OR \"Melanoma/rehabilitation\"[Mesh] OR \"Melanoma/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Melanoma/diet therapy\" OR \"Melanoma/drug therapy\" OR \"Melanoma/prevention and control\" OR \"Melanoma/rehabilitation\" OR \"Melanoma/therapy\")",
+    "articles": [
+      {
+        "title": "Raspberry pulp polysaccharides inhibit tumor growth via immunopotentiation and enhance docetaxel chemotherapy against malignant melanoma in vivo.",
+        "authors": "Yang YJ, Xu HM, Suo YR",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/26200777/",
+        "PMID": "26200777",
+        "doi": "https://doi.org/10.1039/c5fo00389j",
+        "DOI": "10.1039/c5fo00389j",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Naturally-derived phenethyl isothiocyanate modulates apoptotic induction through regulation of the intrinsic cascade and resulting apoptosome formation in human malignant melanoma cells.",
+        "authors": "Tragkola V, Anestopoulos I, Kyriakou S, Amery T, Franco R, Pappa A, Panayiotidis MI",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38919011/",
+        "PMID": "38919011",
+        "doi": "https://doi.org/10.1080/15376516.2024.2369666",
+        "DOI": "10.1080/15376516.2024.2369666",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

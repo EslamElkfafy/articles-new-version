@@ -1,0 +1,32 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 44,
+    "disease_name": "Carcinoma, Hepatocellular",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "Q3",
+    "articles_count": 1,
+    "calculated_dw": 1,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Carcinoma, Hepatocellular/diet therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/drug therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/prevention and control\"[Mesh] OR \"Carcinoma, Hepatocellular/rehabilitation\"[Mesh] OR \"Carcinoma, Hepatocellular/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Carcinoma, Hepatocellular/diet therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/drug therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/prevention and control\"[Mesh] OR \"Carcinoma, Hepatocellular/rehabilitation\"[Mesh] OR \"Carcinoma, Hepatocellular/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Carcinoma, Hepatocellular/diet therapy\" OR \"Carcinoma, Hepatocellular/drug therapy\" OR \"Carcinoma, Hepatocellular/prevention and control\" OR \"Carcinoma, Hepatocellular/rehabilitation\" OR \"Carcinoma, Hepatocellular/therapy\")",
+    "articles": [
+      {
+        "title": "In vitro and in vivo study of phloretin-induced apoptosis in human liver cancer cells involving inhibition of type II glucose transporter.",
+        "authors": "Wu CH, Ho YS, Tsai CY, Wang YJ, Tseng H, Wei PL, Lee CH, Liu RS, Lin SY",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/19123483/",
+        "PMID": "19123483",
+        "doi": "https://doi.org/10.1002/ijc.24189",
+        "DOI": "10.1002/ijc.24189",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "apples"
+  }
+]

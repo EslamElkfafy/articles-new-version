@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 52,
+    "disease_name": "Osteoporosis",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Osteoporosis/diet therapy\"[Mesh] OR \"Osteoporosis/drug therapy\"[Mesh] OR \"Osteoporosis/prevention and control\"[Mesh] OR \"Osteoporosis/rehabilitation\"[Mesh] OR \"Osteoporosis/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Osteoporosis/diet therapy\"[Mesh] OR \"Osteoporosis/drug therapy\"[Mesh] OR \"Osteoporosis/prevention and control\"[Mesh] OR \"Osteoporosis/rehabilitation\"[Mesh] OR \"Osteoporosis/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Osteoporosis/diet therapy\" OR \"Osteoporosis/drug therapy\" OR \"Osteoporosis/prevention and control\" OR \"Osteoporosis/rehabilitation\" OR \"Osteoporosis/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

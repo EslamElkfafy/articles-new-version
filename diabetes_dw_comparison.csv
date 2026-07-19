@@ -1,0 +1,749 @@
+Product ID,New Script Name,Original Script Name,New Script DW,Original Script DW,Difference
+1,berry,Blackberry,96.0000,112.0000,-16.0000
+2,cranberry,Cranberry,160.0000,190.0000,-30.0000
+3,blueberry,Blueberry,425.0000,515.0000,-90.0000
+4,bilberry,Bilberry,176.0000,270.0000,-94.0000
+5,rosa canina,Dog rose,16.0000,32.0000,-16.0000
+6,portuguese crowberry,Crowberry,N/A,0.0000,N/A
+7,strawberry,Strawberry,275.0000,280.0000,-5.0000
+8,raspberry,Raspberry,128.0000,168.0000,-40.0000
+9,lycium barbarum,Goji Berry,80.0000,48.0000,32.0000
+10,cloudberry,Cloudberry,0.0000,0.0000,0.0000
+11,sea buckthorn,Sea Buckthorn,72.0000,80.0000,-8.0000
+12,N/A,Rock Bramble,N/A,9.0000,N/A
+13,whortleberry,Whortleberry,56.0000,75.0000,-19.0000
+14,rheum ribes,Gooseberry,68.0000,4.0000,64.0000
+15,chokeberry,Chokeberry,36.0000,92.0000,-56.0000
+16,berberis vulgaris,Zereshk,65.0000,0.0000,65.0000
+17,amla,Amla Berry,16.0000,170.0000,-154.0000
+18,sorbus commixta,Rowanberry,16.0000,16.0000,0.0000
+19,black elderberry,Elderberry,16.0000,24.0000,-8.0000
+20,orange,Oranges,220.0000,235.0000,-15.0000
+22,grape,Grape,405.0000,480.0000,-75.0000
+23,watermelon,Watermelon,105.0000,85.0000,20.0000
+24,apple,Apple,530.0000,480.0000,50.0000
+25,peach,Peache,28.0000,0.0000,28.0000
+26,pear,Pear,135.0000,165.0000,-30.0000
+28,cucurbitacin b,Squash,105.0000,108.0000,-3.0000
+29,honeydew honey,Honeydew,N/A,0.0000,N/A
+30,bitter melon,Melon,336.0000,48.0000,288.0000
+31,fermented papaya,Papaya,104.0000,88.0000,16.0000
+32,dried apricot,Apricot,4.0000,24.0000,-20.0000
+33,N/A,Glacè Cherry,N/A,16.0000,N/A
+34,plantago ovata,Plantain,80.0000,104.0000,-24.0000
+35,pineapple,Pineapple,40.0000,32.0000,8.0000
+36,mango,Mango,105.0000,80.0000,25.0000
+37,extra virgin olive oil,Olive,340.0000,895.0000,-555.0000
+38,banana,Banana,60.0000,76.0000,-16.0000
+39,citrus aurantium,Lemon,295.0000,215.0000,80.0000
+40,cherry,Cherry,125.0000,96.0000,29.0000
+41,fruit,Fruit Salad,1080.0000,0.0000,1080.0000
+42,physalis alkekengi,Physalis,28.0000,28.0000,0.0000
+43,N/A,Sharon,N/A,28.0000,N/A
+44,N/A,Apple with Pear,N/A,25.0000,N/A
+45,ficus exasperata,Fig,120.0000,120.0000,0.0000
+46,kiwifruit,Kiwi,16.0000,16.0000,0.0000
+47,tangerine,Tangerine,16.0000,128.0000,-112.0000
+48,yellow passion fruit,Passion fruit,60.0000,32.0000,28.0000
+49,japanese plum,Japanese Plum Pulp,16.0000,0.0000,16.0000
+50,glimepiride,Lime,370.0000,30.0000,340.0000
+51,date,Dates,48.0000,96.0000,-48.0000
+52,grapefruit,Grapefruit,110.0000,135.0000,-25.0000
+53,raisin,Raisin,64.0000,96.0000,-32.0000
+54,black currant,Currant,132.0000,76.0000,56.0000
+55,plum,Plum,24.0000,48.0000,-24.0000
+56,N/A,Clementine,N/A,48.0000,N/A
+57,plums,N/A,N/A,N/A,N/A
+58,guava,Guava,250.0000,164.0000,86.0000
+59,pomegranate juice,Pomegranate,8.0000,295.0000,-287.0000
+61,prunella vulgaris,Prune,16.0000,4.0000,12.0000
+62,N/A,Lemon Skin,N/A,40.0000,N/A
+63,pomegranate,Pomegranate Aril,290.0000,85.0000,205.0000
+64,adansonia digitata,N/A,9.0000,N/A,N/A
+66,N/A,Kiwano,N/A,0.0000,N/A
+67,nectarine,Nectarine,16.0000,16.0000,0.0000
+68,N/A,Sunsweet,N/A,0.0000,N/A
+69,carrot,Carrot,128.0000,108.0000,20.0000
+70,lemonade,Lemonade,0.0000,0.0000,0.0000
+71,N/A,Fruits,N/A,4485.0000,N/A
+72,clove,Clove,176.0000,88.0000,88.0000
+73,bearberry,Bearberry,9.0000,9.0000,0.0000
+74,N/A,Meadowsweet,N/A,0.0000,N/A
+75,furosemide,Rose,510.0000,96.0000,414.0000
+76,marjoram,Marjoram,9.0000,9.0000,0.0000
+77,cinnamon,Cinnamon,1210.0000,1405.0000,-195.0000
+78,alchemilla vulgaris,Alpine Lady'S‐Mantle,N/A,0.0000,N/A
+79,lemon balm,Lemon Balm,150.0000,125.0000,25.0000
+80,nerium indicum,Rose‐Bay,N/A,16.0000,N/A
+81,geranium,Woodland Geranium,16.0000,16.0000,0.0000
+82,chia,Loosestrife,52.0000,0.0000,52.0000
+83,N/A,Red Wortleberry,N/A,0.0000,N/A
+84,pimenta dioica,Allspice,N/A,4.0000,N/A
+85,oregano,Oregano,27.0000,45.0000,-18.0000
+86,veronica persica,Speedwell,9.0000,0.0000,9.0000
+87,thymus,Lemon Thyme,N/A,16.0000,N/A
+88,N/A,Sundew,N/A,0.0000,N/A
+89,african spices,Somage,N/A,0.0000,N/A
+90,juniper,Juniper Berry,N/A,16.0000,N/A
+91,st. john's wort,St. John'S Wort,85.0000,40.0000,45.0000
+92,peppermint,Mint,40.0000,16.0000,24.0000
+93,rhaponticum carthamoides,Maral Root,16.0000,16.0000,0.0000
+94,rosemary,Rosemary,90.0000,100.0000,-10.0000
+95,thyme,Thyme,16.0000,60.0000,-44.0000
+96,saffron,Saffron,280.0000,265.0000,15.0000
+97,tussilagone,Coltsfoot,9.0000,16.0000,-7.0000
+98,N/A,Summer Savory,N/A,16.0000,N/A
+99,alnus nitida,Grey Alder,16.0000,16.0000,0.0000
+100,salvia miltiorrhiza,Sage,232.0000,210.0000,22.0000
+101,rosa rugosa,N/A,N/A,N/A,N/A
+102,N/A,Orpine,N/A,16.0000,N/A
+103,N/A,Heather,N/A,18.0000,N/A
+104,N/A,Northern Dock,N/A,0.0000,N/A
+105,N/A,Red‐Berried Elder,N/A,0.0000,N/A
+106,pork insulin,Bacon And Egg,44.0000,0.0000,44.0000
+107,barberry,Barberry,16.0000,64.0000,-48.0000
+108,N/A,Spanish Chervil,N/A,0.0000,N/A
+109,N/A,Merian,N/A,0.0000,N/A
+110,N/A,Hyssop,N/A,0.0000,N/A
+111,N/A,Grass‐Of‐Parnasuss,N/A,0.0000,N/A
+112,piper nigrum,Pepper,92.0000,48.0000,44.0000
+113,teucrium polium,Wall Germander,65.0000,32.0000,33.0000
+114,ash,Ash,N/A,148.0000,N/A
+115,N/A,Bee Balm,N/A,0.0000,N/A
+116,artemisia annua,Estragon,136.0000,16.0000,120.0000
+117,myristica fragrans,Nutmeg,27.0000,40.0000,-13.0000
+118,N/A,Lady'S Mantle,N/A,0.0000,N/A
+119,N/A,Thribi,N/A,0.0000,N/A
+120,rhus coriaria,Summac,9.0000,0.0000,9.0000
+121,N/A,Common Butterwort,N/A,0.0000,N/A
+122,red clover,Red Clover,52.0000,32.0000,20.0000
+123,cirsium japonicum,Cirsium Heterohpyllum,N/A,0.0000,N/A
+124,N/A,Mullein,N/A,0.0000,N/A
+125,zanthoxylum alkylamides,Japanese Pepper,32.0000,32.0000,0.0000
+126,N/A,Lovage,N/A,0.0000,N/A
+127,potentilla discolor,Silverweed,104.0000,28.0000,76.0000
+128,N/A,Hazel,N/A,0.0000,N/A
+129,N/A,Common Polypody,N/A,0.0000,N/A
+130,hop,Hop,56.0000,100.0000,-44.0000
+131,lemon,Lemon Juice,30.0000,0.0000,30.0000
+132,N/A,Southernwood,N/A,48.0000,N/A
+133,plantago lanceolata,Ribwort,9.0000,0.0000,9.0000
+134,sanguisorbae radix,Sanguisorba Officinalis,4.0000,4.0000,0.0000
+135,agastache mexicana,Anisisop,N/A,0.0000,N/A
+136,N/A,Hound'S Tongue,N/A,0.0000,N/A
+137,lamiaceae,Ground‐Ivy,N/A,44.0000,N/A
+138,yarrowia lipolytica,Yarrow,28.0000,0.0000,28.0000
+139,N/A,Creeping Jenny,N/A,0.0000,N/A
+140,bay leaf,Bay Leave,32.0000,16.0000,16.0000
+141,basil,Basil,16.0000,48.0000,-32.0000
+142,N/A,Tansy,N/A,0.0000,N/A
+143,betula platyphylla,Birch,N/A,0.0000,N/A
+144,N/A,Devil'S‐Bit,N/A,0.0000,N/A
+145,lavender,Lavender,28.0000,32.0000,-4.0000
+146,trans-piceatannol,Spruce,N/A,0.0000,N/A
+147,gold,European Golden Rod,N/A,0.0000,N/A
+148,trachyspermum ammi,Ajwain Fruit Pod,N/A,0.0000,N/A
+149,N/A,Field Forget‐Me‐Not,N/A,0.0000,N/A
+150,hedera nepalensis,English Ivy,24.0000,0.0000,24.0000
+151,apiaceae,Imperatoria Ostruthium,N/A,0.0000,N/A
+152,N/A,Trembling Poplar,N/A,0.0000,N/A
+153,angelica keiskei,Angelica,112.0000,92.0000,20.0000
+154,fumitory,Common Fumitory,N/A,0.0000,N/A
+155,N/A,Common Mallow,N/A,0.0000,N/A
+156,dill,Dill,65.0000,65.0000,0.0000
+157,ginger,Ginger,495.0000,565.0000,-70.0000
+158,N/A,Common Elder,N/A,0.0000,N/A
+159,valeriana amurensis,Common Valerian,N/A,0.0000,N/A
+160,mugwort,Mugwort,N/A,140.0000,N/A
+161,N/A,Birdcherry,N/A,0.0000,N/A
+162,N/A,Dame'S Violet,N/A,0.0000,N/A
+163,dandelion,Dandelion,15.0000,36.0000,-21.0000
+164,rumex acetosa,Sorrel,0.0000,0.0000,0.0000
+165,foeniculum vulgare,Fennel,N/A,9.0000,N/A
+166,cinnamomum tamala,Tej Pata,16.0000,0.0000,16.0000
+167,N/A,Common Alkanet,N/A,0.0000,N/A
+168,nettle,Nettle,235.0000,190.0000,45.0000
+169,N/A,Chervil,N/A,0.0000,N/A
+170,convolvulus pluricaulis,Field Bindweed,N/A,0.0000,N/A
+171,celery,Celery,52.0000,52.0000,0.0000
+172,matricaria pubescens,Scented Mayweed,16.0000,0.0000,16.0000
+173,N/A,Knotgrass,N/A,0.0000,N/A
+174,echinacea purpurea,Purple Coneflower,9.0000,32.0000,-23.0000
+175,turmeric,Turmeric,410.0000,770.0000,-360.0000
+176,ulmus macrocarpa,Wych Elm,N/A,0.0000,N/A
+177,curry leaves,Curry,48.0000,80.0000,-32.0000
+178,arctium lappa,Greater Burdock,24.0000,24.0000,0.0000
+179,schizonepetae spica,N/A,N/A,N/A,N/A
+180,leonurus cardiaca,Motherworth,N/A,0.0000,N/A
+181,N/A,Viola Canina,N/A,0.0000,N/A
+182,horehound,Horehound,16.0000,0.0000,16.0000
+183,capsicum annuum var. grossum,Chili,9.0000,36.0000,-27.0000
+184,equisetum myriochaetum,Horsetail,28.0000,28.0000,0.0000
+185,urea,Cornflower,9.0000,0.0000,9.0000
+186,N/A,Biting Stonecrop,N/A,0.0000,N/A
+187,curcumin,Cumin,735.0000,36.0000,699.0000
+188,N/A,Pot Marigold,N/A,0.0000,N/A
+189,star anise,Star Anise,9.0000,0.0000,9.0000
+190,N/A,Chive,N/A,0.0000,N/A
+191,huperzia serrata,Fir Clubmoss,N/A,0.0000,N/A
+192,seed,N/A,16.0000,N/A,N/A
+193,artemisia,Wormwood,16.0000,140.0000,-124.0000
+195,N/A,Fakouhoye Leave,N/A,0.0000,N/A
+196,malvaceae,Hollyhock,N/A,105.0000,N/A
+197,rest,Field Restharrow,N/A,0.0000,N/A
+198,parsley,Parsley,16.0000,28.0000,-12.0000
+199,vanilla planifolia,N/A,N/A,N/A,N/A
+200,galium verum,N/A,N/A,N/A,N/A
+201,calendula,N/A,N/A,N/A,N/A
+202,emblica officinalis,N/A,48.0000,N/A,N/A
+204,scrophularia ningpoensis,Figwort,48.0000,16.0000,32.0000
+205,N/A,Paprika,N/A,0.0000,N/A
+207,fennel,N/A,0.0000,N/A,N/A
+208,acorus tatarinowii,N/A,4.0000,N/A,N/A
+209,N/A,A Condiment With Red Pepper And Six Other Spice,N/A,0.0000,N/A
+210,rhodiola,Roseroot,44.0000,76.0000,-32.0000
+211,shepherd's purse,N/A,N/A,N/A,N/A
+212,carum roxburghianum,N/A,N/A,N/A,N/A
+214,red pepper,Red Pepper,N/A,52.0000,N/A
+216,lotus,N/A,N/A,N/A,N/A
+217,coriander,Coriander,35.0000,15.0000,20.0000
+220,tamarind,Tamarind,44.0000,44.0000,0.0000
+222,glycyrrhiza inflata,Liquorice,N/A,45.0000,N/A
+223,N/A,Vanilla,N/A,24.0000,N/A
+225,cardamom,Cardamom,80.0000,88.0000,-8.0000
+227,barbeque,Barbeque Spicemix,N/A,4.0000,N/A
+228,aged garlic extract,Garlic,N/A,180.0000,N/A
+229,fenugreek,Fenugreek,675.0000,750.0000,-75.0000
+231,N/A,Cardamom Pod,N/A,48.0000,N/A
+232,N/A,Gastromat,N/A,0.0000,N/A
+234,nigella sativa,Kaloonji,200.0000,185.0000,15.0000
+235,caper,Caper,95.0000,65.0000,30.0000
+236,pepper,Lemon Pepper,4.0000,9.0000,-5.0000
+237,onion,Onion,40.0000,68.0000,-28.0000
+239,N/A,Car Magaz,N/A,0.0000,N/A
+240,parmeliaceae,N/A,N/A,N/A,N/A
+241,N/A,Piffi,N/A,0.0000,N/A
+242,aromatic moiety,Aromat,9.0000,0.0000,9.0000
+243,N/A,Chef Natvig's,N/A,0.0000,N/A
+244,spices,Maghaj,8.0000,0.0000,8.0000
+245,saccharin,N/A,32.0000,N/A,N/A
+246,wasabi,N/A,0.0000,N/A,N/A
+247,leaves,N/A,16.0000,N/A,N/A
+248,moringa,Moringa Stenopetala,320.0000,48.0000,272.0000
+249,artichoke,Artichoke,96.0000,80.0000,16.0000
+250,okra,Okra,190.0000,245.0000,-55.0000
+251,kale,Curly Kale,100.0000,32.0000,68.0000
+252,mushrooms,Mushroom,68.0000,52.0000,16.0000
+253,tomato,Tomato,115.0000,115.0000,0.0000
+254,cauliflower,Cauliflower,28.0000,40.0000,-12.0000
+255,cabbage,Cabbage,124.0000,164.0000,-40.0000
+256,beetroot,Beet,200.0000,196.0000,4.0000
+257,spinach,Spinach,75.0000,36.0000,39.0000
+258,brussel sprout,Brussels Sprout,N/A,16.0000,N/A
+260,broccoli,Broccoli,230.0000,260.0000,-30.0000
+262,potato,Potato,316.0000,155.0000,161.0000
+263,leek,Leek,N/A,0.0000,N/A
+264,asparagus,Asparagus,48.0000,64.0000,-16.0000
+265,sweet potato,Sweet Potato,130.0000,260.0000,-130.0000
+266,radish,N/A,52.0000,N/A,N/A
+267,rhubarb,Rhubarb,52.0000,96.0000,-44.0000
+268,lettuce,Lettuce,48.0000,9.0000,39.0000
+269,vegetable,Vegetable,605.0000,1145.0000,-540.0000
+270,ipomoea batatas,Leaves Of The Sweet Potato Plant,48.0000,68.0000,-20.0000
+271,avocado,Avocado,90.0000,16.0000,74.0000
+272,french fries,French Fries,N/A,55.0000,N/A
+274,N/A,Radishe,N/A,28.0000,N/A
+275,solanum tuberosum,Hash Brown,N/A,0.0000,N/A
+276,vigna nakashimae,Asparagus bean,16.0000,24.0000,-8.0000
+277,turnip,Turnip,N/A,16.0000,N/A
+278,N/A,Carrot Drink,N/A,60.0000,N/A
+279,cucumis sativus,N/A,0.0000,N/A,N/A
+280,fruit and vegetable,N/A,0.0000,N/A,N/A
+282,cantaloupe,Cantaloupe,0.0000,0.0000,0.0000
+283,yam,Yam,76.0000,56.0000,20.0000
+284,whole-grain bread,French Toast Stick,205.0000,16.0000,189.0000
+285,cassava,Cassava,9.0000,56.0000,-47.0000
+286,N/A,Beans With Tomato Sauce,N/A,0.0000,N/A
+287,food,N/A,9.0000,N/A,N/A
+289,onions,Onion Flake,50.0000,4.0000,46.0000
+291,apium graveolens,N/A,N/A,N/A,N/A
+292,sea cucumber,Cucumber,25.0000,16.0000,9.0000
+293,daucus carota,Syrup From Red Carrot,N/A,9.0000,N/A
+294,pumpkin,Pumpkin,140.0000,168.0000,-28.0000
+295,courgettes,Courgette,9.0000,9.0000,0.0000
+296,hard cheese,Cheese,18.0000,300.0000,-282.0000
+297,yogurt,Yogurt,575.0000,975.0000,-400.0000
+298,milk products,Sour Cream,9.0000,0.0000,9.0000
+299,cheese,N/A,175.0000,N/A,N/A
+300,cream,Cream,9.0000,84.0000,-75.0000
+301,ice cream,Ice Cream,35.0000,52.0000,-17.0000
+302,milk,Milk,640.0000,1205.0000,-565.0000
+304,buttermilk,Buttermilk,9.0000,15.0000,-6.0000
+305,goat milk,Goatmilk,4.0000,4.0000,0.0000
+306,pinellia ternata,N/A,N/A,N/A,N/A
+307,panax ginseng,Ginseng Radix,64.0000,32.0000,32.0000
+309,traditional herbal medicine,Holelen,16.0000,16.0000,0.0000
+310,angelica,Angelicae Radix,N/A,96.0000,N/A
+311,arnica,Arnica,N/A,9.0000,N/A
+312,rehmannia glutinosa,Rhemanniae Radix,88.0000,100.0000,-12.0000
+313,kampo formulations,Kampo,9.0000,28.0000,-19.0000
+314,astragalus,Astragali Radix,64.0000,192.0000,-128.0000
+316,ziziphus jujuba,Zizyphi Fructus,40.0000,32.0000,8.0000
+317,diet,Stress Guard,720.0000,18.0000,702.0000
+318,cnidium monnieri,N/A,N/A,N/A,N/A
+319,atractylodes macrocephala,Atractylodis Lanceae Rhizoma,9.0000,4.0000,5.0000
+320,glycyrrhizae radix,Glycyrrhizae Radix,N/A,16.0000,N/A
+321,juzentaihoto,Juzentaihoto,32.0000,32.0000,0.0000
+322,chenpi,Aurantii Nobilis Pericarpium,16.0000,16.0000,0.0000
+323,N/A,Zingiberis Rhizoma,N/A,32.0000,N/A
+325,N/A,Cancerina,N/A,4.0000,N/A
+326,bupleurum chinense,N/A,0.0000,N/A,N/A
+327,blood,N/A,N/A,N/A,N/A
+328,cat's claw,N/A,28.0000,N/A,N/A
+330,medicinal plants,N/A,27.0000,N/A,N/A
+332,eucalyptus globulus,N/A,4.0000,N/A,N/A
+333,radix paeoniae rubra,Paeoniae Radix,9.0000,32.0000,-23.0000
+335,mimosa pigra,N/A,N/A,N/A,N/A
+337,azadirachta indica,Neem Guard,175.0000,28.0000,147.0000
+339,croton zambesicus,N/A,9.0000,N/A,N/A
+340,triphala,N/A,N/A,N/A,N/A
+341,phyllanthus emblica,Amalaki,45.0000,125.0000,-80.0000
+342,terminalia arjuna,Arjuna,36.0000,24.0000,12.0000
+344,scutellaria baicalensis,Scutellariae Radix,160.0000,185.0000,-25.0000
+345,ocimum basilicum,Tulasi,N/A,16.0000,N/A
+346,acha,N/A,16.0000,N/A,N/A
+347,N/A,Nimba,N/A,56.0000,N/A
+348,N/A,Bordelobo,N/A,9.0000,N/A
+349,commiphora mukul,N/A,48.0000,N/A,N/A
+350,zarzaparrilla,Zarzaparrilla,4.0000,4.0000,0.0000
+351,bacopa monnieri,Brahmi,40.0000,40.0000,0.0000
+353,N/A,Digestiv,N/A,9.0000,N/A
+354,momordica charantia,Karela,520.0000,775.0000,-255.0000
+355,valerian,N/A,N/A,N/A,N/A
+357,bupleurum,Bupleuri Radix,N/A,16.0000,N/A
+358,herbal medicine,Ayur Slim,27.0000,4.0000,23.0000
+359,boswellia dalzielii,Shallaki,8.0000,8.0000,0.0000
+360,allium jacquemontii,Lasuna,21.0000,0.0000,21.0000
+361,N/A,Sano Sano,N/A,64.0000,N/A
+362,papaver somniferum,N/A,16.0000,N/A,N/A
+363,nuts,Pine nut,895.0000,16.0000,879.0000
+364,hazelnut,Hazelnut,16.0000,40.0000,-24.0000
+365,almond,Almond,350.0000,290.0000,60.0000
+366,peanut,Peanut,204.0000,525.0000,-321.0000
+367,semecarpus anacardium,Cashew,56.0000,32.0000,24.0000
+368,N/A,Kernels From Pumpkin,N/A,32.0000,N/A
+369,maca,Macadamia nut,4.0000,8.0000,-4.0000
+370,walnut,Walnut,252.0000,375.0000,-123.0000
+371,brazil nut,Brazil nut,0.0000,4.0000,-4.0000
+372,peanut butter,Peanut Butter,9.0000,32.0000,-23.0000
+373,flaxseed,Flaxseed,480.0000,500.0000,-20.0000
+374,chestnut,Chest Nut,16.0000,16.0000,0.0000
+375,pistachio,Pistachio,230.0000,175.0000,55.0000
+376,sesame,Sesame Seed,205.0000,200.0000,5.0000
+377,sunflower,N/A,24.0000,N/A,N/A
+378,cyclocarya paliurus,Pecan,32.0000,4.0000,28.0000
+379,citrullus,Kernel From Watermelon,16.0000,16.0000,0.0000
+380,magnesium,Magnesium,1285.0000,1295.0000,-10.0000
+381,calcium,Shaw'S Calcium Hi Cal,500.0000,0.0000,500.0000
+382,energy,Kirkland High Energy Pak,0.0000,12.0000,-12.0000
+383,zinc,Zinc,1025.0000,1010.0000,15.0000
+384,potassium,N/A,100.0000,N/A,N/A
+385,calcium carbonate,N/A,0.0000,N/A,N/A
+386,oleic acid,Folat Pill,148.0000,355.0000,-207.0000
+388,b vitamin complex,Balanced B‐50,16.0000,0.0000,16.0000
+389,coenzyme q10,Coenzyme Q10,540.0000,560.0000,-20.0000
+390,vitamin b6,Vitamin B6,225.0000,140.0000,85.0000
+391,folic acid,Folic Acid,480.0000,625.0000,-145.0000
+392,aloe vera,Aloe Vera Gel,170.0000,16.0000,154.0000
+393,chromium,Chromium Picolinate,930.0000,350.0000,580.0000
+394,dehydroepiandrosterone,Natrol Dhea,68.0000,32.0000,36.0000
+395,niacin,Niacin,440.0000,595.0000,-155.0000
+396,cod liver oil,Cod Liver Oil,0.0000,0.0000,0.0000
+397,ginseng,Ginseng,235.0000,255.0000,-20.0000
+399,psyllium,Metamucil,192.0000,104.0000,88.0000
+400,serenoa repens,N/A,N/A,N/A,N/A
+401,protein,N/A,405.0000,N/A,N/A
+402,glucosamine,Glucosamine sulfate,28.0000,16.0000,12.0000
+403,melatonin,Melatonin,585.0000,625.0000,-40.0000
+404,spironolactone,Iron Slow Release,80.0000,0.0000,80.0000
+405,selenium,Selenium,450.0000,465.0000,-15.0000
+406,garlic,Bronson Garlic Oil,136.0000,0.0000,136.0000
+408,walnut oil,Walnut Oil,1.0000,52.0000,-51.0000
+409,yeast,Brewer's Yeast,115.0000,445.0000,-330.0000
+410,N/A,Viactiv Chocolate,N/A,0.0000,N/A
+411,beta-carotene,B‐carotene,225.0000,105.0000,120.0000
+412,royal jelly,N/A,N/A,N/A,N/A
+413,alpha-lipoic acid,Alpha Lipoic Acid,950.0000,960.0000,-10.0000
+414,nattokinase,N/A,55.0000,N/A,N/A
+415,N/A,Chinese Chili Oil,N/A,0.0000,N/A
+416,vitamin,Vitamine A Capsule,125.0000,12.0000,113.0000
+417,beta carotene,Beta Carotene Pro Vitamin A,4.0000,85.0000,-81.0000
+418,N/A,Vitamine E,N/A,32.0000,N/A
+420,lycopene,N/A,115.0000,N/A,N/A
+421,vitamin a,Vitamin A,84.0000,132.0000,-48.0000
+422,lecithin,Lecithin,48.0000,16.0000,32.0000
+423,omega-3 fatty acids,Marine Omega,1685.0000,3635.0000,-1950.0000
+424,antioxidant vitamins,One A Day Maximum,32.0000,140.0000,-108.0000
+425,branched-chain amino acids,Vita Amino Nopal,216.0000,32.0000,184.0000
+426,spirulina platensis,Spirulina,N/A,144.0000,N/A
+427,N/A,Women's Ultra mega,N/A,48.0000,N/A
+428,multivitamin,Multivitamin With Mineral,60.0000,140.0000,-80.0000
+429,noni,Noni,84.0000,48.0000,36.0000
+430,N/A,One A Day 50 Plus,N/A,112.0000,N/A
+431,N/A,Nutrilite Double X,N/A,12.0000,N/A
+432,N/A,Theragran,N/A,16.0000,N/A
+433,formula,One A Day Women'S Formula,4.0000,116.0000,-112.0000
+434,ginkgo biloba,Ginkgo Biloba,335.0000,400.0000,-65.0000
+435,tocopherol,Gamma E Capsule,52.0000,32.0000,20.0000
+436,N/A,Centrum Silver,N/A,132.0000,N/A
+438,lutein,Centrum With Lutein,35.0000,8.0000,27.0000
+439,prorocentrum lima,Centrum,N/A,368.0000,N/A
+441,N/A,LifePak,N/A,24.0000,N/A
+443,grape seed extract,Grape Seed Extract,N/A,45.0000,N/A
+444,multi-nutrient,Forward Multi‐Nutrient Oacket,N/A,72.0000,N/A
+445,N/A,Complete One,N/A,116.0000,N/A
+446,N/A,Schiff Vegetarian Multiple,N/A,176.0000,N/A
+447,N/A,Theragran M,N/A,40.0000,N/A
+448,vitamin c,Vitamin C,875.0000,1395.0000,-520.0000
+449,N/A,Bayer One A Day Essential,N/A,184.0000,N/A
+450,N/A,Gnc Ultra Mega Gold,N/A,116.0000,N/A
+451,N/A,Daily Vitamin,N/A,1500.0000,N/A
+452,N/A,Plus Iron,N/A,16.0000,N/A
+453,N/A,Ocuvite,N/A,0.0000,N/A
+454,antioxidant,Life Extension High Potency Antioxidant,108.0000,225.0000,-117.0000
+455,N/A,Over drive,N/A,9.0000,N/A
+456,vitamin e,Vitamin E,940.0000,1635.0000,-695.0000
+457,anthocyanins,Antocyanin Capsule,545.0000,95.0000,450.0000
+458,epigallocatechin gallate,Catechin 100,605.0000,168.0000,437.0000
+459,vitamin b complex,Lederle Stresstab,0.0000,0.0000,0.0000
+460,N/A,Z‐Bec,N/A,0.0000,N/A
+461,ascorbate,Antocyanin Ascorbate,16.0000,0.0000,16.0000
+462,camellia sinensis,Tegreen,24.0000,40.0000,-16.0000
+463,ascorbic acid,Vitamin C With Rose Hip,280.0000,65.0000,215.0000
+464,N/A,Super Antioxidant,N/A,460.0000,N/A
+465,N/A,One A Day Men`S Health Formula,N/A,76.0000,N/A
+466,N/A,Body Wise Right Choice AM,N/A,40.0000,N/A
+467,N/A,Body Wise Right Choice Pm,N/A,64.0000,N/A
+468,flavonoids,Citrosept,410.0000,0.0000,410.0000
+469,coconut oil,Coconut Oil,24.0000,40.0000,-16.0000
+471,vitamin d,Vitamin D,3935.0000,3975.0000,-40.0000
+472,safflower oil,Safflower Oil,32.0000,56.0000,-24.0000
+475,N/A,Geritol Liquid,N/A,48.0000,N/A
+476,N/A,Lederle Protegra,N/A,120.0000,N/A
+477,N/A,Solotron,N/A,48.0000,N/A
+478,antioxidants,Antioxidant capsule,190.0000,990.0000,-800.0000
+480,N/A,Triente plus,N/A,24.0000,N/A
+481,N/A,Myadec,N/A,24.0000,N/A
+482,N/A,Shaklee Vita‐Lea,N/A,88.0000,N/A
+483,N/A,AARP Formula 196,N/A,24.0000,N/A
+484,fruit juice,Tahitian,60.0000,4.0000,56.0000
+485,echinacea,N/A,N/A,N/A,N/A
+486,N/A,Dog Rose Oil,N/A,16.0000,N/A
+487,vitamin b12,Vitamin B12,210.0000,570.0000,-360.0000
+488,chondroitin sulfate,Chondroitin Sulfate,9.0000,48.0000,-39.0000
+489,confectionery,Marzipan,9.0000,16.0000,-7.0000
+490,coconut,Coconut,40.0000,32.0000,8.0000
+491,N/A,Caramel,N/A,16.0000,N/A
+492,dark chocolate,Chocolate,72.0000,252.0000,-180.0000
+493,N/A,Granola Bar,N/A,32.0000,N/A
+494,snack,Candy Bar,9.0000,0.0000,9.0000
+495,cocoa shell,Chocolate Butter,N/A,4.0000,N/A
+497,chocolate,N/A,84.0000,N/A,N/A
+498,weight-reducing diet,Slim‐Fast Meal Option,N/A,1490.0000,N/A
+499,dietary supplements,Power Bar,0.0000,320.0000,-320.0000
+500,cacao,Cacao,24.0000,280.0000,-256.0000
+501,N/A,Cream Of Wheat,N/A,24.0000,N/A
+502,rice,Rice,1410.0000,1725.0000,-315.0000
+503,biscuits,Biscuit,40.0000,156.0000,-116.0000
+504,spaghetti,Spaghetti,32.0000,520.0000,-488.0000
+505,noodle,Egg Noodle,9.0000,28.0000,-19.0000
+506,macaroni,Elbow Macaroni,16.0000,75.0000,-59.0000
+507,grain,Fonio,N/A,330.0000,N/A
+508,starch,Maizena,100.0000,40.0000,60.0000
+509,muffin,English Muffin,0.0000,80.0000,-80.0000
+510,N/A,Bulgur,N/A,425.0000,N/A
+511,N/A,Dinner roll,N/A,300.0000,N/A
+512,N/A,Flour Tortilla,N/A,32.0000,N/A
+513,sorghum,Sorghum,33.0000,18.0000,15.0000
+514,couscous,Couscous,16.0000,0.0000,16.0000
+515,oatmeal,Oatmeal,48.0000,440.0000,-392.0000
+516,wheat,Wheat,920.0000,915.0000,5.0000
+517,N/A,Bagel,N/A,96.0000,N/A
+518,white bread,White Bread,60.0000,312.0000,-252.0000
+519,spelt,Spelt,24.0000,104.0000,-80.0000
+520,N/A,French Bread,N/A,76.0000,N/A
+521,maize,Maize,64.0000,510.0000,-446.0000
+522,N/A,Bread,N/A,1120.0000,N/A
+523,rye,Rye,210.0000,245.0000,-35.0000
+524,N/A,Taco Shell,N/A,16.0000,N/A
+525,oat bran,Oat Bran,32.0000,425.0000,-393.0000
+526,oat-wheat bread,Wheat Bread,16.0000,456.0000,-440.0000
+527,N/A,Bread crumb,N/A,392.0000,N/A
+528,N/A,Oat Patent Flour,N/A,175.0000,N/A
+529,N/A,Maize Flour,N/A,104.0000,N/A
+530,oat,Oat,252.0000,760.0000,-508.0000
+531,corn tortillas,Corn Tortilla,16.0000,44.0000,-28.0000
+532,N/A,Crispbread,N/A,140.0000,N/A
+533,whole wheat bread,Whole Wheat Bread,44.0000,92.0000,-48.0000
+534,barley,Barley,376.0000,352.0000,24.0000
+535,buckwheat,Buckwheat,148.0000,244.0000,-96.0000
+536,millet,Millet,96.0000,88.0000,8.0000
+538,wheat germ,Wheat Germ,32.0000,60.0000,-28.0000
+540,N/A,Hamburger Bread,N/A,44.0000,N/A
+541,beef fat,Hamburger,44.0000,65.0000,-21.0000
+542,fish,N/A,520.0000,N/A,N/A
+543,salmon,Salmon,32.0000,64.0000,-32.0000
+544,izumi shrimp,Shrimp,N/A,28.0000,N/A
+545,alaska pollock,Pollock Filet,N/A,196.0000,N/A
+547,tilapia,Tilapia,1.0000,1.0000,0.0000
+548,tuna,N/A,0.0000,N/A,N/A
+549,mackerel,N/A,4.0000,N/A,N/A
+551,N/A,Pollock Burger,N/A,216.0000,N/A
+553,N/A,Kapenta,N/A,0.0000,N/A
+554,pea,Pea,28.0000,95.0000,-67.0000
+555,tofu,Tofutti,60.0000,0.0000,60.0000
+556,N/A,Tofu Naturell,N/A,0.0000,N/A
+557,lentil,Lentil,60.0000,28.0000,32.0000
+558,mung bean,Mung Bean,60.0000,52.0000,8.0000
+559,navy bean,Navy Bean,N/A,88.0000,N/A
+560,chickpea,Chickpea,148.0000,140.0000,8.0000
+561,dried pinto beans,Pinto Bean,32.0000,56.0000,-24.0000
+562,N/A,Flageolets Bean,N/A,24.0000,N/A
+563,red kidney bean,Kidney Bean,68.0000,80.0000,-12.0000
+564,soybean,Bean,552.0000,795.0000,-243.0000
+565,N/A,Urid Dal Split,N/A,15.0000,N/A
+566,glycine,Edamame,72.0000,52.0000,20.0000
+567,N/A,Moung Dal,N/A,24.0000,N/A
+568,soybeans,Soy Bean,8.0000,160.0000,-152.0000
+569,pickled and fermented foods,Chinese Broad Bean Paste,25.0000,0.0000,25.0000
+570,soy protein,Soyatein,295.0000,24.0000,271.0000
+571,broad bean,N/A,9.0000,N/A,N/A
+572,N/A,Borlotti Bean,N/A,0.0000,N/A
+573,N/A,Blue Bean,N/A,24.0000,N/A
+575,soy milk,Soy milk,44.0000,16.0000,28.0000
+576,wholegrain crackers,Saltine Cracker,4.0000,0.0000,4.0000
+577,popcorn,Popcorn,0.0000,9.0000,-9.0000
+580,N/A,Multigrain Snack Chip,N/A,28.0000,N/A
+581,N/A,Tortilla Chip,N/A,9.0000,N/A
+584,crackers,N/A,0.0000,N/A,N/A
+586,N/A,Honey Bunches Of Oat,N/A,0.0000,N/A
+587,lifestyle intervention,Life,915.0000,212.0000,703.0000
+588,N/A,Müsli Whole Grain,N/A,32.0000,N/A
+589,N/A,Nabisco Shredded,N/A,225.0000,N/A
+590,N/A,Energy Mix,N/A,9.0000,N/A
+591,N/A,Müsli,N/A,1070.0000,N/A
+592,N/A,Crusli,N/A,9.0000,N/A
+593,N/A,Multi Grain,N/A,1285.0000,N/A
+596,N/A,Kix,N/A,430.0000,N/A
+597,N/A,Just Right,N/A,152.0000,N/A
+598,muesli,Mueslix,48.0000,44.0000,4.0000
+599,N/A,Raisin Bran,N/A,0.0000,N/A
+600,N/A,Crispix,N/A,785.0000,N/A
+601,N/A,Corn And Rice,N/A,435.0000,N/A
+602,N/A,Weeto,N/A,345.0000,N/A
+603,N/A,Oat Circle,N/A,300.0000,N/A
+604,N/A,Grape Nuts Flake,N/A,600.0000,N/A
+606,N/A,Cocos‐Frokost,N/A,245.0000,N/A
+607,N/A,Frosted Flake,N/A,220.0000,N/A
+608,N/A,Froot Loop,N/A,215.0000,N/A
+609,hypertension specialists,Special,16.0000,580.0000,-564.0000
+610,N/A,Cheerio,N/A,275.0000,N/A
+611,N/A,Fitness,N/A,116.0000,N/A
+612,chips,N/A,4.0000,N/A,N/A
+613,N/A,Honey Nut Cheerio,N/A,4.0000,N/A
+614,N/A,Grear Grain,N/A,1245.0000,N/A
+615,cereals,Cereal,870.0000,1890.0000,-1020.0000
+616,astragalus membranaceus,100% Bran,16.0000,164.0000,-148.0000
+617,N/A,Bran Flake,N/A,265.0000,N/A
+618,N/A,Weetabix,N/A,32.0000,N/A
+619,fiber,All‐Bran,775.0000,1230.0000,-455.0000
+620,N/A,Cocoa Krispy,N/A,36.0000,N/A
+621,N/A,Special K,N/A,4.0000,N/A
+622,N/A,All‐Bran Plus,N/A,4.0000,N/A
+623,bran,All‐Bran Regular,75.0000,56.0000,19.0000
+624,N/A,Multi‐Grain Chex,N/A,480.0000,N/A
+625,dietary fiber,Fiber One,765.0000,2355.0000,-1590.0000
+626,whole grain,Whole Grain,625.0000,1670.0000,-1045.0000
+627,N/A,Complete,N/A,870.0000,N/A
+628,oats,Oat Square,270.0000,90.0000,180.0000
+629,N/A,Old Glory,N/A,305.0000,N/A
+630,N/A,Peanut Butter Cereal,N/A,4.0000,N/A
+631,commercial pastry,Pie crust,N/A,0.0000,N/A
+632,N/A,Waffle,N/A,16.0000,N/A
+633,lacy pancake,Pancake,0.0000,16.0000,-16.0000
+634,dough,Doughnut,16.0000,16.0000,0.0000
+635,N/A,Toaster pastry,N/A,16.0000,N/A
+636,dairy,Frosty Dairy Dessert,370.0000,16.0000,354.0000
+638,pastries,Doughnuts With Candy Sprinkle,N/A,16.0000,N/A
+640,bread,Bun,212.0000,276.0000,-64.0000
+642,cakes and cookies,Cake mix,9.0000,40.0000,-31.0000
+644,N/A,Browny,N/A,0.0000,N/A
+645,N/A,Cini‐Minis,N/A,39.0000,N/A
+647,probiotic wafer cookies,Cookies,N/A,104.0000,N/A
+649,cakes,N/A,16.0000,N/A,N/A
+650,soup,Soup,40.0000,72.0000,-32.0000
+651,N/A,Ice‐Type Novelty,N/A,16.0000,N/A
+654,chicken patties,N/A,N/A,N/A,N/A
+656,chicken-liver hydrolysate,Chicken Liver,16.0000,9.0000,7.0000
+658,chicken,Chicken,116.0000,136.0000,-20.0000
+660,sandwich,N/A,N/A,N/A,N/A
+665,N/A,Macaroni And Cheese Mix,N/A,9.0000,N/A
+666,tortilla de harina,Bean And Cheese Burrito,N/A,16.0000,N/A
+667,N/A,Pizza,N/A,18.0000,N/A
+669,fast food,Big Mac,24.0000,18.0000,6.0000
+673,N/A,Lasagna With Meat,N/A,16.0000,N/A
+674,N/A,Chili With Meat,N/A,0.0000,N/A
+675,vegetarian diet,Vegetarian Burger,410.0000,1125.0000,-715.0000
+676,N/A,Chili With Meat And Bean,N/A,0.0000,N/A
+677,fabaceae,N/A,N/A,N/A,N/A
+678,N/A,Spaghetti With Meat,N/A,9.0000,N/A
+679,N/A,Sausage & Pepperoni Pizza,N/A,9.0000,N/A
+681,N/A,Stew,N/A,16.0000,N/A
+682,N/A,Veggie Burger,N/A,665.0000,N/A
+683,N/A,Hotcakes And Sausage,N/A,16.0000,N/A
+684,N/A,Burrito,N/A,16.0000,N/A
+685,N/A,Croissanwich With Sausage,N/A,40.0000,N/A
+687,N/A,Cheeseburger,N/A,60.0000,N/A
+688,fresh eggs,N/A,N/A,N/A,N/A
+690,N/A,Ham Egg And Cheese Bagel,N/A,0.0000,N/A
+691,poultry,Breast Filet,150.0000,24.0000,126.0000
+692,N/A,Hamburger With Cheese,N/A,0.0000,N/A
+693,N/A,Bk Broiler,N/A,9.0000,N/A
+694,N/A,Bacon Egg And Cheese Biscuit,N/A,0.0000,N/A
+695,N/A,Taco,N/A,27.0000,N/A
+698,N/A,Quarter Pounder,N/A,65.0000,N/A
+699,breakfast,N/A,16.0000,N/A,N/A
+701,N/A,Steak Egg And Cheese Bagel,N/A,0.0000,N/A
+702,N/A,Classic Double With Cheese,N/A,0.0000,N/A
+703,N/A,Double Whopper,N/A,0.0000,N/A
+706,N/A,Whopper,N/A,45.0000,N/A
+707,N/A,Whopper With Cheese,N/A,0.0000,N/A
+708,N/A,Double Whopper With Cheese,N/A,0.0000,N/A
+710,snack foods,Nacho,0.0000,0.0000,0.0000
+711,N/A,Sausage Mcmuffin,N/A,40.0000,N/A
+715,fast foods,Taco Salad,0.0000,0.0000,0.0000
+716,sports drinks,Sports drink,0.0000,4.0000,-4.0000
+717,mineral water,Non‐Carbonated Bottled Drinking Water,160.0000,225.0000,-65.0000
+718,water,Non‐Carbonated Flavored Bottled Drinking Water,190.0000,205.0000,-15.0000
+719,soft drinks,Soft Drink,95.0000,39.0000,56.0000
+720,tea,Tea,620.0000,2190.0000,-1570.0000
+721,tap beer,Beer,N/A,75.0000,N/A
+722,sugar-sweetened beverages,N/A,295.0000,N/A,N/A
+723,beer,Malt Beer,60.0000,16.0000,44.0000
+724,cocoa,Instant Cocoa,308.0000,204.0000,104.0000
+725,spirulina,N/A,145.0000,N/A,N/A
+726,red wine,Wine,210.0000,430.0000,-220.0000
+727,tangeretin,Tang,55.0000,36.0000,19.0000
+728,citrus,Lemonade Powder Mix,90.0000,16.0000,74.0000
+729,green coffee,Coffee,80.0000,1240.0000,-1160.0000
+730,N/A,Coffee Bean,N/A,985.0000,N/A
+731,cichorium intybus,N/A,60.0000,N/A,N/A
+732,alcohol,Whisky,190.0000,0.0000,190.0000
+733,soda,White Soda,28.0000,0.0000,28.0000
+736,N/A,Cordial,N/A,0.0000,N/A
+737,wine,Cockburn`S Port,100.0000,0.0000,100.0000
+738,N/A,Cognac,N/A,0.0000,N/A
+739,ericaceae,Liquor Of Crowberry,9.0000,4.0000,5.0000
+740,N/A,Brandy,N/A,0.0000,N/A
+741,N/A,Aquavit,N/A,0.0000,N/A
+742,temocapril,N/A,N/A,N/A,N/A
+743,alcoholic beverages,Cider,24.0000,4.0000,20.0000
+744,N/A,Gingerale,N/A,25.0000,N/A
+745,energy drinks,Energy drink,16.0000,6.0000,10.0000
+746,eggs,Egg,275.0000,625.0000,-350.0000
+747,butter,Butter,96.0000,112.0000,-16.0000
+748,margarine,Margarine,40.0000,80.0000,-40.0000
+749,rapeseed,Canola Oil,80.0000,205.0000,-125.0000
+750,soybean oil,Soy Bean Oil,40.0000,16.0000,24.0000
+751,corn oil,Corn Oil,48.0000,16.0000,32.0000
+752,olive oil,Olive Oil,550.0000,255.0000,295.0000
+753,oils,Vegetable Oil,64.0000,535.0000,-471.0000
+754,sunflower oil,Sunflower Oil,40.0000,92.0000,-52.0000
+755,canola oil,N/A,56.0000,N/A,N/A
+756,turkey,Turkey,4.0000,4.0000,0.0000
+757,N/A,Beef,N/A,112.0000,N/A
+758,lamb,Lamb,N/A,45.0000,N/A
+759,onetouch reveal professional,Veal,9.0000,24.0000,-15.0000
+760,N/A,Vegetable And Beef Dinner,N/A,0.0000,N/A
+761,N/A,Infant Formula,N/A,50.0000,N/A
+762,phaseolus vulgaris,Green bean,105.0000,56.0000,49.0000
+767,stiff porridge,Porridge,16.0000,915.0000,-899.0000
+768,infant formula,Infant Formula With Omega 3,0.0000,0.0000,0.0000
+770,red meat,Pasta Bolognese,770.0000,40.0000,730.0000
+771,N/A,Pasta With Beef,N/A,0.0000,N/A
+772,N/A,Oatmeal Cereal,N/A,310.0000,N/A
+773,desserts,Jungle dessert,40.0000,0.0000,40.0000
+774,human milk,Human breast milk,8.0000,190.0000,-182.0000
+775,fruits,Solskinnspuré,1375.0000,16.0000,1359.0000
+776,artificial sweeteners,Artificial Sweetener,15.0000,395.0000,-380.0000
+777,sugar,Sugar,455.0000,480.0000,-25.0000
+778,sodium,Salt,196.0000,68.0000,128.0000
+779,calorie,Artificial Sweetener; Calorie‐Free,N/A,155.0000,N/A
+780,aspartame,Aspartame,65.0000,24.0000,41.0000
+781,honey,Honey,180.0000,450.0000,-270.0000
+782,vinegar,Vinegar,190.0000,175.0000,15.0000
+783,N/A,Brown Rice Malt Syrup,N/A,24.0000,N/A
+784,ferric carboxymaltose,Malt‐Extract,0.0000,16.0000,-16.0000
+785,parkia speciosa,N/A,N/A,N/A,N/A
+786,N/A,Barley Malt Syrup,N/A,16.0000,N/A
+787,N/A,Black Sugar,N/A,0.0000,N/A
+789,N/A,Brown Rice Syrup,N/A,4.0000,N/A
+790,acer okamotoanum,Maple syrup,80.0000,44.0000,36.0000
+791,coffee,Coffee mate,1055.0000,0.0000,1055.0000
+792,stevia,Stevia,184.0000,132.0000,52.0000
+793,high-fructose corn syrup,Corn syrup,40.0000,16.0000,24.0000
+795,soy sauce,Sauce,9.0000,18.0000,-9.0000
+796,salad dressings,Dressing,N/A,40.0000,N/A
+797,gravies,Gravy,N/A,9.0000,N/A
+798,soups,Soup stok,N/A,0.0000,N/A
+799,vegetables,Pelali mediterranei,1650.0000,0.0000,1650.0000
+800,N/A,Salsa,N/A,0.0000,N/A
+801,olea europaea,N/A,9.0000,N/A,N/A
+802,spaghetti sauce,Spaghetti sauce,0.0000,0.0000,0.0000
+803,N/A,Polpa pomodori in finissimini pezzi,N/A,0.0000,N/A
+804,N/A,Tiptree Organic Tomato Chutney,N/A,0.0000,N/A
+805,N/A,Passata Di Pomodoro Con Basilico,N/A,0.0000,N/A
+806,N/A,Hot Chili Sauce,N/A,0.0000,N/A
+807,N/A,Barbeque ketchup,N/A,0.0000,N/A
+809,pasta,Ragu alla bolognese,205.0000,68.0000,137.0000
+810,N/A,Piccante sauce,N/A,0.0000,N/A
+811,N/A,Polpapezzi Di Pomodori Italiani,N/A,0.0000,N/A
+812,dairy products,Ricotta,220.0000,4.0000,216.0000
+814,N/A,Pomodori capperi acciughi,N/A,25.0000,N/A
+815,pizza,Pizza filling,18.0000,9.0000,9.0000
+816,N/A,Pomodorini di collini,N/A,0.0000,N/A
+818,N/A,Pomodoro al basilico,N/A,0.0000,N/A
+819,N/A,Jalfrezi Cooking Sauce,N/A,32.0000,N/A
+820,N/A,Pesto Rosso,N/A,0.0000,N/A
+821,N/A,Pomodori Secchi,N/A,16.0000,N/A
+822,N/A,Pomodoro Mousse,N/A,0.0000,N/A
+823,sauces,Bbq Classic,N/A,9.0000,N/A
+824,mustard oil,Mustard,32.0000,40.0000,-8.0000
+825,N/A,Pomodori del sole,N/A,16.0000,N/A
+826,N/A,Bruschetta,N/A,0.0000,N/A
+827,N/A,Concentrato di pomedoro,N/A,0.0000,N/A
+828,mayonnaise,Mayonnaise,9.0000,9.0000,0.0000
+829,N/A,Doppio Concentrato Di Pomodoro,N/A,0.0000,N/A
+830,N/A,Pesto,N/A,8.0000,N/A
+831,N/A,Nali Hot Peri‐Peri Sauce,N/A,0.0000,N/A
+832,N/A,Barbeque oil,N/A,15.0000,N/A
+833,zingiber officinale,N/A,28.0000,N/A,N/A
+834,N/A,Tabasco Brand,N/A,0.0000,N/A
+835,N/A,Vinaigrette With Sundried Tomato,N/A,0.0000,N/A
+836,N/A,Beef Hot Dog,N/A,0.0000,N/A
+837,N/A,Steak,N/A,55.0000,N/A
+838,N/A,Hot dog,N/A,36.0000,N/A
+839,biliverdin,Liver,9.0000,4.0000,5.0000
+840,pork,Bacon,4.0000,130.0000,-126.0000
+841,sausages,N/A,0.0000,N/A,N/A
+842,salami,Salami,0.0000,9.0000,-9.0000
+843,beef,Hamburger Frozen,8.0000,0.0000,8.0000
+844,N/A,Tropical,N/A,1955.0000,N/A
+845,fruit and vegetable juices,N/A,N/A,N/A,N/A
+848,N/A,Wheat Chex,N/A,108.0000,N/A
+849,corn silk,Corn Chef,288.0000,76.0000,212.0000
+850,corn,Corn Flakes,48.0000,160.0000,-112.0000
+851,N/A,Puffed Wheat,N/A,16.0000,N/A
+852,whole grains,Total Cereal,925.0000,405.0000,520.0000
+853,tapioca starch,Tapioca,32.0000,48.0000,-16.0000
+854,vitamins,Multivitamine,72.0000,805.0000,-733.0000

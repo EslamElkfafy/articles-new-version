@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 55,
+    "disease_name": "Prostatic Neoplasms",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 4,
+    "calculated_dw": 28,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Prostatic Neoplasms/diet therapy\"[Mesh] OR \"Prostatic Neoplasms/drug therapy\"[Mesh] OR \"Prostatic Neoplasms/prevention and control\"[Mesh] OR \"Prostatic Neoplasms/rehabilitation\"[Mesh] OR \"Prostatic Neoplasms/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Prostatic Neoplasms/diet therapy\"[Mesh] OR \"Prostatic Neoplasms/drug therapy\"[Mesh] OR \"Prostatic Neoplasms/prevention and control\"[Mesh] OR \"Prostatic Neoplasms/rehabilitation\"[Mesh] OR \"Prostatic Neoplasms/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Prostatic Neoplasms/diet therapy\" OR \"Prostatic Neoplasms/drug therapy\" OR \"Prostatic Neoplasms/prevention and control\" OR \"Prostatic Neoplasms/rehabilitation\" OR \"Prostatic Neoplasms/therapy\")",
+    "articles": [
+      {
+        "title": "Characterization of black raspberry functional food products for cancer prevention human clinical trials.",
+        "authors": "Gu J, Ahn-Jarvis JH, Riedl KM, Schwartz SJ, Clinton SK, Vodovotz Y",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24345009/",
+        "PMID": "24345009",
+        "doi": "https://doi.org/10.1021/jf404566p",
+        "DOI": "10.1021/jf404566p",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133319/",
+        "PMCID": "PMC4133319",
+        "pubtypes": "Clinical Trial, Journal Article",
+        "rate": 4
+      },
+      {
+        "title": "Effects of Black Raspberries and Their Ellagic Acid and Anthocyanin Constituents on Taxane Chemotherapy of Castration-Resistant Prostate Cancer Cells.",
+        "authors": "Eskra JN, Schlicht MJ, Bosland MC",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30867440/",
+        "PMID": "30867440",
+        "doi": "https://doi.org/10.1038/s41598-019-39589-1",
+        "DOI": "10.1038/s41598-019-39589-1",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6416359/",
+        "PMCID": "PMC6416359",
+        "pubtypes": "Journal Article, Research Support, N.I.H., Extramural, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Effects of Black Raspberries and Their Constituents on Rat Prostate Carcinogenesis and Human Prostate Cancer Cell Growth In Vitro.",
+        "authors": "Eskra JN, Dodge A, Schlicht MJ, Bosland MC",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31402717/",
+        "PMID": "31402717",
+        "doi": "https://doi.org/10.1080/01635581.2019.1650943",
+        "DOI": "10.1080/01635581.2019.1650943",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012690/",
+        "PMCID": "PMC7012690",
+        "pubtypes": "Journal Article, Research Support, N.I.H., Extramural, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Dose-Dependent Increases in Ellagitannin Metabolites as Biomarkers of Intake in Humans Consuming Standardized Black Raspberry Food Products Designed for Clinical Trials.",
+        "authors": "Roberts KM, Grainger EM, Thomas-Ahner JM, Hinton A, Gu J, Riedl K, Vodovotz Y, Abaza R, Schwartz SJ, Clinton SK",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/32112501/",
+        "PMID": "32112501",
+        "doi": "https://doi.org/10.1002/mnfr.201900800",
+        "DOI": "10.1002/mnfr.201900800",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9496378/",
+        "PMCID": "PMC9496378",
+        "pubtypes": "Clinical Trial, Phase I, Clinical Trial, Phase II, Journal Article, Research Support, N.I.H., Extramural, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

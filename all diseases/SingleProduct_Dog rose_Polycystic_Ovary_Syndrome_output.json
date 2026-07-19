@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 45,
+    "disease_name": "Polycystic Ovary Syndrome",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Polycystic Ovary Syndrome/diet therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/drug therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/prevention and control\"[Mesh] OR \"Polycystic Ovary Syndrome/rehabilitation\"[Mesh] OR \"Polycystic Ovary Syndrome/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Polycystic Ovary Syndrome/diet therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/drug therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/prevention and control\"[Mesh] OR \"Polycystic Ovary Syndrome/rehabilitation\"[Mesh] OR \"Polycystic Ovary Syndrome/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Polycystic Ovary Syndrome/diet therapy\" OR \"Polycystic Ovary Syndrome/drug therapy\" OR \"Polycystic Ovary Syndrome/prevention and control\" OR \"Polycystic Ovary Syndrome/rehabilitation\" OR \"Polycystic Ovary Syndrome/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

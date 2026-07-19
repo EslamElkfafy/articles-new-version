@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blueberry",
+    "disease_id": 76,
+    "disease_name": "Skin Aging",
+    "odw": "",
+    "best_mesh_match": "Blueberry Plants",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Blueberry Plants\"[Mesh] AND \"Blueberry Plants/therapeutic use\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Skin Aging/diet therapy\"[Mesh] OR \"Skin Aging/drug therapy\"[Mesh] OR \"Skin Aging/prevention and control\"[Mesh] OR \"Skin Aging/rehabilitation\"[Mesh] OR \"Skin Aging/therapy\"[Mesh])",
+    "q2": "(\"Blueberry Plants\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Skin Aging/diet therapy\"[Mesh] OR \"Skin Aging/drug therapy\"[Mesh] OR \"Skin Aging/prevention and control\"[Mesh] OR \"Skin Aging/rehabilitation\"[Mesh] OR \"Skin Aging/therapy\"[Mesh])",
+    "q3": "(\"Blueberry Plants\" NOT \"adverse effects\"[Subheading]) AND (\"Skin Aging/diet therapy\" OR \"Skin Aging/drug therapy\" OR \"Skin Aging/prevention and control\" OR \"Skin Aging/rehabilitation\" OR \"Skin Aging/therapy\")",
+    "articles": [],
+    "all_product_names": "Blueberry"
+  }
+]

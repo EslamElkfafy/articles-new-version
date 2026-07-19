@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 75,
+    "disease_name": "Gastritis",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q3",
+    "articles_count": 2,
+    "calculated_dw": 12,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Gastritis/diet therapy\"[Mesh] OR \"Gastritis/drug therapy\"[Mesh] OR \"Gastritis/prevention and control\"[Mesh] OR \"Gastritis/rehabilitation\"[Mesh] OR \"Gastritis/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Gastritis/diet therapy\"[Mesh] OR \"Gastritis/drug therapy\"[Mesh] OR \"Gastritis/prevention and control\"[Mesh] OR \"Gastritis/rehabilitation\"[Mesh] OR \"Gastritis/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Gastritis/diet therapy\" OR \"Gastritis/drug therapy\" OR \"Gastritis/prevention and control\" OR \"Gastritis/rehabilitation\" OR \"Gastritis/therapy\")",
+    "articles": [
+      {
+        "title": "Ellagitannins from Rubus berries for the control of gastric inflammation: in vitro and in vivo studies.",
+        "authors": "Sangiovanni E, Vrhovsek U, Rossoni G, Colombo E, Brunelli C, Brembati L, Trivulzio S, Gasperotti M, Mattivi F, Bosisio E, Dell'Agli M",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/23940786/",
+        "PMID": "23940786",
+        "doi": "https://doi.org/10.1371/journal.pone.0071762",
+        "DOI": "10.1371/journal.pone.0071762",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3733869/",
+        "PMCID": "PMC3733869",
+        "pubtypes": "Comparative Study, Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 3
+      },
+      {
+        "title": "Gastroprotective Effects of Plants Extracts on Gastric Mucosal Injury in Experimental Sprague-Dawley Rats.",
+        "authors": "Park JU, Kang JH, Rahman MAA, Hussain A, Cho JS, Lee YI",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30906783/",
+        "PMID": "30906783",
+        "doi": "https://doi.org/10.1155/2019/8759708",
+        "DOI": "10.1155/2019/8759708",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6398063/",
+        "PMCID": "PMC6398063",
+        "pubtypes": "Journal Article, Retracted Publication",
+        "rate": 1
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

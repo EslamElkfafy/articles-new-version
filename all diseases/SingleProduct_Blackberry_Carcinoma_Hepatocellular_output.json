@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 44,
+    "disease_name": "Carcinoma, Hepatocellular",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 2,
+    "calculated_dw": 2,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Carcinoma, Hepatocellular/diet therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/drug therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/prevention and control\"[Mesh] OR \"Carcinoma, Hepatocellular/rehabilitation\"[Mesh] OR \"Carcinoma, Hepatocellular/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Carcinoma, Hepatocellular/diet therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/drug therapy\"[Mesh] OR \"Carcinoma, Hepatocellular/prevention and control\"[Mesh] OR \"Carcinoma, Hepatocellular/rehabilitation\"[Mesh] OR \"Carcinoma, Hepatocellular/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Carcinoma, Hepatocellular/diet therapy\" OR \"Carcinoma, Hepatocellular/drug therapy\" OR \"Carcinoma, Hepatocellular/prevention and control\" OR \"Carcinoma, Hepatocellular/rehabilitation\" OR \"Carcinoma, Hepatocellular/therapy\")",
+    "articles": [
+      {
+        "title": "Total alkaloids of Rubus alceifolius Poir shows anti-angiogenic activity in vivo and in vitro.",
+        "authors": "Zhao J, Lin W, Zhuang Q, Zhong X, Cao Z, Hong Z, Peng J",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25148840/",
+        "PMID": "25148840",
+        "doi": "https://doi.org/10.1177/1534735414547109",
+        "DOI": "10.1177/1534735414547109",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Inhibition of Hepatocellular Carcinoma by Total Alkaloids of Rubus alceifolius Poir Involves Suppression of Hedgehog Signaling.",
+        "authors": "Zhao J, Liu L, Wan Y, Zhang Y, Zhuang Q, Zhong X, Hong Z, Peng J",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25917815/",
+        "PMID": "25917815",
+        "doi": "https://doi.org/10.1177/1534735415583553",
+        "DOI": "10.1177/1534735415583553",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

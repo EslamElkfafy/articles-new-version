@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blueberry",
+    "disease_id": 88,
+    "disease_name": "Dermatitis, Seborrheic",
+    "odw": "",
+    "best_mesh_match": "Blueberry Plants",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Blueberry Plants\"[Mesh] AND \"Blueberry Plants/therapeutic use\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Dermatitis, Seborrheic/diet therapy\"[Mesh] OR \"Dermatitis, Seborrheic/drug therapy\"[Mesh] OR \"Dermatitis, Seborrheic/prevention and control\"[Mesh] OR \"Dermatitis, Seborrheic/rehabilitation\"[Mesh] OR \"Dermatitis, Seborrheic/therapy\"[Mesh])",
+    "q2": "(\"Blueberry Plants\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Dermatitis, Seborrheic/diet therapy\"[Mesh] OR \"Dermatitis, Seborrheic/drug therapy\"[Mesh] OR \"Dermatitis, Seborrheic/prevention and control\"[Mesh] OR \"Dermatitis, Seborrheic/rehabilitation\"[Mesh] OR \"Dermatitis, Seborrheic/therapy\"[Mesh])",
+    "q3": "(\"Blueberry Plants\" NOT \"adverse effects\"[Subheading]) AND (\"Dermatitis, Seborrheic/diet therapy\" OR \"Dermatitis, Seborrheic/drug therapy\" OR \"Dermatitis, Seborrheic/prevention and control\" OR \"Dermatitis, Seborrheic/rehabilitation\" OR \"Dermatitis, Seborrheic/therapy\")",
+    "articles": [],
+    "all_product_names": "Blueberry"
+  }
+]

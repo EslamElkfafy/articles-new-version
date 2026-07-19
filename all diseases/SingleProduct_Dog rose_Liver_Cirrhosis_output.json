@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 73,
+    "disease_name": "Liver Cirrhosis",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Liver Cirrhosis/diet therapy\"[Mesh] OR \"Liver Cirrhosis/drug therapy\"[Mesh] OR \"Liver Cirrhosis/prevention and control\"[Mesh] OR \"Liver Cirrhosis/rehabilitation\"[Mesh] OR \"Liver Cirrhosis/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Liver Cirrhosis/diet therapy\"[Mesh] OR \"Liver Cirrhosis/drug therapy\"[Mesh] OR \"Liver Cirrhosis/prevention and control\"[Mesh] OR \"Liver Cirrhosis/rehabilitation\"[Mesh] OR \"Liver Cirrhosis/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Liver Cirrhosis/diet therapy\" OR \"Liver Cirrhosis/drug therapy\" OR \"Liver Cirrhosis/prevention and control\" OR \"Liver Cirrhosis/rehabilitation\" OR \"Liver Cirrhosis/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

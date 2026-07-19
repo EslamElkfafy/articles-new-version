@@ -1,0 +1,32 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 49,
+    "disease_name": "Metabolic Syndrome",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "Q3",
+    "articles_count": 1,
+    "calculated_dw": 4,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Metabolic Syndrome/diet therapy\"[Mesh] OR \"Metabolic Syndrome/drug therapy\"[Mesh] OR \"Metabolic Syndrome/prevention and control\"[Mesh] OR \"Metabolic Syndrome/rehabilitation\"[Mesh] OR \"Metabolic Syndrome/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Metabolic Syndrome/diet therapy\"[Mesh] OR \"Metabolic Syndrome/drug therapy\"[Mesh] OR \"Metabolic Syndrome/prevention and control\"[Mesh] OR \"Metabolic Syndrome/rehabilitation\"[Mesh] OR \"Metabolic Syndrome/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Metabolic Syndrome/diet therapy\" OR \"Metabolic Syndrome/drug therapy\" OR \"Metabolic Syndrome/prevention and control\" OR \"Metabolic Syndrome/rehabilitation\" OR \"Metabolic Syndrome/therapy\")",
+    "articles": [
+      {
+        "title": "The Effects of Resveratrol in the Treatment of Metabolic Syndrome.",
+        "authors": "Hou CY, Tain YL, Yu HR, Huang LT",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30695995/",
+        "PMID": "30695995",
+        "doi": "https://doi.org/10.3390/ijms20030535",
+        "DOI": "10.3390/ijms20030535",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387422/",
+        "PMCID": "PMC6387422",
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      }
+    ],
+    "all_product_names": "apples"
+  }
+]

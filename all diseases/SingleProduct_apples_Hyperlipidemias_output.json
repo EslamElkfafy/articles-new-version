@@ -1,0 +1,44 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 38,
+    "disease_name": "Hyperlipidemias",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "Q3",
+    "articles_count": 2,
+    "calculated_dw": 6,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Hyperlipidemias/diet therapy\"[Mesh] OR \"Hyperlipidemias/drug therapy\"[Mesh] OR \"Hyperlipidemias/prevention and control\"[Mesh] OR \"Hyperlipidemias/rehabilitation\"[Mesh] OR \"Hyperlipidemias/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Hyperlipidemias/diet therapy\"[Mesh] OR \"Hyperlipidemias/drug therapy\"[Mesh] OR \"Hyperlipidemias/prevention and control\"[Mesh] OR \"Hyperlipidemias/rehabilitation\"[Mesh] OR \"Hyperlipidemias/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Hyperlipidemias/diet therapy\" OR \"Hyperlipidemias/drug therapy\" OR \"Hyperlipidemias/prevention and control\" OR \"Hyperlipidemias/rehabilitation\" OR \"Hyperlipidemias/therapy\")",
+    "articles": [
+      {
+        "title": "Calcium-D-glucarate.",
+        "authors": "",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/12197785/",
+        "PMID": "12197785",
+        "doi": "No DOI available",
+        "DOI": null,
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      },
+      {
+        "title": "Novel quercetin-3-O-glucoside eicosapentaenoic acid ester ameliorates inflammation and hyperlipidemia.",
+        "authors": "Sekhon-Loodu S, Ziaullah Z, Rupasinghe HP, Wang Y, Kulka M, Shahidi F",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/26165697/",
+        "PMID": "26165697",
+        "doi": "https://doi.org/10.1007/s10787-015-0237-0",
+        "DOI": "10.1007/s10787-015-0237-0",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "apples"
+  }
+]

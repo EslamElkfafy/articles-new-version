@@ -1,0 +1,32 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 46,
+    "disease_name": "Prediabetic State",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "Q2",
+    "articles_count": 1,
+    "calculated_dw": 16,
+    "category": "ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Prediabetic State/diet therapy\"[Mesh] OR \"Prediabetic State/drug therapy\"[Mesh] OR \"Prediabetic State/prevention and control\"[Mesh] OR \"Prediabetic State/rehabilitation\"[Mesh] OR \"Prediabetic State/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Prediabetic State/diet therapy\"[Mesh] OR \"Prediabetic State/drug therapy\"[Mesh] OR \"Prediabetic State/prevention and control\"[Mesh] OR \"Prediabetic State/rehabilitation\"[Mesh] OR \"Prediabetic State/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Prediabetic State/diet therapy\" OR \"Prediabetic State/drug therapy\" OR \"Prediabetic State/prevention and control\" OR \"Prediabetic State/rehabilitation\" OR \"Prediabetic State/therapy\")",
+    "articles": [
+      {
+        "title": "Effect of apple polyphenols on vascular oxidative stress and endothelium function: a translational study.",
+        "authors": "Cicero AFG, Caliceti C, Fogacci F, Giovannini M, Calabria D, Colletti A, Veronesi M, Roda A, Borghi C",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/28755406/",
+        "PMID": "28755406",
+        "doi": "https://doi.org/10.1002/mnfr.201700373",
+        "DOI": "10.1002/mnfr.201700373",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial, Validation Study",
+        "rate": 4
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

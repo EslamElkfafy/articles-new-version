@@ -1,0 +1,42 @@
+[
+  {
+    "root_name": "apple pectin",
+    "scientific_name": "Pyrus malus",
+    "processing_status": "enzymatic modification combined with selenylation",
+    "pubtypes": "Randomized Controlled Trial",
+    "disease_rates": 4,
+    "disease_targets": [
+      {
+        "disease_name": "Type 2 Diabetes",
+        "root_causes": [
+          {
+            "name": "oxidative stress",
+            "benefit_exactly": null,
+            "benefit_descriptive": null
+          },
+          {
+            "name": "insulin resistance",
+            "benefit_exactly": null,
+            "benefit_descriptive": null
+          }
+        ],
+        "labs": [
+          {
+            "type": "alt_gpt",
+            "name": "glucose",
+            "benefit": "significantly reduced weight loss, hyperglycemia",
+            "short_description": "reduced glucose levels",
+            "quantity": ""
+          },
+          {
+            "type": "alt_gpt",
+            "name": "insulin",
+            "benefit": "ameliorated insulin resistance",
+            "short_description": "improved insulin sensitivity",
+            "quantity": ""
+          }
+        ]
+      }
+    ]
+  }
+]

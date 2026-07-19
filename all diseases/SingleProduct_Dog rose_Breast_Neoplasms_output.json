@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 51,
+    "disease_name": "Breast Neoplasms",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Breast Neoplasms/diet therapy\"[Mesh] OR \"Breast Neoplasms/drug therapy\"[Mesh] OR \"Breast Neoplasms/prevention and control\"[Mesh] OR \"Breast Neoplasms/rehabilitation\"[Mesh] OR \"Breast Neoplasms/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Breast Neoplasms/diet therapy\"[Mesh] OR \"Breast Neoplasms/drug therapy\"[Mesh] OR \"Breast Neoplasms/prevention and control\"[Mesh] OR \"Breast Neoplasms/rehabilitation\"[Mesh] OR \"Breast Neoplasms/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Breast Neoplasms/diet therapy\" OR \"Breast Neoplasms/drug therapy\" OR \"Breast Neoplasms/prevention and control\" OR \"Breast Neoplasms/rehabilitation\" OR \"Breast Neoplasms/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

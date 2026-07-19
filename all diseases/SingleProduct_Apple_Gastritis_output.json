@@ -1,0 +1,32 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 75,
+    "disease_name": "Gastritis",
+    "odw": "",
+    "best_mesh_match": "Malus",
+    "query_used": "Q2",
+    "articles_count": 1,
+    "calculated_dw": 1,
+    "category": "ready",
+    "q1": "(\"Malus\"[Mesh] AND \"Malus/therapeutic use\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Gastritis/diet therapy\"[Mesh] OR \"Gastritis/drug therapy\"[Mesh] OR \"Gastritis/prevention and control\"[Mesh] OR \"Gastritis/rehabilitation\"[Mesh] OR \"Gastritis/therapy\"[Mesh])",
+    "q2": "(\"Malus\"[Mesh] NOT \"Malus/adverse effects\"[Mesh]) AND (\"Gastritis/diet therapy\"[Mesh] OR \"Gastritis/drug therapy\"[Mesh] OR \"Gastritis/prevention and control\"[Mesh] OR \"Gastritis/rehabilitation\"[Mesh] OR \"Gastritis/therapy\"[Mesh])",
+    "q3": "(\"Malus\" NOT \"adverse effects\"[Subheading]) AND (\"Gastritis/diet therapy\" OR \"Gastritis/drug therapy\" OR \"Gastritis/prevention and control\" OR \"Gastritis/rehabilitation\" OR \"Gastritis/therapy\")",
+    "articles": [
+      {
+        "title": "In vitro and in vivo effects of apple peel polyphenols against Helicobacter pylori.",
+        "authors": "Pastene E, Speisky H, García A, Moreno J, Troncoso M, Figueroa G",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/20486708/",
+        "PMID": "20486708",
+        "doi": "https://doi.org/10.1021/jf100274g",
+        "DOI": "10.1021/jf100274g",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

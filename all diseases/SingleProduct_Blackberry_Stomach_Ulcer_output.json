@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 74,
+    "disease_name": "Stomach Ulcer",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q3",
+    "articles_count": 4,
+    "calculated_dw": 4,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Stomach Ulcer/diet therapy\"[Mesh] OR \"Stomach Ulcer/drug therapy\"[Mesh] OR \"Stomach Ulcer/prevention and control\"[Mesh] OR \"Stomach Ulcer/rehabilitation\"[Mesh] OR \"Stomach Ulcer/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Stomach Ulcer/diet therapy\"[Mesh] OR \"Stomach Ulcer/drug therapy\"[Mesh] OR \"Stomach Ulcer/prevention and control\"[Mesh] OR \"Stomach Ulcer/rehabilitation\"[Mesh] OR \"Stomach Ulcer/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Stomach Ulcer/diet therapy\" OR \"Stomach Ulcer/drug therapy\" OR \"Stomach Ulcer/prevention and control\" OR \"Stomach Ulcer/rehabilitation\" OR \"Stomach Ulcer/therapy\")",
+    "articles": [
+      {
+        "title": "Gastroprotective Effects of Plants Extracts on Gastric Mucosal Injury in Experimental Sprague-Dawley Rats.",
+        "authors": "Park JU, Kang JH, Rahman MAA, Hussain A, Cho JS, Lee YI",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30906783/",
+        "PMID": "30906783",
+        "doi": "https://doi.org/10.1155/2019/8759708",
+        "DOI": "10.1155/2019/8759708",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6398063/",
+        "PMCID": "PMC6398063",
+        "pubtypes": "Journal Article, Retracted Publication",
+        "rate": 1
+      },
+      {
+        "title": "The anti-gastropathic and anti-rheumatic effect of niga-ichigoside F1 and 23-hydroxytormentic acid isolated from the unripe fruits of Rubus coreanus in a rat model.",
+        "authors": "Nam JH, Jung HJ, Choi J, Lee KT, Park HJ",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/16651728/",
+        "PMID": "16651728",
+        "doi": "https://doi.org/10.1248/bpb.29.967",
+        "DOI": "10.1248/bpb.29.967",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Antiulcer activity of anthocyanins from Rubus coreanus via association with regulation of the activity of matrix metalloproteinase-2.",
+        "authors": "Kim SJ, Lee HJ, Kim BS, Lee D, Lee SJ, Yoo SH, Chang HI",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/21942741/",
+        "PMID": "21942741",
+        "doi": "https://doi.org/10.1021/jf104192a",
+        "DOI": "10.1021/jf104192a",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Evaluation of the gastroprotective activity of the extracts, fractions, and pure compounds obtained from aerial parts of Rubus imperialis in different experimental models.",
+        "authors": "Berté PE, da Silva Lopes J, Comandulli NG, Rangel DW, Monache FD, Filho VC, Niero R, de Andrade SF",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/24402081/",
+        "PMID": "24402081",
+        "doi": "https://doi.org/10.1007/s00210-013-0954-0",
+        "DOI": "10.1007/s00210-013-0954-0",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

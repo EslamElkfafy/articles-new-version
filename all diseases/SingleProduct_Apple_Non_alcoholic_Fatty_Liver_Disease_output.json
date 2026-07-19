@@ -1,0 +1,80 @@
+[
+  {
+    "id": "24",
+    "root_name": "Apple",
+    "disease_id": 86,
+    "disease_name": "Non-alcoholic Fatty Liver Disease",
+    "odw": "",
+    "best_mesh_match": "apple",
+    "query_used": "Q3",
+    "articles_count": 5,
+    "calculated_dw": 45,
+    "category": "ready",
+    "q1": "(\"apple\"[Mesh] AND \"apple/therapeutic use\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Non-alcoholic Fatty Liver Disease/diet therapy\"[Mesh] OR \"Non-alcoholic Fatty Liver Disease/drug therapy\"[Mesh] OR \"Non-alcoholic Fatty Liver Disease/prevention and control\"[Mesh] OR \"Non-alcoholic Fatty Liver Disease/rehabilitation\"[Mesh] OR \"Non-alcoholic Fatty Liver Disease/therapy\"[Mesh])",
+    "q2": "(\"apple\"[Mesh] NOT \"apple/adverse effects\"[Mesh]) AND (\"Non-alcoholic Fatty Liver Disease/diet therapy\"[Mesh] OR \"Non-alcoholic Fatty Liver Disease/drug therapy\"[Mesh] OR \"Non-alcoholic Fatty Liver Disease/prevention and control\"[Mesh] OR \"Non-alcoholic Fatty Liver Disease/rehabilitation\"[Mesh] OR \"Non-alcoholic Fatty Liver Disease/therapy\"[Mesh])",
+    "q3": "(\"apple\" NOT \"adverse effects\"[Subheading]) AND (\"Non-alcoholic Fatty Liver Disease/diet therapy\" OR \"Non-alcoholic Fatty Liver Disease/drug therapy\" OR \"Non-alcoholic Fatty Liver Disease/prevention and control\" OR \"Non-alcoholic Fatty Liver Disease/rehabilitation\" OR \"Non-alcoholic Fatty Liver Disease/therapy\")",
+    "articles": [
+      {
+        "title": "Effects of curcumin on anthropometric measurements in nonalcoholic fatty liver disease: An umbrella meta-analysis study.",
+        "authors": "Mahapatro A, Jeanty H, Adla Jala SR, Priya Somu K, Madineni G, Mohanty E, Marsool MD, Shamsi P, Shahriari Namin M, Abbaszadeh S, Saberian P, Amini-Salehi E, Ghazalgoo A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42116302/",
+        "PMID": "42116302",
+        "doi": "https://doi.org/10.1097/MD.0000000000048629",
+        "DOI": "10.1097/MD.0000000000048629",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13166889/",
+        "PMCID": "PMC13166889",
+        "pubtypes": "Journal Article, Systematic Review, Meta-Analysis",
+        "rate": 5
+      },
+      {
+        "title": "Ursolic acid inhibits the development of nonalcoholic fatty liver disease by attenuating endoplasmic reticulum stress.",
+        "authors": "Li JS, Wang WJ, Sun Y, Zhang YH, Zheng L",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/25892149/",
+        "PMID": "25892149",
+        "doi": "https://doi.org/10.1039/c5fo00083a",
+        "DOI": "10.1039/c5fo00083a",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Apple polyphenol extract alleviates lipid accumulation in free-fatty-acid-exposed HepG2 cells via activating autophagy mediated by SIRT1/AMPK signaling.",
+        "authors": "Li D, Cui Y, Wang X, Liu F, Li X",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/33037751/",
+        "PMID": "33037751",
+        "doi": "https://doi.org/10.1002/ptr.6902",
+        "DOI": "10.1002/ptr.6902",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "A flavonoid-rich diet is associated with lower risk and improved imaging biomarkers of nonalcoholic fatty liver disease: a prospective cohort study.",
+        "authors": "Bell W, Jennings A, Thompson AS, Bondonno NP, Tresserra-Rimbau A, Kühn T, Cassidy A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39341459/",
+        "PMID": "39341459",
+        "doi": "https://doi.org/10.1016/j.ajcnut.2024.09.022",
+        "DOI": "10.1016/j.ajcnut.2024.09.022",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11619783/",
+        "PMCID": "PMC11619783",
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Phloretin Suppresses the mPTP Abnormal Opening via the SHP-2/JAK2/BAX Axis to Ameliorate Nonalcoholic Steatohepatitis.",
+        "authors": "Dong Y, Wu X, Li J, Li J, Lu Y, He C, Han L, Wang M",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41063536/",
+        "PMID": "41063536",
+        "doi": "https://doi.org/10.1021/acs.jafc.5c05787",
+        "DOI": "10.1021/acs.jafc.5c05787",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Apple"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 54,
+    "disease_name": "Uterine Cervical Neoplasms",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Uterine Cervical Neoplasms/diet therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/drug therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/prevention and control\"[Mesh] OR \"Uterine Cervical Neoplasms/rehabilitation\"[Mesh] OR \"Uterine Cervical Neoplasms/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Uterine Cervical Neoplasms/diet therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/drug therapy\"[Mesh] OR \"Uterine Cervical Neoplasms/prevention and control\"[Mesh] OR \"Uterine Cervical Neoplasms/rehabilitation\"[Mesh] OR \"Uterine Cervical Neoplasms/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Uterine Cervical Neoplasms/diet therapy\" OR \"Uterine Cervical Neoplasms/drug therapy\" OR \"Uterine Cervical Neoplasms/prevention and control\" OR \"Uterine Cervical Neoplasms/rehabilitation\" OR \"Uterine Cervical Neoplasms/therapy\")",
+    "articles": [],
+    "all_product_names": "apples"
+  }
+]

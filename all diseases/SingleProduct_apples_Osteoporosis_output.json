@@ -1,0 +1,44 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 52,
+    "disease_name": "Osteoporosis",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "Q3",
+    "articles_count": 2,
+    "calculated_dw": 6,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Osteoporosis/diet therapy\"[Mesh] OR \"Osteoporosis/drug therapy\"[Mesh] OR \"Osteoporosis/prevention and control\"[Mesh] OR \"Osteoporosis/rehabilitation\"[Mesh] OR \"Osteoporosis/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Osteoporosis/diet therapy\"[Mesh] OR \"Osteoporosis/drug therapy\"[Mesh] OR \"Osteoporosis/prevention and control\"[Mesh] OR \"Osteoporosis/rehabilitation\"[Mesh] OR \"Osteoporosis/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Osteoporosis/diet therapy\" OR \"Osteoporosis/drug therapy\" OR \"Osteoporosis/prevention and control\" OR \"Osteoporosis/rehabilitation\" OR \"Osteoporosis/therapy\")",
+    "articles": [
+      {
+        "title": "Fruits and dietary phytochemicals in bone protection.",
+        "authors": "Shen CL, von Bergen V, Chyu MC, Jenkins MR, Mo H, Chen CH, Kwun IS",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/23244535/",
+        "PMID": "23244535",
+        "doi": "https://doi.org/10.1016/j.nutres.2012.09.018",
+        "DOI": "10.1016/j.nutres.2012.09.018",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't, Review",
+        "rate": 2
+      },
+      {
+        "title": "The Effect of Apple-Derived Nanovesicles on the Osteoblastogenesis of Osteoblastic MC3T3-E1 Cells.",
+        "authors": "Sim Y, Seo HJ, Kim DH, Lee SH, Kwon J, Kwun IS, Jung C, Kim JI, Lim JH, Kim DK, Baek MC, Cho YE",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36594993/",
+        "PMID": "36594993",
+        "doi": "https://doi.org/10.1089/jmf.2022.K.0094",
+        "DOI": "10.1089/jmf.2022.K.0094",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "apples"
+  }
+]

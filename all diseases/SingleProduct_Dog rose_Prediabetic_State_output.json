@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 46,
+    "disease_name": "Prediabetic State",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Prediabetic State/diet therapy\"[Mesh] OR \"Prediabetic State/drug therapy\"[Mesh] OR \"Prediabetic State/prevention and control\"[Mesh] OR \"Prediabetic State/rehabilitation\"[Mesh] OR \"Prediabetic State/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Prediabetic State/diet therapy\"[Mesh] OR \"Prediabetic State/drug therapy\"[Mesh] OR \"Prediabetic State/prevention and control\"[Mesh] OR \"Prediabetic State/rehabilitation\"[Mesh] OR \"Prediabetic State/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Prediabetic State/diet therapy\" OR \"Prediabetic State/drug therapy\" OR \"Prediabetic State/prevention and control\" OR \"Prediabetic State/rehabilitation\" OR \"Prediabetic State/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 46,
+    "disease_name": "Prediabetic State",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "Q3",
+    "articles_count": 3,
+    "calculated_dw": 24,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Prediabetic State/diet therapy\"[Mesh] OR \"Prediabetic State/drug therapy\"[Mesh] OR \"Prediabetic State/prevention and control\"[Mesh] OR \"Prediabetic State/rehabilitation\"[Mesh] OR \"Prediabetic State/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Prediabetic State/diet therapy\"[Mesh] OR \"Prediabetic State/drug therapy\"[Mesh] OR \"Prediabetic State/prevention and control\"[Mesh] OR \"Prediabetic State/rehabilitation\"[Mesh] OR \"Prediabetic State/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Prediabetic State/diet therapy\" OR \"Prediabetic State/drug therapy\" OR \"Prediabetic State/prevention and control\" OR \"Prediabetic State/rehabilitation\" OR \"Prediabetic State/therapy\")",
+    "articles": [
+      {
+        "title": "Feasibility and acceptability of miracle fruit application prior to the consumption of sour-tasting foods as a weight-loss strategy in adults with diabetes or prediabetes: A randomized crossover trial.",
+        "authors": "Choi S, Park T",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37726068/",
+        "PMID": "37726068",
+        "doi": "https://doi.org/10.1016/j.appet.2023.107046",
+        "DOI": "10.1016/j.appet.2023.107046",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't",
+        "rate": 4
+      },
+      {
+        "title": "Usage Patterns of GlucoNote, a Self-Management Smartphone App, Based on ResearchKit for Patients With Type 2 Diabetes and Prediabetes.",
+        "authors": "Yamaguchi S, Waki K, Nannya Y, Nangaku M, Kadowaki T, Ohe K",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31017586/",
+        "PMID": "31017586",
+        "doi": "https://doi.org/10.2196/13204",
+        "DOI": "10.2196/13204",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6505564/",
+        "PMCID": "PMC6505564",
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      },
+      {
+        "title": "Fruit and vegetable intake and risk of prediabetes and type 2 diabetes: results from a 20-year long prospective cohort study in Swedish men and women.",
+        "authors": "Barouti AA, Tynelius P, Lager A, Björklund A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35435501/",
+        "PMID": "35435501",
+        "doi": "https://doi.org/10.1007/s00394-022-02871-6",
+        "DOI": "10.1007/s00394-022-02871-6",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9363331/",
+        "PMCID": "PMC9363331",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "apples"
+  }
+]

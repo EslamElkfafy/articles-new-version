@@ -1,0 +1,2 @@
+"item_id","root_name","disease_id","disease_name","articles_count","category","calculated_dw","article_number","title","authors","pubmed","PMID","doi","DOI","pmc","PMCID","pubtypes","rate"
+"24","Apple",75,"Gastritis",1,"ready",1,1,"In vitro and in vivo effects of apple peel polyphenols against Helicobacter pylori.","Pastene E, Speisky H, García A, Moreno J, Troncoso M, Figueroa G","https://pubmed.ncbi.nlm.nih.gov/20486708/","20486708","https://doi.org/10.1021/jf100274g","10.1021/jf100274g","No PMC available",,"Journal Article, Research Support, Non-U.S. Gov't",0

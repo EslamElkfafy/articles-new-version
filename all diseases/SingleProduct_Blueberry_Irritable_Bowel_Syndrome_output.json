@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blueberry",
+    "disease_id": 89,
+    "disease_name": "Irritable Bowel Syndrome",
+    "odw": "",
+    "best_mesh_match": "Blueberry Plants",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Blueberry Plants\"[Mesh] AND \"Blueberry Plants/therapeutic use\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Irritable Bowel Syndrome/diet therapy\"[Mesh] OR \"Irritable Bowel Syndrome/drug therapy\"[Mesh] OR \"Irritable Bowel Syndrome/prevention and control\"[Mesh] OR \"Irritable Bowel Syndrome/rehabilitation\"[Mesh] OR \"Irritable Bowel Syndrome/therapy\"[Mesh])",
+    "q2": "(\"Blueberry Plants\"[Mesh] NOT \"Blueberry Plants/adverse effects\"[Mesh]) AND (\"Irritable Bowel Syndrome/diet therapy\"[Mesh] OR \"Irritable Bowel Syndrome/drug therapy\"[Mesh] OR \"Irritable Bowel Syndrome/prevention and control\"[Mesh] OR \"Irritable Bowel Syndrome/rehabilitation\"[Mesh] OR \"Irritable Bowel Syndrome/therapy\"[Mesh])",
+    "q3": "(\"Blueberry Plants\" NOT \"adverse effects\"[Subheading]) AND (\"Irritable Bowel Syndrome/diet therapy\" OR \"Irritable Bowel Syndrome/drug therapy\" OR \"Irritable Bowel Syndrome/prevention and control\" OR \"Irritable Bowel Syndrome/rehabilitation\" OR \"Irritable Bowel Syndrome/therapy\")",
+    "articles": [],
+    "all_product_names": "Blueberry"
+  }
+]

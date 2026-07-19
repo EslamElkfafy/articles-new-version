@@ -1,0 +1,104 @@
+[
+  {
+    "id": "855",
+    "root_name": "apples",
+    "disease_id": 47,
+    "disease_name": "Colorectal Neoplasms",
+    "odw": null,
+    "best_mesh_match": "apples",
+    "query_used": "Q3",
+    "articles_count": 7,
+    "calculated_dw": 70,
+    "category": "ready",
+    "q1": "(\"apples\"[Mesh] AND \"apples/therapeutic use\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Colorectal Neoplasms/diet therapy\"[Mesh] OR \"Colorectal Neoplasms/drug therapy\"[Mesh] OR \"Colorectal Neoplasms/prevention and control\"[Mesh] OR \"Colorectal Neoplasms/rehabilitation\"[Mesh] OR \"Colorectal Neoplasms/therapy\"[Mesh])",
+    "q2": "(\"apples\"[Mesh] NOT \"apples/adverse effects\"[Mesh]) AND (\"Colorectal Neoplasms/diet therapy\"[Mesh] OR \"Colorectal Neoplasms/drug therapy\"[Mesh] OR \"Colorectal Neoplasms/prevention and control\"[Mesh] OR \"Colorectal Neoplasms/rehabilitation\"[Mesh] OR \"Colorectal Neoplasms/therapy\"[Mesh])",
+    "q3": "(\"apples\" NOT \"apples/adverse effects\") AND (\"Colorectal Neoplasms/diet therapy\" OR \"Colorectal Neoplasms/drug therapy\" OR \"Colorectal Neoplasms/prevention and control\" OR \"Colorectal Neoplasms/rehabilitation\" OR \"Colorectal Neoplasms/therapy\")",
+    "articles": [
+      {
+        "title": "Different types of fruit intake and colorectal cancer risk: A meta-analysis of observational studies.",
+        "authors": "Wu ZY, Chen JL, Li H, Su K, Han YW",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37213399/",
+        "PMID": "37213399",
+        "doi": "https://doi.org/10.3748/wjg.v29.i17.2679",
+        "DOI": "10.3748/wjg.v29.i17.2679",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10198059/",
+        "PMCID": "PMC10198059",
+        "pubtypes": "Meta-Analysis, Review, Journal Article",
+        "rate": 5
+      },
+      {
+        "title": "Outcomes of ablation versus resection for colorectal liver metastases: are we comparing apples with oranges?",
+        "authors": "Tsai S, Pawlik TM",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/19554378/",
+        "PMID": "19554378",
+        "doi": "https://doi.org/10.1245/s10434-009-0491-8",
+        "DOI": "10.1245/s10434-009-0491-8",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, N.I.H., Extramural, Review",
+        "rate": 2
+      },
+      {
+        "title": "Resveratrol: biology, metabolism, and detrimental role on the tumor microenvironment of colorectal cancer.",
+        "authors": "Dariya B, Girish BP, Merchant N, Srilatha M, Nagaraju GP",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37862428/",
+        "PMID": "37862428",
+        "doi": "https://doi.org/10.1093/nutrit/nuad133",
+        "DOI": "10.1093/nutrit/nuad133",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      },
+      {
+        "title": "Application of Foodomics within the field of colorectal cancer prevention, diagnosis and treatment.",
+        "authors": "Zhou Y, Teng L, Ibáñez E, Chen H, Cifuentes A, Lu W",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40709902/",
+        "PMID": "40709902",
+        "doi": "https://doi.org/10.1039/d5fo00451a",
+        "DOI": "10.1039/d5fo00451a",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      },
+      {
+        "title": "Dietary flavonoids and colorectal adenoma recurrence in the Polyp Prevention Trial.",
+        "authors": "Bobe G, Sansbury LB, Albert PS, Cross AJ, Kahle L, Ashby J, Slattery ML, Caan B, Paskett E, Iber F, Kikendall JW, Lance P, Daston C, Marshall JR, Schatzkin A, Lanza E",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/18559549/",
+        "PMID": "18559549",
+        "doi": "https://doi.org/10.1158/1055-9965.EPI-07-0747",
+        "DOI": "10.1158/1055-9965.EPI-07-0747",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2517243/",
+        "PMCID": "PMC2517243",
+        "pubtypes": "Journal Article, Research Support, N.I.H., Intramural",
+        "rate": 0
+      },
+      {
+        "title": "An apple a day may hold colorectal cancer at bay: recent evidence from a case-control study.",
+        "authors": "Jedrychowski W, Maugeri U",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/19476292/",
+        "PMID": "19476292",
+        "doi": "https://doi.org/10.1515/reveh.2009.24.1.59",
+        "DOI": "10.1515/reveh.2009.24.1.59",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Apple polysaccharides induce apoptosis in colorectal cancer cells.",
+        "authors": "Zhang D, Sun Y, Yue Z, Li Q, Meng J, Liu J, Hekong X, Jiang F, Mi M, Liu L, Mei Q",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/22470124/",
+        "PMID": "22470124",
+        "doi": "https://doi.org/10.3892/ijmm.2012.953",
+        "DOI": "10.3892/ijmm.2012.953",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "apples"
+  }
+]

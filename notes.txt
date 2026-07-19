@@ -1,0 +1,251 @@
+https://pubmed.ncbi.nlm.nih.gov/28636209/
+
+Found 33 articles for Type 2 diabetes mellitus - Almonds.
+1
+Processing article: 12936955
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+2
+Processing article: 20580779
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+3
+Processing article: 21489570
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+4
+Processing article: 21653575
+✅ Success with model: codestral-2405
+number of data inthis article is  0
+there is no record what get from ai is
+ The abstract mentions a study that assessed the effect of changes in glycemic index (GI) and load (GL) on weight loss and glycated hemoglobin (HbA1c) among individuals with type 2 diabetes beginning a vegan diet or diet following the 2003 American Diabetes Association (ADA) recommendations. However, the abstract does not provide enough information to determine how almonds, garlic, ginger, apples, cherries, cinnamon, avocado, bananas, beets, or blueberries were processed or administered in the study or their potential beneficial effects on disease root causes and lab measures.
+
+Since the abstract does not contain the required information, it's not possible to create a valid JSON array with the specified schema. Therefore, the output will be an empty array:
+
+[]
+----------------------------------------------------------------------------------
+5
+Processing article: 22722891
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+6
+Processing article: 22723853
+✅ Success with model: codestral-2405
+Data before JSON extraction: The provided text does not contain any of the specified items: Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, or Blueberries. Therefore, the output JSON array would be empty.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+7
+Processing article: 25023926
+✅ Success with model: codestral-2405
+Failed to parse JSON array, skipping this article.
+----------------------------------------------------------------------------------
+
+8
+Processing article: 25076495
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+9
+Processing article: 25238025
+✅ Success with model: codestral-2405
+number of data inthis article is  0
+there is no record what get from ai is
+ Since the abstract and the body of the study do not mention any of the listed items (Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, Blueberries), it is not possible to create a JSON array that meets the specified schema.
+
+Therefore, the output would be an empty JSON array:
+
+```json
+[]
+```
+----------------------------------------------------------------------------------
+10
+Processing article: 25265315
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+11
+Processing article: 27314172
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+12
+Processing article: 28051354
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+13
+Processing article: 28636209
+❌ Error: No abstract found.
+No data found for this article.
+----------------------------------------------------------------------------------
+
+14
+Processing article: 29789878
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+15
+Processing article: 29797503
+✅ Success with model: codestral-2405
+Data before JSON extraction: Since the provided text does not mention any of the items listed - Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, or Blueberries - there is no information to extract and map to disease root causes or lab measures. Therefore, I am unable to provide a JSON array as output.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+16
+Processing article: 29898883
+✅ Success with model: codestral-2405
+Data before JSON extraction: The provided text does not contain any information about Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, or Blueberries in the context of dietary intervention for Type 2 diabetes. Therefore, no information can be extracted to match the required output format.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+17
+Processing article: 30360498
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+18
+Processing article: 31242690
+✅ Success with model: codestral-2405
+Data before JSON extraction: The provided text does not contain any information about Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, or Blueberries being used as interventions in the study. Therefore, no results can be provided according to the requested format.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+19
+Processing article: 31683759
+✅ Success with model: codestral-2405
+Data before JSON extraction: The provided text does not contain information about the items Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, or Blueberries used in the study for prevention of Type 2 Diabetes. Therefore, it's not possible to generate the requested JSON data based on the available information.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+20
+Processing article: 32152513
+✅ Success with model: codestral-2405
+Data before JSON extraction: The study does not mention any of the items you've listed (Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, Blueberries) in the intervention section. Therefore, I am unable to provide any information about their processing or administration, or their beneficial effects on disease root causes or lab measures.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+21
+Processing article: 33022991
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+22
+Processing article: 34348965
+✅ Success with model: codestral-2405
+Data before JSON extraction: The provided text does not mention any of the specified items (Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, Blueberries) in the context of a study intervention. Therefore, I am unable to provide the requested information.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+23
+Processing article: 34624199
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+24
+Processing article: 35443097
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+25
+Processing article: 35966078
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+26
+Processing article: 36162007
+✅ Success with model: codestral-2405
+number of data inthis article is  2
+----------------------------------------------------------------------------------
+27
+Processing article: 36650599
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+28
+Processing article: 36812419
+✅ Success with model: codestral-2405
+Data before JSON extraction: The given text does not contain any information about Almonds, Garlic, Ginger, Apples, Cherries, Cinnamon, Avocado, Bananas, Beets, or Blueberries and their processing methods, beneficial effects, disease root causes, or lab measures. Therefore, no JSON array can be created based on the provided information.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+29
+Processing article: 37258943
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+30
+Processing article: 37775736
+✅ Success with model: codestral-2405
+Data before JSON extraction: Based on the provided text, the only distinct "item" that exactly matches the given list is "Almonds". However, the text does not provide sufficient information to determine how it was processed or administered. Also, it doesn't explicitly mention its beneficial effects in relation to root causes or lab measures. Given this, I'm unable to provide a complete JSON array as requested.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+31
+Processing article: 38999851
+✅ Success with model: codestral-2405
+Data before JSON extraction: Based on the study, I have identified the following:
+
+1. Item Name: Almonds
+   - Processing Status: As part of a nut bar that contains mixed almonds and peanuts.
+   - Root Cause 1 Name: Lower Blood Glucose
+     - Benefit: Almonds are proposed to play a role in ameliorating the risk of T2D due to multiple factors such as macro- and micro-nutrient content, bioactive compounds, and dietary fibre, which may work synergistically to lower postprandial glycaemia. They are also a good source of high-quality plant protein, mono- (MUFAs) and polyunsaturated fatty acids (PUFAs), which are proposed to improve blood lipid profiles, decrease insulin resistance, decrease inflammation and oxidative stress, and modulate endothelial function.
+   - Root Cause 2 Name: Improved Insulin Sensitivity
+     - Benefit: The inclusion of nuts in the diet has been shown to improve insulin sensitivity, which can help to manage blood sugar levels and prevent type 2 diabetes.
+   - Root Cause 3 Name: Reduced Inflammation and Oxidative Stress
+     - Benefit: Almonds are rich in antioxidants, such as vitamin E and polyphenols, which can help to reduce inflammation and oxidative stress in the body.
+   - Root Cause 4 Name: Improved Blood Lipid Profiles
+     - Benefit: Almonds are a good source of unsaturated fats, which can help to improve blood lipid profiles by decreasing levels of total cholesterol, LDL cholesterol, and triglycerides.
+   - Lab Measure 1 Name: Fasting Plasma Glucose (FPG)
+     - Benefit: Almonds have been shown to decrease FPG levels in multiple studies, which can help to improve glycemic control and reduce the risk of type 2 diabetes.
+   - Lab Measure 2 Name: Insulin Resistance (HOMA-IR)
+     - Benefit: Almonds have been shown to improve insulin sensitivity and decrease HOMA-IR, which can help to manage blood sugar levels and reduce the risk of type 2 diabetes.
+   - Lab Measure 3 Name: Total Cholesterol (TC)
+     - Benefit: Almonds are a good source of unsaturated fats, which can help to decrease levels of total cholesterol.
+   - Lab Measure 4 Name: LDL Cholesterol (LDL-C)
+     - Benefit: Almonds are a good source of unsaturated fats, which can help to decrease levels of LDL cholesterol.
+   - Lab Measure 5 Name: Triglycerides (TG)
+     - Benefit: Almonds are a good source of unsaturated fats, which can help to decrease levels of triglycerides.
+
+2. Item Name: Peanuts
+   - Processing Status: As part of a nut bar that contains mixed almonds and peanuts.
+   - Root Cause 1 Name: Lower Blood Glucose
+     - Benefit: Peanuts, like almonds, are a good source of high-quality plant protein, unsaturated fats, and dietary fibre, which may work synergistically to lower postprandial glycaemia and improve glycemic control.
+   - Root Cause 2 Name: Improved Insulin Sensitivity
+     - Benefit: The inclusion of nuts in the diet, including peanuts, has been shown to improve insulin sensitivity, which can help to manage blood sugar levels and prevent type 2 diabetes.
+   - Root Cause 3 Name: Reduced Inflammation and Oxidative Stress
+     - Benefit: Peanuts are rich in antioxidants, such as vitamin E and resveratrol, which can help to reduce inflammation and oxidative stress in the body.
+   - Root Cause 4 Name: Improved Blood Lipid Profiles
+     - Benefit: Peanuts are a good source of unsaturated fats, which can help to improve blood lipid profiles by decreasing levels of total cholesterol, LDL cholesterol, and triglycerides.
+   - Lab Measure 1 Name: Fasting Plasma Glucose (FPG)
+     - Benefit: Peanuts have been shown to decrease FPG levels in multiple studies, which can help to improve glycemic control and reduce the risk of type 2 diabetes.
+   - Lab Measure 2 Name: Insulin Resistance (HOMA-IR)
+     - Benefit: Peanuts have been shown to improve insulin sensitivity and decrease HOMA-IR, which can help to manage blood sugar levels and reduce the risk of type 2 diabetes.
+   - Lab Measure 3 Name: Total Cholesterol (TC)
+     - Benefit: Peanuts are a good source of unsaturated fats, which can help to decrease levels of total cholesterol.
+   - Lab Measure 4 Name: LDL Cholesterol (LDL-C)
+     - Benefit: Peanuts are a good source of unsaturated fats, which can help to decrease levels of LDL cholesterol.
+   - Lab Measure 5 Name: Triglycerides (TG)
+     - Benefit: Peanuts are a good source of unsaturated fats, which can help to decrease levels of triglycerides.
+
+The above JSON array represents the items, their processing status, root causes, and lab measures as requested.
+No valid JSON array found in text, skipping this article.
+----------------------------------------------------------------------------------
+
+32
+Processing article: 39275135
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+33
+Processing article: 39825938
+✅ Success with model: codestral-2405
+number of data inthis article is  1
+----------------------------------------------------------------------------------
+Processed Type 2 diabetes mellitus - Almonds with 33 articles.
+
+✅ Done!

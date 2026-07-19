@@ -1,0 +1,149 @@
+{
+  "Diabetes Mellitus, Type 2": {
+    "mapData": {},
+    "nextIndex": 55
+  },
+  "type 2 diabetes mellitus": {
+    "mapData": {
+      "insulin resistance": 1,
+      "oxidative stress": 2,
+      "hypertension": 3,
+      "abnormality in glucose transporter type 4 (glut-4) function": 4,
+      "inflammatory cytokines": 5,
+      "glucose homeostasis": 6,
+      "hypoglycemia": 7,
+      "inflammation": 8,
+      "hyperlipidemia": 9,
+      "endothelial dysfunction": 10,
+      "systemic low-grade inflammation": 14,
+      "metabolic syndrome": 15,
+      "hyperglycemia": 18,
+      "unhealthy eating practices": 20,
+      "excess calorie intake": 21,
+      "nutrient deficiency": 25,
+      "glucose absorption": 38,
+      "hepatic glucose output": 39,
+      "hyperuricemia": 44,
+      "abnormal glucose transporter type 4 function": 45,
+      "beta-cell destruction": 46,
+      "beta-cell protection": 47
+    },
+    "nextIndex": 55
+  },
+  "atherosclerosis": {
+    "mapData": {
+      "oxidative stress": 11,
+      "enhanced platelet reactivity": 16,
+      "enhanced secondary hemostasis": 17,
+      "endothelial dysfunction": 43,
+      "thrombin generation": 48
+    },
+    "nextIndex": 55
+  },
+  "hypertension": {
+    "mapData": {
+      "angiotensin converting enzyme activity": 12,
+      "increased systolic blood pressure": 49,
+      "oxidative stress": 50,
+      "angiotensin ii-induced hypertension": 51,
+      "vasoconstriction": 54
+    },
+    "nextIndex": 55
+  },
+  "obesity": {
+    "mapData": {
+      "adipose tissue accumulation": 13,
+      "low-grade inflammation": 40,
+      "lipid metabolism dysregulation": 41
+    },
+    "nextIndex": 55
+  },
+  "cardiovascular disease": {
+    "mapData": {
+      "oxidative stress": 19,
+      "unhealthy eating practices": 22,
+      "excess calorie intake": 23,
+      "nutrient deficiency": 24,
+      "vitamin d deficiency": 29
+    },
+    "nextIndex": 55
+  },
+  "depression": {
+    "mapData": {
+      "nutrient deficiency": 26
+    },
+    "nextIndex": 55
+  },
+  "dyslipidemia": {
+    "mapData": {
+      "nutrient deficiency": 27
+    },
+    "nextIndex": 55
+  },
+  "arthritis": {
+    "mapData": {
+      "inflammation": 28
+    },
+    "nextIndex": 55
+  },
+  "chronic liver disease": {
+    "mapData": {
+      "oxidative stress": 30
+    },
+    "nextIndex": 55
+  },
+  "parkinson s disease": {
+    "mapData": {
+      "neurodegeneration": 31
+    },
+    "nextIndex": 55
+  },
+  "gout": {
+    "mapData": {
+      "uric acid levels": 32
+    },
+    "nextIndex": 55
+  },
+  "liver fibrosis": {
+    "mapData": {
+      "fibrosis": 33
+    },
+    "nextIndex": 55
+  },
+  "non alcoholic fatty liver disease": {
+    "mapData": {
+      "lipid metabolism": 34,
+      "hepatic lipid accumulation": 42
+    },
+    "nextIndex": 55
+  },
+  "liver cirrhosis": {
+    "mapData": {
+      "fibrosis": 35
+    },
+    "nextIndex": 55
+  },
+  "liver cancer": {
+    "mapData": {
+      "oxidative stress": 36
+    },
+    "nextIndex": 55
+  },
+  "kidney stones": {
+    "mapData": {
+      "calcium oxalate crystallization": 37
+    },
+    "nextIndex": 55
+  },
+  "type 2 diabetes": {
+    "mapData": {},
+    "nextIndex": 55
+  },
+  "diabetes mellitus type 1": {
+    "mapData": {
+      "oxidative stress": 52,
+      "beta-cell destruction": 53
+    },
+    "nextIndex": 55
+  }
+}

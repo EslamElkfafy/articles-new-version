@@ -1,0 +1,140 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 28,
+    "disease_name": "Diabetes Mellitus, Type 2",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 10,
+    "calculated_dw": 56,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Diabetes Mellitus, Type 2/diet therapy\"[Mesh] OR \"Diabetes Mellitus, Type 2/drug therapy\"[Mesh] OR \"Diabetes Mellitus, Type 2/prevention and control\"[Mesh] OR \"Diabetes Mellitus, Type 2/rehabilitation\"[Mesh] OR \"Diabetes Mellitus, Type 2/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Diabetes Mellitus, Type 2/diet therapy\"[Mesh] OR \"Diabetes Mellitus, Type 2/drug therapy\"[Mesh] OR \"Diabetes Mellitus, Type 2/prevention and control\"[Mesh] OR \"Diabetes Mellitus, Type 2/rehabilitation\"[Mesh] OR \"Diabetes Mellitus, Type 2/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Diabetes Mellitus, Type 2/diet therapy\" OR \"Diabetes Mellitus, Type 2/drug therapy\" OR \"Diabetes Mellitus, Type 2/prevention and control\" OR \"Diabetes Mellitus, Type 2/rehabilitation\" OR \"Diabetes Mellitus, Type 2/therapy\")",
+    "articles": [
+      {
+        "title": "Attenuation of Postmeal Metabolic Indices with Red Raspberries in Individuals at Risk for Diabetes: A Randomized Controlled Trial.",
+        "authors": "Xiao D, Zhu L, Edirisinghe I, Fareed J, Brailovsky Y, Burton-Freeman B",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30767409/",
+        "PMID": "30767409",
+        "doi": "https://doi.org/10.1002/oby.22406",
+        "DOI": "10.1002/oby.22406",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't",
+        "rate": 4
+      },
+      {
+        "title": "Effects of Dietary Red Raspberry Consumption on Pre-Diabetes and Type 2 Diabetes Mellitus Parameters.",
+        "authors": "Derrick SA, Kristo AS, Reaves SK, Sikalidis AK",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34501954/",
+        "PMID": "34501954",
+        "doi": "https://doi.org/10.3390/ijerph18179364",
+        "DOI": "10.3390/ijerph18179364",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8431376/",
+        "PMCID": "PMC8431376",
+        "pubtypes": "Journal Article, Research Support, Non-U.S. Gov't, Review",
+        "rate": 2
+      },
+      {
+        "title": "Evaluation of Rubus grandifolius L. (wild blackberries) activities targeting management of type-2 diabetes and obesity using in vitro models.",
+        "authors": "Spínola V, Pinto J, Llorent-Martínez EJ, Tomás H, Castilho PC",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30408537/",
+        "PMID": "30408537",
+        "doi": "https://doi.org/10.1016/j.fct.2018.11.006",
+        "DOI": "10.1016/j.fct.2018.11.006",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Pelargonidin-3-O-glucoside Derived from Wild Raspberry Exerts Antihyperglycemic Effect by Inducing Autophagy and Modulating Gut Microbiota.",
+        "authors": "Su H, Xie L, Xu Y, Ke H, Bao T, Li Y, Chen W",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31322351/",
+        "PMID": "31322351",
+        "doi": "https://doi.org/10.1021/acs.jafc.9b03338",
+        "DOI": "10.1021/acs.jafc.9b03338",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Chinese Sweet Leaf Tea (Rubus suavissimus) Mitigates LPS-Induced Low-Grade Chronic Inflammation and Reduces the Risk of Metabolic Disorders in a C57BL/6J Mouse Model.",
+        "authors": "Zhang H, Qi R, Zeng Y, Tsao R, Mine Y",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31873011/",
+        "PMID": "31873011",
+        "doi": "https://doi.org/10.1021/acs.jafc.9b05975",
+        "DOI": "10.1021/acs.jafc.9b05975",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Effects of red raspberry polyphenols and metabolites on the biomarkers of inflammation and insulin resistance in type 2 diabetes: a pilot study.",
+        "authors": "Moreno Uclés R, González-Sarrías A, Espín JC, Tomás-Barberán FA, Janes M, Cheng H, Finley J, Greenway F, Losso JN",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35421887/",
+        "PMID": "35421887",
+        "doi": "https://doi.org/10.1039/d1fo02090k",
+        "DOI": "10.1039/d1fo02090k",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "The effect of the molecular weight of blackberry polysaccharides on gut microbiota modulation and hypoglycemic effect in vivo.",
+        "authors": "Xi L, Weibing X, Shuyong F, Sheng-Hua L, Xiong F, Chin-Ping T, Ping-Ping W, Zu-Man D, Chun C",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39078268/",
+        "PMID": "39078268",
+        "doi": "https://doi.org/10.1039/d4fo01989j",
+        "DOI": "10.1039/d4fo01989j",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Study on the Mechanism of Raspberry (Rubi fructus) in Treating Type 2 Diabetes Based on UPLC-Q-Exactive Orbitrap MS, Network Pharmacology, and Experimental Validation.",
+        "authors": "Wang X, Zhang X, Liao Q, Rui X, Wang R",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39496506/",
+        "PMID": "39496506",
+        "doi": "https://doi.org/10.1002/pca.3464",
+        "DOI": "10.1002/pca.3464",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Uncovering the phytochemical diversity and anti-diabetic potential of Rubus suavissimus leaf using conventional and novel extraction strategies.",
+        "authors": "Liu J, Li W, Lee PK, Hu X, Peng J, Xu Y, Wan H, Wong MK, Wu Z, Zhao D",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41904866/",
+        "PMID": "41904866",
+        "doi": "https://doi.org/10.1016/j.foodchem.2026.148983",
+        "DOI": "10.1016/j.foodchem.2026.148983",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Modulatory role of blackberry fruit standardized extract on brain redox status and insulin signaling in type 2 diabetic rats.",
+        "authors": "Ahmad I, de Mello JE, da Silveira LM, de Aguiar MSS, Vizzotto M, Domingues WB, de Souza LP, Campos VF, Tavares RG, Spanevello RM, Stefanello FM",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41931160/",
+        "PMID": "41931160",
+        "doi": "https://doi.org/10.1007/s11033-026-11735-9",
+        "DOI": "10.1007/s11033-026-11735-9",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13048955/",
+        "PMCID": "PMC13048955",
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

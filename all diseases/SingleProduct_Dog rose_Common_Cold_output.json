@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Dog rose",
+    "disease_id": 63,
+    "disease_name": "Common Cold",
+    "odw": "",
+    "best_mesh_match": "Rosa Canina",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "not_ready",
+    "q1": "(\"Rosa Canina\"[Mesh] AND \"Rosa Canina/therapeutic use\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Common Cold/diet therapy\"[Mesh] OR \"Common Cold/drug therapy\"[Mesh] OR \"Common Cold/prevention and control\"[Mesh] OR \"Common Cold/rehabilitation\"[Mesh] OR \"Common Cold/therapy\"[Mesh])",
+    "q2": "(\"Rosa Canina\"[Mesh] NOT \"Rosa Canina/adverse effects\"[Mesh]) AND (\"Common Cold/diet therapy\"[Mesh] OR \"Common Cold/drug therapy\"[Mesh] OR \"Common Cold/prevention and control\"[Mesh] OR \"Common Cold/rehabilitation\"[Mesh] OR \"Common Cold/therapy\"[Mesh])",
+    "q3": "(\"Rosa Canina\" NOT \"adverse effects\"[Subheading]) AND (\"Common Cold/diet therapy\" OR \"Common Cold/drug therapy\" OR \"Common Cold/prevention and control\" OR \"Common Cold/rehabilitation\" OR \"Common Cold/therapy\")",
+    "articles": [],
+    "all_product_names": "Dog rose"
+  }
+]

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomegranate & Diabetes Extractor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: rgba(22, 28, 45, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --primary-glow: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+            --accent-color: #a855f7;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --success-color: #10b981;
+            --error-color: #ef4444;
+        }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 40px 20px;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(236, 72, 153, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(to right, #f472b6, #c084fc, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .search-inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        input[type="text"] {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px 16px;
+            color: white;
+            font-family: inherit;
+        }
+        .file-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .btn {
+            background: var(--primary-glow);
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            font-weight: 600;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .log-section {
+            background: #070a13;
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            padding: 20px;
+            font-family: monospace;
+            height: 200px;
+            overflow-y: auto;
+            color: #34d399;
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 80px;
+            background: rgba(0,0,0,0.3);
+            color: #d1d5db;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Data Extractor Sandbox</h1>
+            <p>Upload files to extract pomegranate and diabetes rows</p>
+        </header>
+
+        <div class="card">
+            <div class="search-inputs">
+                <div class="input-group">
+                    <label>Item Keyword</label>
+                    <input type="text" id="item-search" value="pomegranate">
+                </div>
+                <div class="input-group">
+                    <label>Disease Keyword</label>
+                    <input type="text" id="disease-search" value="diabetes">
+                </div>
+            </div>
+
+            <div class="file-box">
+                <h3>1. Diabetes_Mellitus_Type_2_all_articles.csv</h3>
+                <input type="file" id="file-csv">
+            </div>
+            <div class="file-box">
+                <h3>2. Diabetes_Mellitus_Type_2_recalculated.xlsx</h3>
+                <input type="file" id="file-recal">
+            </div>
+            <div class="file-box">
+                <h3>3. new_script_mapping11.xlsx</h3>
+                <input type="file" id="file-mapping">
+            </div>
+
+            <button class="btn" id="btn-process">Run Extraction</button>
+        </div>
+
+        <div class="card">
+            <h3>Log</h3>
+            <div class="log-section" id="log"></div>
+        </div>
+
+        <div class="card">
+            <h3>Results (JSON)</h3>
+            <textarea id="result-summary" readonly></textarea>
+            <textarea id="csv-result" style="display:none;"></textarea>
+            <textarea id="recal-result" style="display:none;"></textarea>
+            <textarea id="mapping-result" style="display:none;"></textarea>
+        </div>
+    </div>
+
+    <script>
+        const logDiv = document.getElementById('log');
+        const itemInput = document.getElementById('item-search');
+        const diseaseInput = document.getElementById('disease-search');
+        const resultSummary = document.getElementById('result-summary');
+        
+        const fileCsv = document.getElementById('file-csv');
+        const fileRecal = document.getElementById('file-recal');
+        const fileMapping = document.getElementById('file-mapping');
+
+        const csvResult = document.getElementById('csv-result');
+        const recalResult = document.getElementById('recal-result');
+        const mappingResult = document.getElementById('mapping-result');
+
+        let dataStore = { csv: null, recal: null, mapping: null };
+
+        function log(msg, error = false) {
+            const div = document.createElement('div');
+            div.textContent = '[' + new Date().toLocaleTimeString() + '] ' + msg;
+            if (error) div.style.color = '#ef4444';
+            logDiv.appendChild(div);
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        function setupFile(input, key) {
+            input.addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+                log('Loading ' + file.name + '...');
+                const reader = new FileReader();
+                reader.onload = (evt) => {
+                    dataStore[key] = evt.target.result;
+                    log('Loaded ' + file.name);
+                };
+                reader.readAsArrayBuffer(file);
+            });
+        }
+
+        setupFile(fileCsv, 'csv');
+        setupFile(fileRecal, 'recal');
+        setupFile(fileMapping, 'mapping');
+
+        document.getElementById('btn-process').addEventListener('click', () => {
+            if (!dataStore.csv || !dataStore.recal || !dataStore.mapping) {
+                log("Error: Please upload all three files first!", true);
+                return;
+            }
+
+            const itemKeyword = itemInput.value.toLowerCase().trim();
+            const diseaseKeyword = diseaseInput.value.toLowerCase().trim();
+            log('Running extraction for Item: "' + itemKeyword + '", Disease: "' + diseaseKeyword + '"...');
+
+            const processFile = (buffer, name, textOutput) => {
+                try {
+                    log('Parsing ' + name + '...');
+                    const wb = XLSX.read(buffer, { type: 'array' });
+                    const sheetName = wb.SheetNames[0];
+                    const sheet = wb.Sheets[sheetName];
+                    const rows = XLSX.utils.sheet_to_json(sheet, { defval: "" });
+                    log('Parsed ' + name + ': ' + rows.length + ' rows found.');
+
+                    const filtered = rows.filter(row => {
+                        const rowStr = Object.values(row).join(' ').toLowerCase();
+                        return rowStr.includes(itemKeyword) && rowStr.includes(diseaseKeyword);
+                    });
+
+                    log('Filtered ' + name + ': ' + filtered.length + ' rows match criteria.');
+                    
+                    if (filtered.length > 0) {
+                        const newSheet = XLSX.utils.json_to_sheet(filtered);
+                        textOutput.value = XLSX.utils.sheet_to_csv(newSheet);
+                    } else {
+                        textOutput.value = "";
+                    }
+                    return filtered.length;
+                } catch (e) {
+                    log('Error parsing ' + name + ': ' + e.message, true);
+                    return -1;
+                }
+            };
+
+            setTimeout(() => {
+                const csvCount = processFile(dataStore.csv, 'CSV Articles', csvResult);
+                const recalCount = processFile(dataStore.recal, 'Recalculated Excel', recalResult);
+                const mappingCount = processFile(dataStore.mapping, 'Mapping Excel', mappingResult);
+
+                const summary = {
+                    status: "complete",
+                    csvCount,
+                    recalCount,
+                    mappingCount,
+                    timestamp: new Date().toISOString()
+                };
+
+                resultSummary.value = JSON.stringify(summary, null, 2);
+                log("Extraction process completed!", false);
+            }, 100);
+        });
+
+        log("Sandbox ready. Please upload the three files.");
+    </script>
+</body>
+</html>

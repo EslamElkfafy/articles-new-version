@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 36,
+    "disease_name": "Cardiometabolic Risk Factors",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "None",
+    "articles_count": 0,
+    "calculated_dw": 0,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Cardiometabolic Risk Factors/diet therapy\"[Mesh] OR \"Cardiometabolic Risk Factors/drug therapy\"[Mesh] OR \"Cardiometabolic Risk Factors/prevention and control\"[Mesh] OR \"Cardiometabolic Risk Factors/rehabilitation\"[Mesh] OR \"Cardiometabolic Risk Factors/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Cardiometabolic Risk Factors/diet therapy\"[Mesh] OR \"Cardiometabolic Risk Factors/drug therapy\"[Mesh] OR \"Cardiometabolic Risk Factors/prevention and control\"[Mesh] OR \"Cardiometabolic Risk Factors/rehabilitation\"[Mesh] OR \"Cardiometabolic Risk Factors/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Cardiometabolic Risk Factors/diet therapy\" OR \"Cardiometabolic Risk Factors/drug therapy\" OR \"Cardiometabolic Risk Factors/prevention and control\" OR \"Cardiometabolic Risk Factors/rehabilitation\" OR \"Cardiometabolic Risk Factors/therapy\")",
+    "articles": [],
+    "all_product_names": "Blackberry"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 39,
+    "disease_name": "Inflammatory Bowel Diseases",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 3,
+    "calculated_dw": 8,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Inflammatory Bowel Diseases/diet therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/drug therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/prevention and control\"[Mesh] OR \"Inflammatory Bowel Diseases/rehabilitation\"[Mesh] OR \"Inflammatory Bowel Diseases/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Inflammatory Bowel Diseases/diet therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/drug therapy\"[Mesh] OR \"Inflammatory Bowel Diseases/prevention and control\"[Mesh] OR \"Inflammatory Bowel Diseases/rehabilitation\"[Mesh] OR \"Inflammatory Bowel Diseases/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Inflammatory Bowel Diseases/diet therapy\" OR \"Inflammatory Bowel Diseases/drug therapy\" OR \"Inflammatory Bowel Diseases/prevention and control\" OR \"Inflammatory Bowel Diseases/rehabilitation\" OR \"Inflammatory Bowel Diseases/therapy\")",
+    "articles": [
+      {
+        "title": "Chemopreventive Effects of Strawberry and Black Raspberry on Colorectal Cancer in Inflammatory Bowel Disease.",
+        "authors": "Chen T, Shi N, Afzali A",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31163684/",
+        "PMID": "31163684",
+        "doi": "https://doi.org/10.3390/nu11061261",
+        "DOI": "10.3390/nu11061261",
+        "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6627270/",
+        "PMCID": "PMC6627270",
+        "pubtypes": "Journal Article, Review",
+        "rate": 2
+      },
+      {
+        "title": "Protective effects of Rubus tereticaulis leaves ethanol extract on rats with ulcerative colitis and bio-guided isolation of its active compounds: A combined in silico, in vitro and in vivo study.",
+        "authors": "Şen A, Özbeyli D, Teralı K, Göger F, Yıldırım A, Ertaş B, Doğan A, Bitiş L, Şener G",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36375516/",
+        "PMID": "36375516",
+        "doi": "https://doi.org/10.1016/j.cbi.2022.110263",
+        "DOI": "10.1016/j.cbi.2022.110263",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      },
+      {
+        "title": "Diverse domains of raspberry pectin: critical determinants for protecting against IBDs.",
+        "authors": "Wu D, Ye X, Hu W, Yu C, Zhu K, Pan H, Chen J, Cheng H, Chen S",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39716902/",
+        "PMID": "39716902",
+        "doi": "https://doi.org/10.1039/d4fo03363a",
+        "DOI": "10.1039/d4fo03363a",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "root_name": "Blackberry",
+    "disease_id": 45,
+    "disease_name": "Polycystic Ovary Syndrome",
+    "odw": "",
+    "best_mesh_match": "Rubus",
+    "query_used": "Q2",
+    "articles_count": 1,
+    "calculated_dw": 1,
+    "category": "ready",
+    "q1": "(\"Rubus\"[Mesh] AND \"Rubus/therapeutic use\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Polycystic Ovary Syndrome/diet therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/drug therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/prevention and control\"[Mesh] OR \"Polycystic Ovary Syndrome/rehabilitation\"[Mesh] OR \"Polycystic Ovary Syndrome/therapy\"[Mesh])",
+    "q2": "(\"Rubus\"[Mesh] NOT \"Rubus/adverse effects\"[Mesh]) AND (\"Polycystic Ovary Syndrome/diet therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/drug therapy\"[Mesh] OR \"Polycystic Ovary Syndrome/prevention and control\"[Mesh] OR \"Polycystic Ovary Syndrome/rehabilitation\"[Mesh] OR \"Polycystic Ovary Syndrome/therapy\"[Mesh])",
+    "q3": "(\"Rubus\" NOT \"Rubus/adverse effects\") AND (\"Polycystic Ovary Syndrome/diet therapy\" OR \"Polycystic Ovary Syndrome/drug therapy\" OR \"Polycystic Ovary Syndrome/prevention and control\" OR \"Polycystic Ovary Syndrome/rehabilitation\" OR \"Polycystic Ovary Syndrome/therapy\")",
+    "articles": [
+      {
+        "title": "Rubus chingii Hu relieved the polycystic ovary syndrome with enhanced insulin sensitivity through inhibiting TXNIP/NLRP3 inflammasome signaling.",
+        "authors": "Li H, Li Y, Zhang Y, Tong L, Sa Y, Sun W",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37489849/",
+        "PMID": "37489849",
+        "doi": "https://doi.org/10.1080/09513590.2023.2237116",
+        "DOI": "10.1080/09513590.2023.2237116",
+        "pmc": "No PMC available",
+        "PMCID": null,
+        "pubtypes": "Journal Article",
+        "rate": 0
+      }
+    ],
+    "all_product_names": "Blackberry"
+  }
+]
